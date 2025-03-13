@@ -2,5 +2,10 @@
 
 @theme {
   --color-primary: oklch(0.533 0.278 251.37deg);
-  --color-primary-500: oklch(30.29% 0.171 261.25deg)
+  --color-primary-500: oklch(30.29% 0.171 261.25deg);
+  --color-secondary: oklch(97.73% 0.005 261.25deg);
+}
+
+.primary-title {
+  @apply px-4 py-2 bg-primary/14 w-fit rounded-md text-primary font-semibold text-sm;
 }

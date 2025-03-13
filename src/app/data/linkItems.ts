@@ -2,7 +2,7 @@ import { LinkItemInterface } from "../interfaces/LinkItemInterface";
 
 export const linkItems: LinkItemInterface[] = [
     {
-      name: "Sobre Nós",
+      name: "Sobre nós",
       url: "/",
       onclick: () => console.log("Sobre Nós clicado"),
     },

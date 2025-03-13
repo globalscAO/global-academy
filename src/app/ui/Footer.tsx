@@ -5,9 +5,9 @@ import { LuSendHorizontal } from "react-icons/lu";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary-500 h-125 w-full flex justify-center items-center px-6 py-20">
+    <footer className="bg-primary-500 w-full flex justify-center items-center px-20 py-20">
       <div className="max-w-6xl flex flex-col w-full  text-white text-sm">
-        <ul className="flex flex-wrap w-full justify-between">
+        <ul className="flex flex-wrap w-full justify-between gap-4">
           <li className="py-11 w-72.75 flex flex-col gap-3.5">
             <Image
               src={"/logo-white.png"}
@@ -34,7 +34,7 @@ export default function Footer() {
           </li>
 
           <li className="flex flex-col gap-3.5 py-11">
-            <h2 className="font-semibold">Links Rápidos</h2>
+            <h2 className="font-semibold">Contactos</h2>
 
             <Link href={"tel:+244222731031"}>+244 222 731 031</Link>
             <Link href={"tel:+244941064919"}>+244 941 064 919</Link>
@@ -51,7 +51,7 @@ export default function Footer() {
               className="bg-white rounded-md justify-between flex">
               <input
                 type="text"
-                className="w-full outline-none px-4 py-2 placeholder:text-gray-400"
+                className="w-full outline-none px-4 py-2 placeholder:text-gray-400 text-black"
                 placeholder="Insira o seu email"
               />
               <button

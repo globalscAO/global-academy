@@ -32,12 +32,13 @@ export default function Header() {
           </div>
         </div>
 
-        <nav className="flex items-center justify-between max-w-lg w-full">
-          <ul className="text-sm font-semibold flex gap-8">
+        <nav className="flex items-center justify-between max-w-xl w-full">
+          <ul className="text-sm font-semibold flex gap-2">
             {linkItems.map((item, index) => (
               <li
                 key={index}
-                onClick={item.onclick}>
+                onClick={item.onclick}
+                className="hover:bg-secondary/10 py-2 px-4 rounded-md cursor-pointer">
                 {item.name}
               </li>
             ))}
