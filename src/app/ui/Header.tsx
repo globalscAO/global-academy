@@ -8,7 +8,7 @@ import { linkItems } from "../data/linkItems";
 
 export default function Header() {
   return (
-    <header className="flex bg-primary text-white justify-center items-center w-full py-4 px-12">
+    <header className="sticky top-0 z-50 flex bg-primary/90 text-white justify-center items-center w-full py-4 px-12 shadow shadow-black/25">
       <div className="justify-between flex items-center w-full max-w-6xl">
         <div className="max-w-md w-full justify-between items-center flex">
           <Link href={"/"}>

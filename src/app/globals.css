@@ -9,3 +9,16 @@
 .primary-title {
   @apply px-4 py-2 bg-primary/14 w-fit rounded-md text-primary font-semibold text-sm;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply cursor-pointer hover:opacity-80  ;
+}
+
+.primary-btn {
+  @apply bg-primary cursor-pointer hover:bg-white border border-primary hover:text-primary text-white transition-colors duration-300
+}
+
+.primary-input {
+  @apply px-4 py-2 bg-secondary rounded-md outline-none
+}

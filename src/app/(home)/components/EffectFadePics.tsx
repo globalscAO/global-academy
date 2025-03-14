@@ -11,7 +11,6 @@ export default function EffectFadePictures() {
   const imgUrl: string[] = [
     "https://global-services-corporation.github.io/images/mr-nov-2023/38.jpg",
     "https://global-services-corporation.github.io/images/mr-nov-2023/12.jpg",
-    "https://global-services-corporation.github.io/images/mr-nov-2023/14.jpg",
     "https://global-services-corporation.github.io/images/mr-nov-2023/16.jpg",
     "https://global-services-corporation.github.io/images/mr-nov-2023/19.jpg",
     "https://global-services-corporation.github.io/images/mr-nov-2023/22.jpg",
