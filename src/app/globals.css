@@ -16,7 +16,7 @@
 }
 
 .primary-btn {
-  @apply bg-primary cursor-pointer hover:bg-white border border-primary hover:text-primary text-white transition-colors duration-300
+  @apply bg-primary cursor-pointer hover:bg-white border border-primary hover:text-primary text-white transition-colors duration-300 max-lg:text-sm
 }
 
 .primary-input {

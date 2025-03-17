@@ -5,10 +5,10 @@ import { LuSendHorizontal } from "react-icons/lu";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary-500 w-full flex justify-center items-center px-20 py-20">
-      <div className="max-w-6xl flex flex-col w-full  text-white text-sm">
-        <ul className="flex flex-wrap w-full justify-between gap-4">
-          <li className="py-11 w-72.75 flex flex-col gap-3.5">
+    <footer className="bg-primary-500 w-full flex justify-center items-center lg:py-14 lg:px-16 max-lg:px-14 max-lg:py-12">
+      <div className="max-w-6xl flex flex-col w-full text-white text-sm">
+        <ul className="flex flex-wrap w-full justify-between gap-4 max-lg:gap-14">
+          <li className="lg:py-11 w-72.75 max-lg:w-full flex flex-col gap-3.5">
             <Image
               src={"/logo-white.png"}
               alt={"Global Services Corporation"}
@@ -21,7 +21,7 @@ export default function Footer() {
             </p>
           </li>
 
-          <li className="flex flex-col gap-3.5 py-11">
+          <li className="flex flex-col gap-3.5 lg:py-11">
             <h2 className="font-semibold">Links Rápidos</h2>
 
             {linkItems.map((item, index) => (
@@ -33,7 +33,7 @@ export default function Footer() {
             ))}
           </li>
 
-          <li className="flex flex-col gap-3.5 py-11">
+          <li className="flex flex-col gap-3.5 lg:py-11">
             <h2 className="font-semibold">Contactos</h2>
 
             <Link href={"tel:+244222731031"}>+244 222 731 031</Link>
@@ -41,7 +41,7 @@ export default function Footer() {
             <Link href={"mailto:academy@globalsc.ao"}>academy@globalsc.ao</Link>
           </li>
 
-          <li className="flex flex-col gap-3.5 py-11 w-63.25">
+          <li className="flex flex-col gap-3.5 lg:py-11 max-lg:w-full w-63.25">
             <h2 className="font-semibold">Newsletter</h2>
 
             <p>Fique por dentro do conhecimento que transforma</p>

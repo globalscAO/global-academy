@@ -2,16 +2,16 @@ import EffectFadePictures from "./EffectFadePics";
 
 export default function Hero() {
   return (
-    <section className="flex justify-center items-center gap-24 px-24 py-18">
-      <div className="w-full max-w-6xl flex flex-wrap justify-between max-lg:justify-center items-center gap-12">
+    <section className="flex justify-center items-center gap-24 lg:py-18 lg:px-24 max-lg:px-8 max-lg:py-12">
+      <div className="w-full max-w-6xl flex flex-wrap justify-center items-center gap-12 max-lg:gap-6">
         <EffectFadePictures />
 
-        <div className="flex flex-col gap-4 w-full max-w-lg">
-          <h1 className="text-5xl font-bold">
+        <div className="flex flex-col gap-4 w-full max-w-lg max-lg:mx-auto max-lg:text-center">
+          <h1 className="text-5xl font-bold max-lg:text-3xl">
             Global Academy – O Conhecimento que Transforma
           </h1>
 
-          <p className="text-gray-500">
+          <p className="text-gray-500 max-lg:text-sm">
             Cursos de excelência para profissionais de alto nível.
           </p>
 

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <div className="bg-secondary lg:py-18 lg:px-24 max-lg:p-8 w-full flex justify-center items-center">
-      <div className="max-w-6xl w-full flex flex-wrap gap-12 items-center justify-between">
+    <div className="bg-secondary  lg:py-18 lg:px-24 max-lg:px-8 max-lg:py-12 w-full flex justify-center items-center">
+      <div className="max-w-6xl w-full flex flex-wrap gap-12 items-center justify-center">
         <Image
           src={"/about-us.png"}
           alt={"About Global Academy"}
@@ -11,9 +11,9 @@ export default function AboutUs() {
           height={300}
         />
 
-        <div className="max-w-lg w-full flex flex-col px-4 py-3 gap-4">
+        <div className="max-w-lg w-full flex flex-col gap-4 max-lg:text-center max-lg:items-center">
           <h2 className="primary-title">Sobre nós</h2>
-          <h3 className="text-2xl font-bold">
+          <h3 className="text-2xl max-lg:text-lg font-bold">
             Por que fazer um curso na Global Academy?
           </h3>
           {[
@@ -22,7 +22,7 @@ export default function AboutUs() {
           ].map((text, index) => (
             <p
               key={index}
-              className="text-gray-400">
+              className="text-gray-400 max-lg:text-sm max-lg:text-justify">
               {text}
             </p>
           ))}

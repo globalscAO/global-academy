@@ -1,7 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import Product from "./Product";
+import Product from "./ProductCard";
 import { Navigation } from "swiper/modules";
 import {
   IoIosArrowDropleftCircle,
@@ -26,6 +26,17 @@ export default function ProductsCaroussel({
           prevEl: ".swiper-button-prev",
         }}
         speed={1000}
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          1024: {
+            slidesPerView: 2,
+          },
+          1136: {
+            slidesPerView: 3,
+          },
+        }}
         modules={[Navigation]}>
         {productsData.map((product, index) => (
           <SwiperSlide
