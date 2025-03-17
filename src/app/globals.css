@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: oklch(0.533 0.278 251.37deg);
-  --color-primary-500: oklch(30.29% 0.171 261.25deg);
-  --color-secondary: oklch(97.73% 0.005 261.25deg);
+  --color-primary: #0056e1;
+  --color-primary-500: #002f7b;
+  --color-secondary: #f8f8f8;
+  --color-primary-gray: #757575;
+  --color-primary-black: #393939;
 }
 
 .primary-title {
@@ -12,13 +14,13 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  @apply cursor-pointer hover:opacity-80  ;
+  @apply cursor-pointer hover:opacity-80;
 }
 
 .primary-btn {
-  @apply bg-primary cursor-pointer hover:bg-white border border-primary hover:text-primary text-white transition-colors duration-300 max-lg:text-sm
+  @apply bg-primary cursor-pointer hover:bg-white border border-primary hover:text-primary text-white transition-colors duration-300 max-lg:text-sm;
 }
 
 .primary-input {
-  @apply px-4 py-2 bg-secondary rounded-md outline-none
+  @apply px-4 py-2 bg-secondary rounded-md outline-none;
 }

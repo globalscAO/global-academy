@@ -2,7 +2,9 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <div className="bg-secondary  lg:py-18 lg:px-24 max-lg:px-8 max-lg:py-12 w-full flex justify-center items-center">
+    <div
+      id="about"
+      className="bg-secondary  lg:py-18 lg:px-24 max-lg:px-8 max-lg:py-12 w-full flex justify-center items-center">
       <div className="max-w-6xl w-full flex flex-wrap gap-12 items-center justify-center">
         <Image
           src={"/about-us.png"}

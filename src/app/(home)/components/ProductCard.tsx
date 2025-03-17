@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 
 export default function Product({
@@ -12,7 +14,7 @@ export default function Product({
   onclick: () => void;
 }) {
   return (
-    <div className="rounded-xl w-78 max-lg:w-60 mx-auto shadow shadow-black/50">
+    <div className="rounded-xl max-w-78 w-full mx-auto shadow shadow-black/50">
       <Image
         src={imgSrc}
         alt={"/"}
