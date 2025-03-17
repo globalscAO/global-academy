@@ -42,11 +42,12 @@ export const metadata: Metadata = {
     "capacitação para construtoras",
   ],
   openGraph: {
-    type: "website",
-    url: "https://academy.globalsc.ao",
-    title: "Global Academy - Conhecimento que Transforma",
+    title: "Global Academy | Global Services Corporation",
     description:
       "A Global Academy, parte da Global Services Corporation, oferece conhecimento de alto nível para impulsionar carreiras e negócios.",
+    url: "https://academy.globalsc.ao",
+    siteName: "Global Academy Angola",
+    type: "website",
     images: [
       {
         url: "https://academy.globalsc.ao/seo.jpg",
