@@ -8,7 +8,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Global Academy | Global Services Corporation",
+  title: {
+    default: "Global Academy",
+    template: "%s | Global Services Corporation",
+  },
   description:
     "A Global Academy, parte da Global Services Corporation, oferece conhecimento de alto nível para impulsionar carreiras e negócios.",
   keywords: [
@@ -41,12 +44,13 @@ export const metadata: Metadata = {
     "treinamento para bancos Angola",
     "capacitação para construtoras",
   ],
+  robots: "index, follow",
   openGraph: {
-    title: "Global Academy | Global Services Corporation",
+    title: "Global Academy - O Conhecimento que Transforma",
     description:
       "A Global Academy, parte da Global Services Corporation, oferece conhecimento de alto nível para impulsionar carreiras e negócios.",
     url: "https://academy.globalsc.ao",
-    siteName: "Global Academy Angola",
+    siteName: "Global Academy",
     type: "website",
     images: [
       {
@@ -56,6 +60,7 @@ export const metadata: Metadata = {
         alt: "Global Academy - O Conhecimento que Transforma",
       },
     ],
+    locale: "pt_AO",
   },
   twitter: {
     card: "summary_large_image",
@@ -68,6 +73,12 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  alternates: {
+    canonical: "https://academy.globalsc.ao",
+    languages: {
+      "pt-AO": "https://academy.globalsc.ao",
+    }
+  }
 };
 
 export default function RootLayout({
