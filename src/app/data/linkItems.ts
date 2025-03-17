@@ -11,7 +11,7 @@ export const linkItems: LinkItemInterface[] = [
   {
     id: "#courses",
     name: "Cursos",
-    url: "/",
+    url: "/courses",
     onclick: () => scrollToSection("courses"),
   },
   {

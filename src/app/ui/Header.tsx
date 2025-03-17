@@ -13,10 +13,10 @@ import { scrollToSection } from "../utils/scrollToSection";
 export default function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
-	const handleMenuToggle = (id: string) => {
-		scrollToSection(id)
-		setMenuOpen(!isMenuOpen)
-	}
+  const handleMenuToggle = (id: string) => {
+    scrollToSection(id);
+    setMenuOpen(!isMenuOpen);
+  };
 
   return (
     <header className="sticky top-0 z-50 flex bg-primary/90 text-white justify-center items-center w-full py-4 px-12 max-lg:px-8 shadow shadow-black/25">
@@ -65,14 +65,14 @@ export default function Header() {
               ? "max-lg:translate-y-0 max-lg:opacity-100 max-lg:visible"
               : "max-lg:-translate-y-5 max-lg:opacity-0 max-lg:invisible"
           }`}>
-
           {linkItems.map((item, index) => (
-            <li
+            <Link
+              href={item.url}
               key={index}
               onClick={item.onclick}
               className="hover:bg-secondary/10 py-2 px-4 max-lg:text-center rounded-md cursor-pointer">
               {item.name}
-            </li>
+            </Link>
           ))}
 
           <Link
