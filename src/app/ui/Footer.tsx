@@ -10,9 +10,10 @@ export default function Footer() {
         <ul className="flex flex-wrap w-full justify-between gap-4 max-lg:gap-14">
           <li className="lg:py-11 w-72.75 max-lg:w-full flex flex-col gap-3.5">
             <Image
-              src={"/logo-white.png"}
+              src={"/logo-black.png"}
               alt={"Global Services Corporation"}
               width={100}
+              className="invert"
               height={42}
             />
 
@@ -21,17 +22,7 @@ export default function Footer() {
             </p>
           </li>
 
-          <li className="flex flex-col gap-3.5 lg:py-11">
-            <h2 className="font-semibold">Links Rápidos</h2>
-
-            {linkItems.map((item, index) => (
-              <Link
-                key={index}
-                href={item.url}>
-                {item.name}
-              </Link>
-            ))}
-          </li>
+        
 
           <li className="flex flex-col gap-3.5 lg:py-11">
             <h2 className="font-semibold">Contactos</h2>

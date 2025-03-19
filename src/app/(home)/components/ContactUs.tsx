@@ -16,7 +16,7 @@ export default function ContactUs() {
           <IoIosArrowDropright className="text-3xl max-lg:rotate-90" />
         </div>
 
-        <form className="flex flex-col justify-center bg-white px-8 py-12.5 gap-6 rounded-none text-gray-500 w-116">
+        <form className="flex flex-col justify-center bg-white px-8 py-12.5 gap-6 max-lg:rounded-none rounded-lg text-gray-500 w-116">
           <h1 className="font-bold text-center text-primary">
             ENTRE EM CONTACTO
           </h1>

@@ -5,6 +5,7 @@ import { productsData } from "@/app/data/productsData";
 import HeroTitle from "@/app/ui/HeroTitle";
 import Product from "../components/ProductCard";
 import { Pagination } from "@mui/material";
+import AboutCourseModal from "@/app/ui/AboutCourseModal";
 
 const ITEMS_PER_PAGE = 6;
 
@@ -32,12 +33,17 @@ export default function Courses() {
         {displayedCourses.map((product, index) => (
           <li key={index}>
             <Product
-              imgSrc={product.coverImg}
+              coverImg={product.coverImg}
               title={product.title}
               description={product.description}
-              onclick={() => {
-                console.log("Clicado");
-              }}
+              id={product.id}
+              modality={product.modality}
+              certificate={product.certificate}
+              locale={product.locale}
+              startDate={product.startDate}
+              language={product.language}
+              country={product.country}
+              workload={product.workload}
             />
           </li>
         ))}

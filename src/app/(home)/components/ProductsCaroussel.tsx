@@ -21,6 +21,7 @@ export default function ProductsCaroussel({
       </button>
       <Swiper
         slidesPerView={3}
+        spaceBetween={15}
         navigation={{
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -42,12 +43,7 @@ export default function ProductsCaroussel({
           <SwiperSlide
             key={index}
             className="py-8">
-            <Product
-              imgSrc={product.coverImg}
-              title={product.title}
-              description={product.description}
-              onclick={() => console.log("Clicado")}
-            />
+            <Product {...product} />
           </SwiperSlide>
         ))}
       </Swiper>

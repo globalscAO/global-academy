@@ -1,6 +1,10 @@
 export interface LinkItemInterface {
   id: string;
-  name: string;
-  url: string;
+  title: string;
+  items: {
+    id: number;
+    title: string;
+    url: string;
+  }[];
   onclick?: () => void;
 }

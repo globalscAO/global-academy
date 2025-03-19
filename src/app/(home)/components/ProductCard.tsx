@@ -1,22 +1,37 @@
-"use client"
+"use client";
 
+import AboutCourseModal from "@/app/ui/AboutCourseModal";
 import Image from "next/image";
 
 export default function Product({
-  imgSrc,
+  id,
   title,
   description,
-  onclick,
+  modality,
+  certificate,
+  locale,
+  startDate,
+  language,
+  country,
+  workload,
+  coverImg,
 }: {
-  imgSrc: string;
+  id: number;
   title: string;
   description: string;
-  onclick: () => void;
+  modality: string;
+  certificate: string;
+  locale: string;
+  startDate: string;
+  language: string;
+  country: string;
+  workload: string;
+  coverImg: string;
 }) {
   return (
     <div className="rounded-xl max-w-78 w-full mx-auto shadow shadow-black/50">
       <Image
-        src={imgSrc}
+        src={coverImg}
         alt={"/"}
         width={300}
         height={190}
@@ -25,7 +40,9 @@ export default function Product({
 
       <div className="bg-white px-6 py-4 flex flex-col gap-3 rounded-b-xl w-full text-left h-56 justify-between">
         <div className="flex flex-col gap-2">
-          <h2 className="text-primary-500 font-bold max-lg:text-sm">{title.toUpperCase()}</h2>
+          <h2 className="text-primary-500 font-bold max-lg:text-sm">
+            {title.toUpperCase()}
+          </h2>
 
           <p className="text-sm max-lg:text-xs text-gray-400">
             {description.length > 100
@@ -34,11 +51,24 @@ export default function Product({
           </p>
         </div>
 
-        <button
+        {/*<button
           onClick={onclick}
           className="primary-btn py-2 px-4 rounded-md">
           Saber mais
-        </button>
+        </button>*/}
+        <AboutCourseModal
+          id={id}
+          title={title}
+          description={description}
+          modality={modality}
+          certificate={certificate}
+          locale={locale}
+          startDate={startDate}
+          country={country}
+          workload={workload}
+          coverImg={coverImg}
+          language={language}
+        />
       </div>
     </div>
   );
