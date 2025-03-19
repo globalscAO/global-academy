@@ -1,9 +1,12 @@
+import { use } from "react";
+
 export default function AboutCourse({
   params,
 }: {
-  params: {
+  params: Promise<{
     courseId: string;
-  };
+  }>;
 }) {
-  return <div className="about-course">{params.courseId}</div>;
+  const { courseId } = use(params);
+  return <div className="about-course">{courseId}</div>;
 }
