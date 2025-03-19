@@ -39,21 +39,21 @@ export default function AboutCourseModal({
       <DialogTrigger className="primary-btn py-2 px-4 rounded-md">
         Ver curso
       </DialogTrigger>
-      <DialogContent className="bg-white min-w-200 p-0">
-        <div className="flex w-full">
+      <DialogContent className="bg-white min-w-200 max-lg:min-w-80 p-0">
+        <div className="flex max-lg:flex-col w-full">
           <Image
             src={coverImg}
             alt={"Course Cover"}
             width={400}
             height={400}
-            className="w-1/2 object-cover rounded-l-md object-top"
+            className="w-1/2 max-lg:w-full max-lg:max-h-44 object-cover rounded-l-md object-top"
           />
           <div className="p-4 flex flex-col gap-4">
             <DialogHeader>
-              <DialogTitle className="font-bold text-2xl text-primary-500">
+              <DialogTitle className="font-bold text-2xl max-lg:text-base text-primary-500">
                 {title}
               </DialogTitle>
-              <ul className="font-medium text-sm text-primary-500">
+              <ul className="font-medium text-sm text-primary-500 max-lg:text-xs">
                 <li>
                   Carga Horária: <span className="font-bold">{workload}</span>
                 </li>
@@ -73,18 +73,18 @@ export default function AboutCourseModal({
                   Idioma: <span className="font-bold">{language}</span>
                 </li>
               </ul>
-              <DialogDescription>{description}</DialogDescription>
+              <DialogDescription className="max-lg:text-xs">{description}</DialogDescription>
             </DialogHeader>
 
             <div className="flex gap-2">
               <Link
                 href={`/courses/about/${id}`}
-                className="text-center secondary-btn px-4 py-2 rounded-md w-full">
+                className="text-center secondary-btn px-4 py-2 rounded-md w-full max-lg:text-xs">
                 Saber mais
               </Link>
               <Link
                 href={"/"}
-                className="text-center primary-btn px-4 py-2 rounded-md w-full">
+                className="text-center primary-btn px-4 py-2 rounded-md w-full max-lg:text-xs">
                 Inscrever-se
               </Link>
             </div>

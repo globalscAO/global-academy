@@ -45,7 +45,7 @@ export default function Header() {
           </button>
 
           <div
-            className={`bg-primary backdrop-blur-3xl p-2 w-full flex items-center justify-between gap-4 px-4 rounded-lg max-lg:absolute max-lg:rounded-b-lg left-0 max-lg:top-16 max-lg:flex-col max-lg:w-full lg:min-w-4xl transition-all duration-500 ease-in-out transform  ${
+            className={`bg-primary backdrop-blur-3xl p-2 w-full flex items-center justify-between gap-4 px-4 rounded-lg max-lg:absolute max-lg:rounded-b-lg left-0 max-lg:top-16 max-lg:flex-col max-lg:w-full lg:min-w-232 transition-all duration-500 ease-in-out transform  ${
               isMenuOpen
                 ? "max-lg:translate-y-0 max-lg:opacity-100 max-lg:visible"
                 : "max-lg:-translate-y-5 max-lg:opacity-0 max-lg:invisible"
@@ -61,12 +61,12 @@ export default function Header() {
             </div>
 
             <ul
-              className={`p-2 max-lg:flex-col max-lg:w-full text-sm font-semibold flex gap-2`}>
+              className={`p-2 max-lg:flex-col w-full text-sm font-semibold flex gap-2`}>
               <NavMenu />
 
               <Link
                 href={"/"}
-                className="flex justify-center lg:hidden font-semibold gap-2 items-center px-4 py-2 rounded-md bg-white  border border-white text-primary hover:bg-primary hover:text-white transition-colors duration-300">
+                className="flex justify-center font-semibold gap-2 items-center px-4 py-2 rounded-md bg-white  border border-white text-primary hover:bg-primary hover:text-white transition-colors duration-300">
                 Inscrever-se <MdArrowOutward />
               </Link>
             </ul>
