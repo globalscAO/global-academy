@@ -1,6 +1,7 @@
 export interface ProductsInterface {
   id: number;
   title: string;
+  typeDuration?: string;
   description: string;
   modality: string;
   certificate: string;
@@ -10,4 +11,13 @@ export interface ProductsInterface {
   country: string;
   workload: string;
   coverImg: string;
+  teaching?: {
+    id: number;
+    imgUrl: string;
+    name: string;
+    description: string;
+  }[];
+  recipients?: string;
+  modules?: string[];
+  certificateImgUrls?: string;
 }

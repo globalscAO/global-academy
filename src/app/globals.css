@@ -12,6 +12,14 @@
   @apply px-4 py-2 bg-primary/14 w-fit rounded-md text-primary font-semibold text-sm;
 }
 
+.primary-description {
+  @apply text-primary-gray;
+}
+
+.secondary-title {
+  @apply px-4 py-2 bg-white/14 w-fit rounded-md text-white font-semibold text-sm;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   @apply cursor-pointer hover:opacity-80;

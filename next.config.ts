@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
       {
         hostname: "global-services-corporation.github.io",
       },
+      {
+        hostname: "www.fpb.pt",
+      },
     ],
   },
 };

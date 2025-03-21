@@ -73,7 +73,9 @@ export default function AboutCourseModal({
                   Idioma: <span className="font-bold">{language}</span>
                 </li>
               </ul>
-              <DialogDescription className="max-lg:text-xs">{description}</DialogDescription>
+              <DialogDescription className="max-lg:text-xs">
+                {description ? description.slice(0, 300) + "..." : description}
+              </DialogDescription>
             </DialogHeader>
 
             <div className="flex gap-2">

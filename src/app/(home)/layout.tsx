@@ -3,10 +3,10 @@ import Header from "../ui/Header";
 
 export default function Page({ children }: { children: React.ReactNode }) {
   return (
-    <div>
+    <main>
       <Header />
       {children}
       <Footer />
-    </div>
+    </main>
   );
 }
