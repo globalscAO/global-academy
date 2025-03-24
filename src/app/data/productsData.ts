@@ -108,17 +108,102 @@ CYBER ​​SECURITY AND INNOVATION.`,
   },
   {
     id: 6,
+    teaching: [
+      { id: 1, imgUrl: "", name: "Fernando Lumaca", description: "" },
+      { id: 2, imgUrl: "", name: "Áureo Sebastião", description: "" },
+    ],
+    modules: [
+      `GESTÃO DA
+PREVENÇÃO DE
+RISCOS
+PROFISSIONAIS
+(RP) FUNDAMENTAIS
+`,
+      `PSICOSSOCIOLOGIA DO
+TRABALHO`,
+      `Segurança do
+trabalho`,
+      `EXPOSIÇÃO A
+AGENTES
+QUÍMICOS`,
+      `Obrigações
+legais`,
+      `Auditorias e
+inspeções`,
+      `Procediment
+os de
+Emergência e
+Evacuação
+`,
+      `Primeiros
+socorros`,
+      `Higiene e
+saúde no
+trabalho`,
+    ],
     coverImg:
       "https://global-services-corporation.github.io/images/academy/higiene-seguranca.jpg",
     title: "Higiene, Segurança e Saúde no Trabalho",
-    workload: "12h",
+    workload: "30h",
+
+    certificateImgUrls: "/inefop.png",
+
     certificate: "INEFOP",
-    modality: "Presencial",
+    modality: "Presencial e Online",
     country: "Angola",
     startDate: "16 de Março de 2026",
     locale: "Luanda",
-    description: `Este curso oferece uma abordagem prática para a implementação de políticas de segurança e saúde no trabalho. Você aprenderá a identificar riscos, implementar normas de segurança e criar um ambiente de trabalho seguro e saudável para todos os colaboradores.`,
+    description: `Higiene e segurança no trabalho
+referem-se às práticas e condições
+destinadas a assegurar a saúde e a
+integridade física dos trabalhadores no
+ambiente de trabalho. Essas práticas são
+divididas em duas categorias: Higiene no
+trabalho e Segurança no trabalho.
+Este curso tem como objetivo transmitir
+conhecimentos teóricos e práticos
+relacionados à SHST, permitindo aos
+participantes aprimorar suas
+habilidades como técnicos de SHST e
+melhorar as condições gerais de
+trabalho na empresa. Dessa forma,
+contribui para o desenvolvimento de
+uma cultura de prevenção que promove
+a melhoria qualitativa das condições de
+trabalho em geral e o cumprimento da
+legislação nacional. E tem como objetivo
+geral adquirir competências básicas na
+área de HST que permitam o
+desempenho de funções de prevenção e
+de protecção contra riscos profissionais,
+enquadramento jurídico da shst e
+conceitos fundamentais no âmbito das
+acções consagradas na lei.
+Nessa perspectiva serão valorizadas
+essencialmente as práticas preventivas e
+de autocuidado. Veremos diversos
+temas como acidente do trabalho,
+causas, inspeção, riscos ambientais,
+físicos, químicos, biológicos,
+ergonômicos e de acidente, doenças
+profissionais, Equipamentos de
+Proteção Individual – EPI, Comissão
+Interna de Prevenção de Acidentes –
+CIPA, técnicas de análise e avaliação de
+riscos, entre outros assuntos
+importantes no âmbito da segurança do
+trabalho. `,
     language: "Português",
+    recipients: `São gestores, técnicos de
+SHST e funcionários seniores que no
+âmbito geral o qual tenham
+desenvolvido as suas actividades
+simultaneamente nas zonas de
+operações da empresa. (Directores,
+Gestores, Supervisores, Técnicos,
+Mecânicos, Operadores de Máquinas),
+etc.
+`,
   },
   {
     id: 7,

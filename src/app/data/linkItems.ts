@@ -18,13 +18,13 @@ export const linkItems: LinkItemInterface[] = [
       },
       {
         id: 3,
-        title: "Publicações",
-        url: "/publications",
+        title: "Iniciativas",
+        url: "/iniciatives",
       },
       {
         id: 4,
-        title: "Iniciativas",
-        url: "/iniciatives",
+        title: "Publicações",
+        url: "/publications",
       },
     ],
     onclick: () => scrollToSection("about"),
