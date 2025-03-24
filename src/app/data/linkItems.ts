@@ -9,7 +9,7 @@ export const linkItems: LinkItemInterface[] = [
       {
         id: 1,
         title: "Mensagem do CEO",
-        url: "/ceo-sms",
+        url: "/ceo-msg",
       },
       {
         id: 2,

@@ -18,6 +18,7 @@ export interface ProductsInterface {
     description: string;
   }[];
   recipients?: string;
+  candidacy?: string
   modules?: string[];
   certificateImgUrls?: string;
 }

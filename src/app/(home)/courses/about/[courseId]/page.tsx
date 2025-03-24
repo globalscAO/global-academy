@@ -65,6 +65,12 @@ export default function AboutCourse({
               <p className="primary-description">{course?.recipients}</p>
             </div>
 
+            <div className="flex flex-col w-full max-lg:items-center max-lg:gap-2">
+              <h2 className="text-primary text-lg font-bold">CANDIDATURA</h2>
+
+              <p className="primary-description">{course?.candidacy}</p>
+            </div>
+
             <div className="flex flex-col w-full gap-4 max-lg:items-center max-lg:gap-4">
               <h2 className="text-primary text-lg font-bold">MAGISTÉRIO</h2>
 
@@ -131,7 +137,7 @@ export default function AboutCourse({
             </div>
           </div>
 
-          <aside className="lg:w-1/3 h-fit lg:rounded-md flex-col flex bg-white shadow">
+          <aside className="lg:w-1/3 h-fit lg:rounded-md flex-col flex bg-white shadow lg:sticky lg:top-28">
             <nav className="p-4 lg:rounded-t-lg text-center bg-primary text-white font-bold">
               DETALHES DO CURSO
             </nav>

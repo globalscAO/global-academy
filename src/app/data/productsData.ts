@@ -26,6 +26,8 @@ export const productsData: ProductsInterface[] = [
       },
     ],
     certificate: "INEFOP",
+    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
+Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
     modality: "Presencial",
     country: "Angola",
     startDate: "16 de Março de 2026",
