@@ -45,7 +45,7 @@ export default function Header() {
           </button>
 
           <div
-            className={`bg-primary backdrop-blur-3xl p-2 w-full flex items-center justify-between gap-4 px-4 rounded-lg max-lg:absolute max-lg:rounded-b-lg left-0 max-lg:top-16 max-lg:flex-col max-lg:w-full lg:min-w-232 transition-all duration-500 ease-in-out transform  ${
+            className={`bg-primary backdrop-blur-3xl p-2 w-full flex items-center justify-between gap-4 px-4 rounded-lg max-lg:absolute max-lg:rounded-b-lg left-0 max-lg:top-16 max-lg:flex-col max-lg:w-full lg:min-w-244 transition-all duration-500 ease-in-out transform  ${
               isMenuOpen
                 ? "max-lg:translate-y-0 max-lg:opacity-100 max-lg:visible"
                 : "max-lg:-translate-y-5 max-lg:opacity-0 max-lg:invisible"
