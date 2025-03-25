@@ -13,7 +13,7 @@
 }
 
 .primary-description {
-  @apply text-primary-gray;
+  @apply text-primary-gray max-lg:text-justify;
 }
 
 .secondary-title {
@@ -35,4 +35,8 @@
 
 .primary-input {
   @apply px-4 py-2 bg-secondary rounded-md outline-none;
+}
+
+.primary-label {
+  @apply w-full text-gray-500 flex flex-col gap-2;
 }

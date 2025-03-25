@@ -13,17 +13,17 @@ export default function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 bg-primary z-50 flex text-white justify-center max-lg:justify-between items-center w-full py-4 px-12 max-lg:px-8">
+    <header className="bg-primary sticky top-0 z-50 flex text-white justify-center max-lg:justify-between items-center w-full py-2 px-8 max-lg:px-8">
       <div className="justify-between flex items-center w-full lg:max-w-6xl relative ">
         <Link
           href={"/"}
-          className="bg-primary backdrop-blur-3xl p-2 rounded-md">
+          className="p-2 rounded-md">
           <Image
             src={"/logo-black.png"}
             alt={"Logotipo Global Services Corporation"}
             width={80}
             height={34}
-            className="object-contain w-28 max-lg:w-24 invert"
+            className="object-contain w-24 max-lg:w-20 invert"
           />
         </Link>
 
@@ -45,7 +45,7 @@ export default function Header() {
           </button>
 
           <div
-            className={`bg-primary backdrop-blur-3xl p-2 w-full flex items-center justify-between gap-4 px-4 rounded-lg max-lg:absolute max-lg:rounded-b-lg left-0 max-lg:top-16 max-lg:flex-col max-lg:w-full lg:min-w-244 transition-all duration-500 ease-in-out transform  ${
+            className={`w-full flex items-center justify-between gap-4 px-4 rounded-lg max-lg:absolute max-lg:rounded-b-lg left-0 max-lg:top-13 max-lg:flex-col max-lg:w-full  transition-all duration-500 ease-in-out transform  ${
               isMenuOpen
                 ? "max-lg:translate-y-0 max-lg:opacity-100 max-lg:visible"
                 : "max-lg:-translate-y-5 max-lg:opacity-0 max-lg:invisible"
@@ -61,12 +61,12 @@ export default function Header() {
             </div>
 
             <ul
-              className={`p-2 max-lg:flex-col w-full text-sm font-semibold flex gap-2`}>
+              className={`p-2 max-lg:bg-primary max-lg:rounded-b-md max-lg:w-full lg:items-center  max-lg:flex-col justify-end text-sm font-semibold flex gap-2`}>
               <NavMenu />
 
               <Link
-                href={"/"}
-                className="flex justify-center font-semibold gap-2 items-center px-4 py-2 rounded-md bg-white  border border-white text-primary hover:bg-primary hover:text-white transition-colors duration-300">
+                href={"/registration"}
+                className="flex justify-center font-semibold gap-2 items-center min-w-34 px-4 py-2 rounded-md bg-white  border border-white text-primary hover:bg-primary hover:text-white transition-colors duration-300">
                 Inscrever-se <MdArrowOutward />
               </Link>
             </ul>
@@ -74,7 +74,7 @@ export default function Header() {
         </div>
 
         <Link
-          href={"/"}
+          href={"/registration"}
           className="hidden font-semibold gap-2 items-center px-4 py-2 rounded-md bg-white  border border-white text-primary hover:bg-primary hover:text-white transition-colors duration-300">
           Inscrever-se <MdArrowOutward />
         </Link>

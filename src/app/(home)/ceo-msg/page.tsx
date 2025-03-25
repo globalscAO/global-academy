@@ -11,16 +11,16 @@ export default function CeoMsg() {
         title={"Mensagem do CEO"}
       />
 
-      <div className="max-w-6xl flex max-lg:flex-col justify-center gap-8 pb-8 max-lg:px-8">
+      <div className="max-w-6xl w-full flex max-lg:flex-col justify-center gap-8 pb-8 max-lg:px-8">
         <Image
-          src={"/"}
+          src={"/ceo.jpg"}
           alt={"Edson Katchievela"}
           width={400}
           height={400}
-          className="object-cover rounded-lg max-lg:w-full"
+          className="object-cover rounded-lg lg:sticky top-24 max-lg:w-full h-100 object-top w-100"
         />
 
-        <div className="flex flex-col gap-2 text-gray-600 max-lg:text-justify">
+        <div className="flex flex-col gap-2 text-gray-600 max-lg:text-justify lg:w-1/2">
           <p>
             Recentemente, embarcamos em uma jornada extraordinária para
             transformar a Global Academy, alcançando avanços significativos em

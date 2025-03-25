@@ -137,7 +137,7 @@ export default function AboutCourse({
             </div>
           </div>
 
-          <aside className="lg:w-1/3 h-fit lg:rounded-md flex-col flex bg-white shadow lg:sticky lg:top-28">
+          <aside className="lg:w-1/3 h-fit lg:rounded-md flex-col flex bg-white shadow lg:sticky lg:top-22">
             <nav className="p-4 lg:rounded-t-lg text-center bg-primary text-white font-bold">
               DETALHES DO CURSO
             </nav>

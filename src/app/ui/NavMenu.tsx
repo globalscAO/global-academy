@@ -19,11 +19,11 @@ export default function NavMenu() {
         <MenubarMenu>
           <MenubarTrigger
             key={item.id}
-            className="hover:bg-white/10 group cursor-pointer max-lg:w-full max-lg:justify-between  px-4 py-2 flex items-center gap-2 transition-colors duration-500">
+            className="hover:bg-white/10 group cursor-pointer max-lg:w-full max-lg:justify-between min-w-28 lg:justify-center p-2 flex items-center gap-2 transition-colors duration-500">
             {item.title}
             <FaAngleDown />
           </MenubarTrigger>
-          <MenubarContent className="bg-white border-none max-lg:min-w-56 max-lg:ml-24">
+          <MenubarContent className="bg-white border-none max-lg:min-w-56 max-lg:ml-16">
             {item.items.map((item) => (
               <MenubarItem
                 key={item.id}
@@ -37,7 +37,7 @@ export default function NavMenu() {
 
       <Link
         href="#"
-        className="hover:bg-white/10 max-lg:w-full rounded-md cursor-pointer px-4 py-2 flex items-center gap-2">
+        className="hover:bg-white/10 max-lg:w-full rounded-md cursor-pointer p-2 flex items-center gap-2">
         Contactos
       </Link>
     </Menubar>

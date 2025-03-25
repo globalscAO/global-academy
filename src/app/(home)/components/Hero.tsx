@@ -1,3 +1,4 @@
+import Link from "next/link";
 import EffectFadePictures from "./EffectFadePics";
 
 export default function Hero() {
@@ -15,9 +16,9 @@ export default function Hero() {
             Cursos de excelência para profissionais de alto nível.
           </p>
 
-          <button className="animate-pulse bg-primary cursor-pointer hover:bg-white border border-primary hover:text-primary text-white rounded-md px-4 py-2 transition-colors duration-300">
+          <Link href={"/registration"} className="animate-pulse bg-primary cursor-pointer text-center hover:bg-white border border-primary hover:text-primary text-white rounded-md px-4 py-2 transition-colors duration-300">
             Quero me inscrever
-          </button>
+          </Link>
         </div>
       </div>
     </section>
