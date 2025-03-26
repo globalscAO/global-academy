@@ -50,7 +50,7 @@ CYBER ​​SECURITY AND INNOVATION.`,
     recipients: `O Programa Executivo Master foi criado para oferecer suporte aos Líderes Top 20 do Mercado Angolano, de modo que mantenham suas organizações competitivas em seus respectivos segmentos de negócios. Baseia-se na experiência dos seus promotores e oradores e foi desenhado como uma ferramenta de troca de experiências e intercâmbio, permitindo que os líderes compartilhem aprendizado entre si.
     São elegíveis para participar empresários, executivos, consultores, professores universitários e todos os interessados que atendam aos requisitos.`,
   },
-  {
+  /* {
     id: 2,
     coverImg:
       "https://global-services-corporation.github.io/images/academy/financa-corporativa.jpg",
@@ -63,7 +63,7 @@ CYBER ​​SECURITY AND INNOVATION.`,
     locale: "Luanda",
     description: `Este programa executivo oferece uma compreensão profunda da gestão financeira corporativa, abordando temas como análise de investimentos, avaliação de empresas e estrutura de capital. Destinado a líderes que buscam maximizar o valor da empresa através de práticas financeiras eficazes.`,
     language: "Português",
-  },
+  }, 
   {
     id: 3,
     coverImg:
@@ -105,11 +105,16 @@ CYBER ​​SECURITY AND INNOVATION.`,
     locale: "Luanda",
     description: `Este programa visa desenvolver competências de coaching e mentoria para apoiar o crescimento profissional de indivíduos e equipes. Você aprenderá como ajudar outros a alcançar seu pleno potencial e superar desafios no ambiente corporativo.`,
     language: "Português",
-  },
+  }, */
   {
     id: 6,
     teaching: [
-      { id: 1, imgUrl: "", name: "Fernando Lumaca", description: "" },
+      {
+        id: 1,
+        imgUrl: "/fernando-lumaca.jpeg",
+        name: "Fernando Lumaca",
+        description: "",
+      },
       { id: 2, imgUrl: "", name: "Áureo Sebastião", description: "" },
     ],
     modules: [
@@ -130,8 +135,7 @@ QUÍMICOS`,
 legais`,
       `Auditorias e
 inspeções`,
-      `Procediment
-os de
+      `Procedimentos de
 Emergência e
 Evacuação
 `,
@@ -232,7 +236,7 @@ etc.
     locale: "Luanda",
     description: `Este curso oferece uma compreensão das melhores práticas de governança corporativa, explorando temas como ética, compliance e responsabilidade corporativa. Essencial para aqueles que desejam garantir que as empresas sejam administradas com transparência e responsabilidade.`,
     language: "Português",
-  },
+  } /* 
   {
     id: 9,
     coverImg:
@@ -274,5 +278,5 @@ etc.
     locale: "Luanda",
     description: `Este curso aborda a transformação digital e o impacto da inteligência artificial nas empresas. Você aprenderá como implementar tecnologias inovadoras para otimizar processos e criar um ambiente digital que favoreça a inovação e o crescimento sustentável.`,
     language: "Português",
-  },
+  }, */,
 ];

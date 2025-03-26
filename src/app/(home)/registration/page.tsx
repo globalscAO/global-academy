@@ -1,6 +1,12 @@
 import HeroTitle from "@/app/ui/HeroTitle";
+import countries from "world-countries";
 
 export default function Registration() {
+  const formattedCountries = countries.map((country) => ({
+    label: country.name.common,
+    value: country.cca2,
+  }));
+
   return (
     <section className="flex flex-col justify-center items-center">
       <HeroTitle
@@ -66,6 +72,9 @@ export default function Registration() {
               <div className="primary-input">
                 <select className="w-full outline-none">
                   <option value="">Selecione o seu país</option>
+                  {formattedCountries.map((country) => (
+                    <option value={country.value}>{country.label}</option>
+                  ))}
                 </select>
               </div>
             </label>

@@ -16,23 +16,18 @@ export default function Page({
 
   if (!iniciative) {
     return (
-      <div className="w-full mx-auto max-w-6xl flex flex-col items-left gap-2 py-4 px-8">
-        <div className="flex ">
+      <div className="flex flex-col space-y-3 px-14 pb-8">
+        <Skeleton
+          height={200}
+          className="w-[100%] h-[100%] rounded-xl"
+        />
+        <div className="space-y-2">
           <Skeleton
-            width={1136}
-            height={300}
-            className="w-234 max-lg:max-w-lg"
+            className="h-4 w-[90%]"
+            style={{ marginBottom: 10 }}
           />
-        </div>
-
-        <div>
-          {[1, 2, 3, 4, 5].map((_, index) => (
-            <Skeleton
-              key={index}
-              height={20}
-              className="w-250 h-24 max-lg:max-w-lg"
-            />
-          ))}
+          <Skeleton className="h-4 w-[100%]" />
+          <Skeleton className="h-4 w-[100%]" />
         </div>
       </div>
     );
@@ -57,7 +52,7 @@ export default function Page({
           alt={iniciative.name}
           width={1000}
           height={350}
-          className="w-full object-cover h-100 object-top"
+          className="w-full object-cover  h-100 object-center"
         />
       </div>
 

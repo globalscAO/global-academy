@@ -26,7 +26,7 @@
 }
 
 .primary-btn {
-  @apply bg-primary cursor-pointer hover:bg-white border border-primary hover:text-primary text-white transition-colors duration-300 max-lg:text-sm;
+  @apply bg-primary cursor-pointer hover:bg-transparent border border-primary hover:text-primary text-white transition-colors duration-300 max-lg:text-sm;
 }
 
 .secondary-btn {
@@ -39,4 +39,8 @@
 
 .primary-label {
   @apply w-full text-gray-500 flex flex-col gap-2;
+}
+
+.swiper-button-disabled {
+  @apply opacity-65 cursor-not-allowed;
 }

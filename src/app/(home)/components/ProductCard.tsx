@@ -29,7 +29,7 @@ export default function Product({
   coverImg: string;
 }) {
   return (
-    <div className="rounded-xl max-w-78 w-full mx-auto shadow shadow-black/50">
+    <div className="rounded-xl max-w-78 w-full mx-auto shadow">
       <Image
         src={coverImg}
         alt={"/"}
@@ -38,7 +38,7 @@ export default function Product({
         className="rounded-t-xl w-full object-cover h-50"
       />
 
-      <div className="bg-white px-6 py-4 flex flex-col gap-3 rounded-b-xl w-full text-left h-56 justify-between">
+      <div className="bg-secondary px-6 py-4 flex flex-col gap-3 rounded-b-xl w-full text-left h-56 justify-between">
         <div className="flex flex-col gap-2">
           <h2 className="text-primary-500 font-bold max-lg:text-sm">
             {title.toUpperCase()}

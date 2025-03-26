@@ -14,6 +14,15 @@ Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de 
   },
   {
     id: 2,
+    name: "Abertura da Mesa Redonda com CEOs",
+    description: `A Abertura da Mesa Redonda com CEOs marcou o início de mais um ciclo dessa iniciativa exclusiva da Global Services Corporation. Com um ambiente de alto nível, reunimos líderes empresariais para estabelecer o tom dos debates estratégicos que impulsionam inovação, crescimento e parcerias no mercado.
+
+Esse momento inicial é fundamental para alinhar expectativas, fortalecer conexões e definir as direções que guiarão as discussões ao longo da iniciativa. Estamos comprometidos em fomentar um ecossistema empresarial cada vez mais forte e colaborativo.`,
+    coverImgUrl:
+      "https://global-services-corporation.github.io/images/baw-fev-2024/4.jpg",
+  },
+  {
+    id: 3,
     name: "Mesa Redonda com CEOs",
     description: `O Mesa Redonda com CEOs é um encontro exclusivo de networking promovido pela Global Services Corporation, projetado para conectar líderes, executivos e empreendedores em um ambiente sofisticado e descontraído.
 Realizado após o expediente, esse evento proporciona uma oportunidade única para ampliar sua rede de contatos, trocar experiências e explorar novas parcerias estratégicas em um formato dinâmico, elegante e altamente produtivo.Além de oferecer um espaço para conexões valiosas, o Business After Work se destaca por sua atmosfera refinada, onde os participantes podem interagir com tomadores de decisão e especialistas de diversos setores. Cada edição é cuidadosamente planejada para garantir um ambiente propício a conversas estratégicas, promovendo insights valiosos e novas oportunidades de negócios.
@@ -23,9 +32,18 @@ Com um público altamente qualificado, composto por executivos de alto escalão,
 
 Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de networking diferenciada, inscreva-se no próximo Business After Work e descubra como conexões estratégicas podem impulsionar seu sucesso.`,
     coverImgUrl:
-      "https://global-services-corporation.github.io/images/mr-nov-2024/10.jpeg",
+      "https://global-services-corporation.github.io/images/mr-nov-2023/38.jpg",
   },
+  {
+    id: 4,
+    name: "Responsabilidade Social - VIANA COM MALÁRIA",
+    description: `A Global Academy, iniciativa da Global Services Corporation, realizou com sucesso mais uma ação de impacto social: VIANA COM MALÁRIA. O evento foi um marco na conscientização e combate à malária, reforçando nosso compromisso com a saúde e o bem-estar da comunidade.
 
+Durante a ação, promovemos palestras informativas, distribuímos materiais educativos e incentivamos práticas de prevenção para ajudar a reduzir a incidência da doença na região. Agradecemos a todos os envolvidos por tornarem essa iniciativa possível e reafirmamos nosso compromisso com causas que fazem a diferença.`,
+    coverImgUrl:
+      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/7.jpg",
+  },
+  /* 
   {
     id: 3,
     name: "FIB - Feira Internacional de Benguela",
@@ -34,6 +52,7 @@ Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de 
 Realizada anualmente, a FIB é um ponto de encontro essencial para empreendedores, investidores e líderes empresariais, oferecendo uma plataforma dinâmica para exposição de produtos e serviços, networking de alto nível e debates sobre tendências do mercado.
 
 Com um ambiente propício para a realização de negócios, a FIB destaca o potencial econômico da província de Benguela e reforça o papel de Angola como um hub de oportunidades na África.`,
-    coverImgUrl: "https://global-services-corporation.github.io/images/mr-edicao-fib/18.jpg"
-  }
+    coverImgUrl:
+      "https://global-services-corporation.github.io/images/mr-edicao-fib/18.jpg",
+  }, */
 ];
