@@ -115,7 +115,12 @@ CYBER ​​SECURITY AND INNOVATION.`,
         name: "Fernando Lumaca",
         description: "",
       },
-      { id: 2, imgUrl: "", name: "Áureo Sebastião", description: "" },
+      {
+        id: 2,
+        imgUrl: "/aureo-sebastiao.jpeg",
+        name: "Áureo Sebastião",
+        description: "",
+      },
     ],
     modules: [
       `GESTÃO DA

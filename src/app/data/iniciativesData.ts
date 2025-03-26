@@ -19,7 +19,7 @@ Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de 
 
 Esse momento inicial é fundamental para alinhar expectativas, fortalecer conexões e definir as direções que guiarão as discussões ao longo da iniciativa. Estamos comprometidos em fomentar um ecossistema empresarial cada vez mais forte e colaborativo.`,
     coverImgUrl:
-      "https://global-services-corporation.github.io/images/baw-fev-2024/4.jpg",
+      "https://global-services-corporation.github.io/images/baw-fev-2024/9.jpg",
   },
   {
     id: 3,

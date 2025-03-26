@@ -52,7 +52,7 @@ export default function Page({
           alt={iniciative.name}
           width={1000}
           height={350}
-          className="w-full object-cover  h-100 object-center"
+          className="w-full object-cover  h-100 object-top"
         />
       </div>
 
