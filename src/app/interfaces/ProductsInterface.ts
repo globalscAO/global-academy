@@ -1,6 +1,12 @@
 export interface ProductsInterface {
   id: number;
   title: string;
+  debate?: string;
+  understanding?: string;
+  focus?: string;
+  exhibition?: string;
+  revaluation?: string;
+  time?: string;
   typeDuration?: string;
   description: string;
   modality: string;
@@ -18,7 +24,7 @@ export interface ProductsInterface {
     description: string;
   }[];
   recipients?: string;
-  candidacy?: string
+  candidacy?: string;
   modules?: string[];
   certificateImgUrls?: string;
 }

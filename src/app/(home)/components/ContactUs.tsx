@@ -1,6 +1,26 @@
+"use client";
+
+import { SubmitHandler, useForm } from "react-hook-form";
 import { IoIosArrowDropright } from "react-icons/io";
 
+type InputValues = {
+  fullname: string;
+  email: string;
+  phone: string;
+  description: string;
+};
+
 export default function ContactUs() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<InputValues>();
+
+  const onSubmit: SubmitHandler<InputValues> = async (data) => {
+    console.log(data);
+  };
+
   return (
     <section className="flex justify-center items-center bg-primary lg:py-18 lg:px-24 max-lg:px-0 max-lg:py-12">
       <div className="max-w-6xl w-full flex flex-wrap gap-12 justify-center text-white items-center">
@@ -16,36 +36,80 @@ export default function ContactUs() {
           <IoIosArrowDropright className="text-3xl max-lg:rotate-90" />
         </div>
 
-        <form className="flex flex-col justify-center bg-white px-8 py-12.5 gap-6 max-lg:rounded-none rounded-lg text-gray-500 w-116">
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          className="flex flex-col justify-center bg-white px-8 py-8.5 gap-4 max-lg:rounded-none rounded-lg text-gray-500 w-116">
           <h1 className="font-bold text-center text-primary">
             ENTRE EM CONTACTO
           </h1>
 
-          <input
-            type="text"
-            placeholder="Nome completo"
-            className="primary-input"
-          />
+          <div className="w-full">
+            <input
+              type="text"
+              placeholder="Nome completo"
+              {...register("fullname", {
+                required: "Nome é obrigatório",
+                minLength: { value: 3, message: "Nome deve ter pelo menos 3 caracteres" },
+                maxLength: { value: 50, message: "Nome deve ter no máximo 50 caracteres" }
+              })}
+              className="primary-input w-full"
+            />
+            <span className="text-red-500 text-xs">
+              {errors.fullname?.message}
+            </span>
+          </div>
 
-          <input
-            type="email"
-            placeholder="Email"
-            className="primary-input"
-          />
+          <div className="w-full">
+            <input
+              type="email"
+              {...register("email", {
+                required: "E-mail é obrigatório",
+                pattern: { value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/, message: "E-mail inválido" }
+              })}
+              placeholder="Email"
+              className="primary-input w-full"
+            />
+            <span className="text-red-500 text-xs">
+              {errors.email?.message}
+            </span>
+          </div>
 
-          <input
-            type="tel"
-            placeholder="Contacto"
-            className="primary-input"
-          />
+          <div className="w-full">
+            <input
+              type="tel"
+              {...register("phone", {
+                required: "Telefone é obrigatório",
+                pattern: { value: /^[0-9]{9,15}$/, message: "Número de telefone inválido" }
+              })}
+              placeholder="Contacto"
+              className="primary-input w-full"
+            />
+            <span className="text-red-500 text-xs">
+              {errors.phone?.message}
+            </span>
+          </div>
 
-          <textarea
-            rows={4}
-            placeholder="Assunto "
-            className="primary-input resize-none"
-          />
+          <div className="w-full">
+            <textarea
+              rows={4}
+              {...register("description", {
+                required: "Mensagem é obrigatória",
+                minLength: { value: 10, message: "A mensagem deve ter pelo menos 10 caracteres" },
+                maxLength: { value: 500, message: "A mensagem deve ter no máximo 500 caracteres" }
+              })}
+              placeholder="Assunto "
+              className="primary-input w-full resize-none"
+            />
+            <span className="text-red-500 text-xs">
+              {errors.description?.message}
+            </span>
+          </div>
 
-          <button className="primary-btn py-2 px-4 rounded-md ">Enviar</button>
+          <button
+            type="submit"
+            className="primary-btn py-2 px-4 rounded-md ">
+            Enviar
+          </button>
         </form>
       </div>
     </section>

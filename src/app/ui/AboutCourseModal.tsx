@@ -85,7 +85,7 @@ export default function AboutCourseModal({
                 Saber mais
               </Link>
               <Link
-                href={"/"}
+                href={"/registration"}
                 className="text-center primary-btn px-4 py-2 rounded-md w-full max-lg:text-xs">
                 Inscrever-se
               </Link>

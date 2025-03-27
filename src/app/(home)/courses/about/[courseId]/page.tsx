@@ -71,6 +71,46 @@ export default function AboutCourse({
               <p className="primary-description">{course?.candidacy}</p>
             </div>
 
+            <div className="flex flex-col w-full max-lg:items-center max-lg:gap-2">
+              <h2 className="text-primary text-lg font-bold">
+                PRINCIPAIS VANTAGENS
+              </h2>
+
+              <ul className="flex flex-col gap-2">
+                <li className="primary-description">
+                  <h1 className="font-medium text-primary-500">Debate</h1>
+                  <p className="primary-description">{course?.debate}</p>
+                </li>
+
+                <li className="primary-description">
+                  <h1 className="font-medium text-primary-500">
+                    Understanding
+                  </h1>
+                  <p className="primary-description">{course?.understanding}</p>
+                </li>
+
+                <li className="primary-description">
+                  <h1 className="font-medium text-primary-500">Focus</h1>
+                  <p className="primary-description">{course?.focus}</p>
+                </li>
+
+                <li className="primary-description">
+                  <h1 className="font-medium text-primary-500">Exhibiton</h1>
+                  <p className="primary-description">{course?.exhibition}</p>
+                </li>
+
+                <li className="primary-description">
+                  <h1 className="font-medium text-primary-500">Revaluation</h1>
+                  <p className="primary-description">{course?.revaluation}</p>
+                </li>
+
+                <li className="primary-description">
+                  <h1 className="font-medium text-primary-500">Time</h1>
+                  <p className="primary-description">{course?.time}</p>
+                </li>
+              </ul>
+            </div>
+
             <div className="flex flex-col w-full gap-4 max-lg:items-center max-lg:gap-4">
               <h2 className="text-primary text-lg font-bold">MAGISTÉRIO</h2>
 

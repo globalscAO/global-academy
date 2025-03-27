@@ -7,6 +7,12 @@ export const productsData: ProductsInterface[] = [
       "https://global-services-corporation.github.io/images/academy/gestao-estrategica.jpg",
     title: "Gestão Estratégica de Organizações",
     workload: "30h",
+    debate: `Como desenvolver líderes empresariais com uma visão global e sistêmica das atividades empresariais.`,
+    exhibition: `Representantes dos mais altos níveis da gestão, incluindo PCAs, PCEs e Administradores de empresas.`,
+    focus: `Análise do Cenários Econômicos e Tendências múndias, do ponto de vista de Liderança e Gestão de Pessoas em Ambientes Competitivos.`,
+    revaluation: `Reavaliação dos conceitos organizacionais de uma empresa.`,
+    time: `Dois dias de formação completos e intensivos em uma das melhores Academia de formação do país.`,
+    understanding: `Compreensão geral do Cenários Econômicos e Tendências mundiais`,
     teaching: [
       {
         id: 1,
@@ -108,6 +114,17 @@ CYBER ​​SECURITY AND INNOVATION.`,
   }, */
   {
     id: 6,
+    debate: `Como aprimorar as condições de higiene e segurança no trabalho para fomentar uma
+    cultura de prevenção que promova a melhoria qualitativa das condições de trabalho em
+    geral e o cumprimento da legislação nacional."
+    `,
+    exhibition: `Directores, Gestores, Supervisores, Técnicos, Mecânicos e Operadores de Máquinas.`,
+    focus: `Garantir um ambiente de trabalho seguro e saudável`,
+    revaluation: `Reavaliação dos conceitos de Higiene e Segurança de Trabalho`,
+    time: `O curso terá uma duração de 7 dias de formação completos e intensivos em uma das
+    melhores Academia de formação do pais.`,
+    understanding: `Compreensão geral do Cenários de prevenção e de protecção contra riscos profissionais,
+    no âmbito das acções consagradas na lei.`,
     teaching: [
       {
         id: 1,
@@ -154,9 +171,7 @@ trabalho`,
       "https://global-services-corporation.github.io/images/academy/higiene-seguranca.jpg",
     title: "Higiene, Segurança e Saúde no Trabalho",
     workload: "30h",
-
     certificateImgUrls: "/inefop.png",
-
     certificate: "INEFOP",
     modality: "Presencial e Online",
     country: "Angola",
