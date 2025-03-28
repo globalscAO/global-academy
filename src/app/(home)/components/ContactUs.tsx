@@ -1,7 +1,10 @@
 "use client";
 
+import { api } from "@/api/config";
+import { useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { IoIosArrowDropright } from "react-icons/io";
+import { toast } from "react-toastify";
 
 type InputValues = {
   fullname: string;
@@ -11,6 +14,8 @@ type InputValues = {
 };
 
 export default function ContactUs() {
+  const [loading, setLoading] = useState(false);
+
   const {
     register,
     handleSubmit,
@@ -18,7 +23,24 @@ export default function ContactUs() {
   } = useForm<InputValues>();
 
   const onSubmit: SubmitHandler<InputValues> = async (data) => {
-    console.log(data);
+    try {
+      setLoading(true);
+      const response = await api.post("/academy/contact-us", {
+        name: data.fullname,
+        email: data.email,
+        contact: data.phone,
+        subject: data.description,
+      });
+
+      if (response.status === 200) {
+        toast.success("Email de contacto enviado!");
+      }
+    } catch (error: any) {
+      toast.error(error.message);
+      console.error("Erro ao enviar e-mail", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -49,8 +71,14 @@ export default function ContactUs() {
               placeholder="Nome completo"
               {...register("fullname", {
                 required: "Nome é obrigatório",
-                minLength: { value: 3, message: "Nome deve ter pelo menos 3 caracteres" },
-                maxLength: { value: 50, message: "Nome deve ter no máximo 50 caracteres" }
+                minLength: {
+                  value: 3,
+                  message: "Nome deve ter pelo menos 3 caracteres",
+                },
+                maxLength: {
+                  value: 50,
+                  message: "Nome deve ter no máximo 50 caracteres",
+                },
               })}
               className="primary-input w-full"
             />
@@ -64,7 +92,10 @@ export default function ContactUs() {
               type="email"
               {...register("email", {
                 required: "E-mail é obrigatório",
-                pattern: { value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/, message: "E-mail inválido" }
+                pattern: {
+                  value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
+                  message: "E-mail inválido",
+                },
               })}
               placeholder="Email"
               className="primary-input w-full"
@@ -79,7 +110,10 @@ export default function ContactUs() {
               type="tel"
               {...register("phone", {
                 required: "Telefone é obrigatório",
-                pattern: { value: /^[0-9]{9,15}$/, message: "Número de telefone inválido" }
+                pattern: {
+                  value: /^[0-9]{9,15}$/,
+                  message: "Número de telefone inválido",
+                },
               })}
               placeholder="Contacto"
               className="primary-input w-full"
@@ -94,8 +128,14 @@ export default function ContactUs() {
               rows={4}
               {...register("description", {
                 required: "Mensagem é obrigatória",
-                minLength: { value: 10, message: "A mensagem deve ter pelo menos 10 caracteres" },
-                maxLength: { value: 500, message: "A mensagem deve ter no máximo 500 caracteres" }
+                minLength: {
+                  value: 10,
+                  message: "A mensagem deve ter pelo menos 10 caracteres",
+                },
+                maxLength: {
+                  value: 500,
+                  message: "A mensagem deve ter no máximo 500 caracteres",
+                },
               })}
               placeholder="Assunto "
               className="primary-input w-full resize-none"
@@ -107,8 +147,10 @@ export default function ContactUs() {
 
           <button
             type="submit"
-            className="primary-btn py-2 px-4 rounded-md ">
-            Enviar
+            className="primary-btn py-2 px-4 rounded-md"
+            disabled={loading}
+            aria-busy={loading}>
+            {loading ? "Enviando..." : "Enviar"}
           </button>
         </form>
       </div>

@@ -4,6 +4,9 @@ import { coursesData } from "@/app/data/coursesData";
 import HeroTitle from "@/app/ui/HeroTitle";
 import countries from "world-countries";
 import { SubmitHandler, useForm } from "react-hook-form";
+import { api } from "@/api/config";
+import { ToastContainer, toast } from "react-toastify";
+import { useState } from "react";
 
 type InputValues = {
   fullname: string;
@@ -11,6 +14,7 @@ type InputValues = {
   docId: string;
   country: string;
   province: string;
+  termsConditions: string;
   email: string;
   address: string;
   course: string;
@@ -27,6 +31,7 @@ function isValidBirthdate(dateString: Date) {
 }
 
 export default function Registration() {
+  const [loading, setLoading] = useState(false);
   const formattedCountries = countries.map((country) => ({
     label: country.name.common,
     value: country.cca2,
@@ -39,11 +44,35 @@ export default function Registration() {
   } = useForm<InputValues>();
 
   const onSubmit: SubmitHandler<InputValues> = async (data) => {
-    console.log(data);
+    try {
+      setLoading(true);
+      const response = await api.post("/academy/registration", {
+        address: data.address,
+        termsConditions: data.termsConditions,
+        bornDate: data.birthdate,
+        country: data.country,
+        course: data.course,
+        docId: data.docId,
+        email: data.email,
+        fullName: data.fullname,
+        phoneNumber: data.phone,
+        province: data.province,
+      });
+
+      if (response.status === 200) {
+        toast.success("Pré-inscrição feita com sucesso!");
+      }
+    } catch (error: any) {
+      toast.error(error.message);
+      console.error("Erro ao enviar e-mail", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
     <section className="flex flex-col justify-center items-center">
+      <ToastContainer />
       <HeroTitle
         title={"Formulário de Inscrição"}
         description={
@@ -218,10 +247,30 @@ export default function Registration() {
             </span>
           </label>
 
+          <div className="w-full">
+            <label className="flex gap-2 items-center text-sm text-primary-500 w-full">
+              <input
+                className="px-4 py-2 outline-none rounded-lg bg-white"
+                {...register("termsConditions", { required: true })}
+                placeholder="Insira a sua endereço"
+                type="checkbox"
+              />
+              Sim, eu concordo com as{" "}
+              <span className="font-medium">Políticas de Privacidade</span> e{" "}
+              <span className="font-medium">Termos e Condições</span>.
+            </label>
+
+            {errors.termsConditions && (
+              <p className="text-xs text-red-500">
+                Aceite os termos e condições para prosseguir é obrigatório
+              </p>
+            )}
+          </div>
+
           <button
             type="submit"
             className="primary-btn rounded-md py-2 px-4">
-            Enviar
+            {loading ? "Enviando..." : "Enviar"}
           </button>
         </form>
       </div>
