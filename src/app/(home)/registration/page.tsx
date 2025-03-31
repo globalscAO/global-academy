@@ -104,7 +104,7 @@ export default function Registration() {
           </label>
 
           <div className="flex w-full gap-3 max-lg:flex-col">
-            <label className="primary-label">
+            <label className="primary-label w-full">
               Data de nascimento
               <input
                 type="date"
@@ -248,9 +248,9 @@ export default function Registration() {
           </label>
 
           <div className="w-full">
-            <label className="flex gap-2 items-center text-sm text-primary-500 w-full">
+            <label className="lg:flex gap-2 items-center text-sm text-primary-500 w-full">
               <input
-                className="px-4 py-2 outline-none rounded-lg bg-white"
+                className="px-4 py-2 outline-none rounded-lg max-lg:mr-2 bg-white"
                 {...register("termsConditions", { required: true })}
                 placeholder="Insira a sua endereço"
                 type="checkbox"

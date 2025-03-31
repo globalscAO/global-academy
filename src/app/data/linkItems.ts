@@ -21,11 +21,11 @@ export const linkItems: LinkItemInterface[] = [
         title: "Iniciativas",
         url: "/iniciatives",
       },
-      {
+      /*  {
         id: 4,
         title: "Publicações",
         url: "/publications",
-      },
+      }, */
     ],
     onclick: () => scrollToSection("about"),
   },
@@ -41,7 +41,7 @@ export const linkItems: LinkItemInterface[] = [
     ],
     onclick: () => scrollToSection("courses"),
   },
-  {
+  /* {
     id: "#teaching",
     title: "Ensino",
     items: [
@@ -57,5 +57,5 @@ export const linkItems: LinkItemInterface[] = [
       },
     ],
     onclick: () => scrollToSection("courses"),
-  },
+  }, */
 ];
