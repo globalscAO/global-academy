@@ -1,5 +1,5 @@
 import { LinkItemInterface } from "../interfaces/LinkItemInterface";
-import { scrollToSection } from "../utils/scrollToSection";
+import { scrollToSection } from "../utils/scrollTo";
 
 export const linkItems: LinkItemInterface[] = [
   {

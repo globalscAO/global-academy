@@ -11,6 +11,7 @@ import {
 import { linkItems } from "../data/linkItems";
 import Link from "next/link";
 import { FaAngleDown } from "react-icons/fa";
+import { scrollToSection } from "../utils/scrollTo";
 
 export default function NavMenu() {
   return (
@@ -35,11 +36,11 @@ export default function NavMenu() {
         </MenubarMenu>
       ))}
 
-      <Link
-        href="#"
+      <button
+        onClick={() => scrollToSection("footer")}
         className="hover:bg-white/10 max-lg:w-full rounded-md cursor-pointer p-2 flex items-center gap-2">
         Contactos
-      </Link>
+      </button>
     </Menubar>
   );
 }

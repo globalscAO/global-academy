@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
-import { scrollToSection } from "./scrollToSection";
+import { scrollToSection } from "./scrollTo";
 
 export const handleMenuToggle = ({
   id,

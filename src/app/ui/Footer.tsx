@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { linkItems } from "../data/linkItems";
 import { LuSendHorizontal } from "react-icons/lu";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary-500 w-full flex justify-center items-center lg:py-14 lg:px-16 max-lg:px-8 max-lg:py-12">
+    <footer id="footer" className="bg-primary-500 w-full flex justify-center items-center lg:py-14 lg:px-16 max-lg:px-8 max-lg:py-12">
       <div className="max-w-6xl flex flex-col w-full gap-4 text-white text-sm">
         <ul className="flex flex-wrap w-full justify-between gap-4 max-lg:gap-14">
           <li className="lg:py-11 w-72.75 max-lg:w-full flex flex-col gap-3.5">
