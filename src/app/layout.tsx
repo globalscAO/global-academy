@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -77,8 +78,8 @@ export const metadata: Metadata = {
     canonical: "https://academy.globalsc.ao",
     languages: {
       "pt-AO": "https://academy.globalsc.ao",
-    }
-  }
+    },
+  },
 };
 
 export default function RootLayout({
@@ -88,7 +89,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-PT">
-      <body className={`${inter.variable} antialiased`}>{children}</body>
+      <body className={`${inter.variable} antialiased`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
