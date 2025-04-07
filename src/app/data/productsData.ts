@@ -300,5 +300,4 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     description: `Este curso aborda a transformação digital e o impacto da inteligência artificial nas empresas. Você aprenderá como implementar tecnologias inovadoras para otimizar processos e criar um ambiente digital que favoreça a inovação e o crescimento sustentável.`,
     language: "Português",
   }, */,
-  ,
 ];
