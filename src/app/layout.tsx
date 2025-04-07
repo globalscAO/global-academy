@@ -94,6 +94,9 @@ export default function RootLayout({
         {children}
         <Analytics />
         <SpeedInsights />
+        <script
+          defer
+          src="https://static.getbutton.io/widget/bundle.js?id=mTwUE"></script>
       </body>
     </html>
   );
