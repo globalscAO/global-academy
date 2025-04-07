@@ -47,8 +47,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     modules: [
       "ECONOMIC SCENARIO AND WORLD TRENDS",
       "STRATEGIC BUSINESS MANAGEMENT",
-      `ARTIFICIAL INTELLIGENCE,
-CYBER ​​SECURITY AND INNOVATION.`,
+      `ARTIFICIAL INTELLIGENCE, CYBER SECURITY AND INNOVATION.`,
       `LEADERSHIP AND PEOPLE MANAGEMENT IN COMPETITIVE ENVIRONMENTS.`,
       "ENTREPRENEURSHIP AND BUSINESS DEVELOPMENT.",
       `ESG STRATEGIES.`,
@@ -56,7 +55,8 @@ CYBER ​​SECURITY AND INNOVATION.`,
     recipients: `O Programa Executivo Master foi criado para oferecer suporte aos Líderes Top 20 do Mercado Angolano, de modo que mantenham suas organizações competitivas em seus respectivos segmentos de negócios. Baseia-se na experiência dos seus promotores e oradores e foi desenhado como uma ferramenta de troca de experiências e intercâmbio, permitindo que os líderes compartilhem aprendizado entre si.
     São elegíveis para participar empresários, executivos, consultores, professores universitários e todos os interessados que atendam aos requisitos.`,
   },
-  /* {
+  /* 
+  {
     id: 2,
     coverImg:
       "https://global-services-corporation.github.io/images/academy/financa-corporativa.jpg",
@@ -111,13 +111,13 @@ CYBER ​​SECURITY AND INNOVATION.`,
     locale: "Luanda",
     description: `Este programa visa desenvolver competências de coaching e mentoria para apoiar o crescimento profissional de indivíduos e equipes. Você aprenderá como ajudar outros a alcançar seu pleno potencial e superar desafios no ambiente corporativo.`,
     language: "Português",
-  }, */
+  },
+*/
   {
     id: 6,
     debate: `Como aprimorar as condições de higiene e segurança no trabalho para fomentar uma
     cultura de prevenção que promova a melhoria qualitativa das condições de trabalho em
-    geral e o cumprimento da legislação nacional."
-    `,
+    geral e o cumprimento da legislação nacional.`,
     exhibition: `Directores, Gestores, Supervisores, Técnicos, Mecânicos e Operadores de Máquinas.`,
     focus: `Garantir um ambiente de trabalho seguro e saudável`,
     revaluation: `Reavaliação dos conceitos de Higiene e Segurança de Trabalho`,
@@ -140,32 +140,15 @@ CYBER ​​SECURITY AND INNOVATION.`,
       },
     ],
     modules: [
-      `GESTÃO DA
-PREVENÇÃO DE
-RISCOS
-PROFISSIONAIS
-(RP) FUNDAMENTAIS
-`,
-      `PSICOSSOCIOLOGIA DO
-TRABALHO`,
-      `Segurança do
-trabalho`,
-      `EXPOSIÇÃO A
-AGENTES
-QUÍMICOS`,
-      `Obrigações
-legais`,
-      `Auditorias e
-inspeções`,
-      `Procedimentos de
-Emergência e
-Evacuação
-`,
-      `Primeiros
-socorros`,
-      `Higiene e
-saúde no
-trabalho`,
+      `GESTÃO DA PREVENÇÃO DE RISCOS PROFISSIONAIS (RP) FUNDAMENTAIS`,
+      `PSICOSSOCIOLOGIA DO TRABALHO`,
+      `Segurança do trabalho`,
+      `EXPOSIÇÃO A AGENTES QUÍMICOS`,
+      `Obrigações legais`,
+      `Auditorias e inspeções`,
+      `Procedimentos de Emergência e Evacuação`,
+      `Primeiros socorros`,
+      `Higiene e saúde no trabalho`,
     ],
     coverImg:
       "https://global-services-corporation.github.io/images/academy/higiene-seguranca.jpg",
@@ -177,69 +160,30 @@ trabalho`,
     country: "Angola",
     startDate: "16 de Março de 2026",
     locale: "Luanda",
-    description: `Higiene e segurança no trabalho
-referem-se às práticas e condições
-destinadas a assegurar a saúde e a
-integridade física dos trabalhadores no
-ambiente de trabalho. Essas práticas são
-divididas em duas categorias: Higiene no
-trabalho e Segurança no trabalho.
-Este curso tem como objetivo transmitir
-conhecimentos teóricos e práticos
-relacionados à SHST, permitindo aos
-participantes aprimorar suas
-habilidades como técnicos de SHST e
-melhorar as condições gerais de
-trabalho na empresa. Dessa forma,
-contribui para o desenvolvimento de
-uma cultura de prevenção que promove
-a melhoria qualitativa das condições de
-trabalho em geral e o cumprimento da
-legislação nacional. E tem como objetivo
-geral adquirir competências básicas na
-área de HST que permitam o
-desempenho de funções de prevenção e
-de protecção contra riscos profissionais,
-enquadramento jurídico da shst e
-conceitos fundamentais no âmbito das
-acções consagradas na lei.
-Nessa perspectiva serão valorizadas
-essencialmente as práticas preventivas e
-de autocuidado. Veremos diversos
-temas como acidente do trabalho,
-causas, inspeção, riscos ambientais,
-físicos, químicos, biológicos,
-ergonômicos e de acidente, doenças
-profissionais, Equipamentos de
-Proteção Individual – EPI, Comissão
-Interna de Prevenção de Acidentes –
-CIPA, técnicas de análise e avaliação de
-riscos, entre outros assuntos
-importantes no âmbito da segurança do
-trabalho. `,
+    description: `Higiene e segurança no trabalho referem-se às práticas e condições destinadas a assegurar a saúde e a integridade física dos trabalhadores no ambiente de trabalho. Essas práticas são divididas em duas categorias: Higiene no trabalho e Segurança no trabalho. Este curso tem como objetivo transmitir conhecimentos teóricos e práticos relacionados à SHST, permitindo aos participantes aprimorar suas habilidades como técnicos de SHST e melhorar as condições gerais de trabalho na empresa. Dessa forma, contribui para o desenvolvimento de uma cultura de prevenção que promove a melhoria qualitativa das condições de trabalho em geral e o cumprimento da legislação nacional. E tem como objetivo geral adquirir competências básicas na área de HST que permitam o desempenho de funções de prevenção e de protecção contra riscos profissionais, enquadramento jurídico da shst e conceitos fundamentais no âmbito das acções consagradas na lei. Nessa perspectiva serão valorizadas essencialmente as práticas preventivas e de autocuidado. Veremos diversos temas como acidente do trabalho, causas, inspeção, riscos ambientais, físicos, químicos, biológicos, ergonômicos e de acidente, doenças profissionais, Equipamentos de Proteção Individual – EPI, Comissão Interna de Prevenção de Acidentes – CIPA, técnicas de análise e avaliação de riscos, entre outros assuntos importantes no âmbito da segurança do trabalho. `,
     language: "Português",
-    recipients: `São gestores, técnicos de
-SHST e funcionários seniores que no
-âmbito geral o qual tenham
-desenvolvido as suas actividades
-simultaneamente nas zonas de
-operações da empresa. (Directores,
-Gestores, Supervisores, Técnicos,
-Mecânicos, Operadores de Máquinas),
-etc.
+    recipients: `São gestores, técnicos de SHST e funcionários seniores que no âmbito geral o qual tenham desenvolvido as suas actividades simultaneamente nas zonas de operações da empresa. (Directores, Gestores, Supervisores, Técnicos, Mecânicos, Operadores de Máquinas), etc.
 `,
   },
   {
     id: 7,
     coverImg:
       "https://global-services-corporation.github.io/images/academy/gestao-de-pessoas.jpg",
-    title: "Gestão de Pessoas para Líderes Emergentes",
+    title: "Gestão de Sinistros - Acidentes de Trabalho",
     workload: "10h",
     certificate: "INEFOP",
     modality: "Presencial",
     country: "Angola",
-    startDate: "16 de Março de 2026",
-    locale: "Luanda",
+    teaching: [
+      {
+        id: 1,
+        imgUrl: "/fernando-lumaca.jpeg",
+        name: "Fernando Palma",
+        description: "",
+      },
+    ],
+    startDate: "21 de Abril de 2026",
+    locale: "Centro de Formação Jornalístico, Luanda",
     description: `O curso de Gestão de Pessoas para Líderes Emergentes capacita novos líderes a gerenciar equipes eficazmente, com foco em habilidades de comunicação, motivação e gestão de conflitos. Ideal para aqueles que estão assumindo posições de liderança pela primeira vez.`,
     language: "Português",
   },
