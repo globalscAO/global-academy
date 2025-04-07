@@ -170,35 +170,92 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     coverImg:
       "https://global-services-corporation.github.io/images/academy/gestao-de-pessoas.jpg",
     title: "Gestão de Sinistros - Acidentes de Trabalho",
-    workload: "10h",
+    workload: "30h",
+    recipients: `
+      Profissionais de
+      Seguros, Gestores de Recursos
+      Humanos, Advogados, Consultores de
+      Segurança no Trabalho, Empresários e
+      Gestores.
+      `,
     certificate: "INEFOP",
-    modality: "Presencial",
+    modality: "Presencial e Online",
     country: "Angola",
+    modules: [
+      `Introdução à Gestão de Sinistros.`,
+      `Legislação de Acidentes de Trabalho.`,
+      `Análise de Riscos.`,
+      `Prevenção de Acidentes`,
+      `Investigação de Acidentes`,
+      `Apoio ao Trabalhador Acidentado`,
+      `Gestão de Documentação e Relatórios`,
+      `Estudo de Casos Práticos.`,
+    ],
+    debate: `Tomar conhecimento dos
+    principais conceitos em acidentes de
+    trabalho. Consolidar os conhecimentos técnicos
+    essenciais à tramitação do processo de
+    sinistro e acidentes de Trabalho.`,
+    exhibition: `Gestores de seguro,
+    Gestores de Recursos Humanos,
+    Advogados, Consultores de Segurança
+    no Trabalho, Empresários e Gestores.`,
+    revaluation: `Revisão dos conceitos e
+    modelos mais recentes em áreas chaves
+    da gestão de seguros.
+    `,
+    time: `Sete dias de formação completos
+    e intensivos em Luanda em academias
+    de topo e num ambiente multicultural.`,
+    focus: `capacitar os participantes com
+    conhecimentos e habilidades essenciais
+    para lidar com sinistros de acidentes de
+    trabalho de maneira eficaz.
+    `,
+    understanding: `Compreensão dos
+    temas de Gestão de Sinistros e
+    Acidentes de trabalho.`,
     teaching: [
       {
         id: 1,
-        imgUrl: "/fernando-lumaca.jpeg",
+        imgUrl: "",
         name: "Fernando Palma",
         description: "",
       },
     ],
-    startDate: "21 de Abril de 2026",
-    locale: "Centro de Formação Jornalístico, Luanda",
-    description: `O curso de Gestão de Pessoas para Líderes Emergentes capacita novos líderes a gerenciar equipes eficazmente, com foco em habilidades de comunicação, motivação e gestão de conflitos. Ideal para aqueles que estão assumindo posições de liderança pela primeira vez.`,
-    language: "Português",
-  },
-  {
-    id: 8,
-    coverImg:
-      "https://global-services-corporation.github.io/images/academy/corporate-governance.jpg",
-    title: "Corporate Governance",
-    workload: "15h",
-    certificate: "INEFOP",
-    modality: "Presencial",
-    country: "Angola",
-    startDate: "16 de Março de 2026",
-    locale: "Luanda",
-    description: `Este curso oferece uma compreensão das melhores práticas de governança corporativa, explorando temas como ética, compliance e responsabilidade corporativa. Essencial para aqueles que desejam garantir que as empresas sejam administradas com transparência e responsabilidade.`,
+    certificateImgUrls: "/inefop.png",
+    startDate: "21 de Abril de 2025",
+    locale: "Centro de Formação Jornalístico",
+    description: `
+    Este curso tem como objetivo fornecer
+    aos participantes os conhecimentos
+    essenciais para iniciar, gerenciar e
+    agilizar os processos de acionamento de
+    sinistros no âmbito dos seguros de
+    Acidentes de Trabalho.
+    Reconhecer a importância da Gestão de
+    Sinistros na resolução de divergências
+    entre segurados e Companhias de
+    Seguros envolvidas, identificando suas
+    principais características e objetivos. A
+    resolução eficaz de um sinistro pode
+    melhorar significativamente os custos e
+    o tempo despendido, evitando o
+    agravamento de prêmios ou custos
+    adicionais para ambas as partes.
+    No final deste curso, espera-se que os
+    participantes sejam capazes de
+    enumerar as características de um
+    sinistro no âmbito de acidentes de
+    trabalho, conhecer a legislação aplicável
+    ao ramo de seguros de acidentes de
+    trabalho, atribuir as funções pertinentes
+    a cada um dos intervenientes num
+    processo de sinistro, analisar e organizar
+    os processos de sinistros, e elaborar
+    propostas de melhoria para os serviços
+    do departamento de sinistros.
+    `,
     language: "Português",
   } /* 
   {
@@ -243,4 +300,5 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     description: `Este curso aborda a transformação digital e o impacto da inteligência artificial nas empresas. Você aprenderá como implementar tecnologias inovadoras para otimizar processos e criar um ambiente digital que favoreça a inovação e o crescimento sustentável.`,
     language: "Português",
   }, */,
+  ,
 ];

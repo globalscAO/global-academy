@@ -119,13 +119,23 @@ export default function AboutCourse({
                   <li
                     className="flex gap-4 max-lg:gap-2 items-center lg:h-33 w-full max-lg:flex-col"
                     key={teacher.id}>
-                    <Image
-                      src={teacher.imgUrl}
-                      alt={teacher.name}
-                      width={136}
-                      height={100}
-                      className="rounded-md h-32 max-lg:h-64 max-lg:w-full min-w-34 object-cover object-top"
-                    />
+                    {teacher.imgUrl ? (
+                      <Image
+                        src={teacher.imgUrl}
+                        alt={teacher.name}
+                        width={136}
+                        height={100}
+                        className="rounded-md h-32 max-lg:h-64 max-lg:w-full min-w-34 object-cover object-top"
+                      />
+                    ) : (
+                      <Image
+                        src={"/unknown-user.jpg"}
+                        alt={teacher.name}
+                        width={136}
+                        height={100}
+                        className="rounded-md h-32 max-lg:h-64 max-lg:w-full min-w-34 object-cover object-top"
+                      />
+                    )}
 
                     <div>
                       <h3 className="font-semibold text-primary-500">
