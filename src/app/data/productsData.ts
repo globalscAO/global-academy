@@ -167,8 +167,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
   },
   {
     id: 7,
-    coverImg:
-      "https://global-services-corporation.github.io/images/academy/gestao-de-pessoas.jpg",
+    coverImg: "/g-sinistros.jpg",
     title: "Gestão de Sinistros - Acidentes de Trabalho",
     workload: "30h",
     recipients: `
@@ -219,7 +218,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
       {
         id: 1,
         imgUrl: "",
-        name: "Fernando Palma",
+        name: "Esmael Canjamba",
         description: "",
       },
     ],
