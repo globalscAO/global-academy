@@ -169,7 +169,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     id: 7,
     coverImg: "/g-sinistros.jpg",
     title: "Gestão de Sinistros - Acidentes de Trabalho",
-    workload: "30h",
+    workload: "4h",
     recipients: `
       Profissionais de
       Seguros, Gestores de Recursos
@@ -203,8 +203,8 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     modelos mais recentes em áreas chaves
     da gestão de seguros.
     `,
-    time: `Sete dias de formação completos
-    e intensivos em Luanda em academias
+    time: `Um dia de formação completo
+    e intensivo em Luanda em academia
     de topo e num ambiente multicultural.`,
     focus: `capacitar os participantes com
     conhecimentos e habilidades essenciais
@@ -217,14 +217,14 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     teaching: [
       {
         id: 1,
-        imgUrl: "",
+        imgUrl: "/esmael.png",
         name: "Esmael Canjamba",
-        description: "",
+        description: `Com mais de 8 anos de experiência no setor segurador, Esmael Canjamba é mediador de seguros autorizado pela ASF (Autoridade de Supervisão de Seguros e Fundos de Pensões). Ao longo da sua carreira, tem-se especializado na consultoria e mediação de seguros nos ramos Vida e Não-Vida, com foco em soluções personalizadas para clientes particulares e empresariais.`,
       },
     ],
     certificateImgUrls: "/inefop.png",
     startDate: "21 de Abril de 2025",
-    locale: "Centro de Formação Jornalístico",
+    locale: "Academia Moyo Kiame",
     description: `
     Este curso tem como objetivo fornecer
     aos participantes os conhecimentos
