@@ -1,5 +1,15 @@
 export const iniciativesData = [
   {
+    id: 5,
+    name: "Gestão de Sinistros - Acidentes de Trabalho",
+    description: `A Global Academy dentro do seu plano de acção formativa realizou ontem segunda-feira 21 de abril, a formação em gestão de sinistros. A presente teve como objetivo capacitar os participantes em matéria de Gestão de Sinistros, com ênfase em Acidentes de Trabalho.
+A formação decorreu de forma satisfatória, com uma elevada participação e envolvimento dos formandos. Os participantes puderam interagir de forma direta
+com os formadores Esmael Kanjaba e Edson Kachivela, contribuindo para um
+ambiente dinâmico e participativo.`,
+    coverImgUrl:
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/1.jpeg",
+  },
+  {
     id: 1,
     name: "Business After Work",
     description: `O Business After Work é um encontro exclusivo de networking promovido pela Global Services Corporation, projetado para conectar líderes, executivos e empreendedores em um ambiente sofisticado e descontraído.

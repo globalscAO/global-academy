@@ -165,98 +165,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     recipients: `São gestores, técnicos de SHST e funcionários seniores que no âmbito geral o qual tenham desenvolvido as suas actividades simultaneamente nas zonas de operações da empresa. (Directores, Gestores, Supervisores, Técnicos, Mecânicos, Operadores de Máquinas), etc.
 `,
   },
-  {
-    id: 7,
-    coverImg: "/g-sinistros.jpg",
-    title: "Gestão de Sinistros - Acidentes de Trabalho",
-    workload: "4h",
-    recipients: `
-      Profissionais de
-      Seguros, Gestores de Recursos
-      Humanos, Advogados, Consultores de
-      Segurança no Trabalho, Empresários e
-      Gestores.
-      `,
-    certificate: "INEFOP",
-    modality: "Presencial e Online",
-    country: "Angola",
-    modules: [
-      `Introdução à Gestão de Sinistros.`,
-      `Legislação de Acidentes de Trabalho.`,
-      `Análise de Riscos.`,
-      `Prevenção de Acidentes`,
-      `Investigação de Acidentes`,
-      `Apoio ao Trabalhador Acidentado`,
-      `Gestão de Documentação e Relatórios`,
-      `Estudo de Casos Práticos.`,
-    ],
-    debate: `Tomar conhecimento dos
-    principais conceitos em acidentes de
-    trabalho. Consolidar os conhecimentos técnicos
-    essenciais à tramitação do processo de
-    sinistro e acidentes de Trabalho.`,
-    exhibition: `Gestores de seguro,
-    Gestores de Recursos Humanos,
-    Advogados, Consultores de Segurança
-    no Trabalho, Empresários e Gestores.`,
-    revaluation: `Revisão dos conceitos e
-    modelos mais recentes em áreas chaves
-    da gestão de seguros.
-    `,
-    time: `Um dia de formação completo
-    e intensivo em Luanda em academia
-    de topo e num ambiente multicultural.`,
-    focus: `capacitar os participantes com
-    conhecimentos e habilidades essenciais
-    para lidar com sinistros de acidentes de
-    trabalho de maneira eficaz.
-    `,
-    understanding: `Compreensão dos
-    temas de Gestão de Sinistros e
-    Acidentes de trabalho.`,
-    teaching: [
-      {
-        id: 1,
-        imgUrl: "/esmael.png",
-        name: "Esmael Canjamba",
-        description: `Com mais de 8 anos de experiência no setor segurador, Esmael Canjamba é mediador de seguros autorizado pela ASF (Autoridade de Supervisão de Seguros e Fundos de Pensões). Ao longo da sua carreira, tem-se especializado na consultoria e mediação de seguros nos ramos Vida e Não-Vida, com foco em soluções personalizadas para clientes particulares e empresariais.`,
-      },
-    ],
-    certificateImgUrls: "/inefop.png",
-    startDate: "21 de Abril de 2025",
-    locale: "Academia Moyo Kiame",
-    description: `
-    Este curso tem como objetivo fornecer
-    aos participantes os conhecimentos
-    essenciais para iniciar, gerenciar e
-    agilizar os processos de acionamento de
-    sinistros no âmbito dos seguros de
-    Acidentes de Trabalho.
-    Reconhecer a importância da Gestão de
-    Sinistros na resolução de divergências
-    entre segurados e Companhias de
-    Seguros envolvidas, identificando suas
-    principais características e objetivos. A
-    resolução eficaz de um sinistro pode
-    melhorar significativamente os custos e
-    o tempo despendido, evitando o
-    agravamento de prêmios ou custos
-    adicionais para ambas as partes.
-    No final deste curso, espera-se que os
-    participantes sejam capazes de
-    enumerar as características de um
-    sinistro no âmbito de acidentes de
-    trabalho, conhecer a legislação aplicável
-    ao ramo de seguros de acidentes de
-    trabalho, atribuir as funções pertinentes
-    a cada um dos intervenientes num
-    processo de sinistro, analisar e organizar
-    os processos de sinistros, e elaborar
-    propostas de melhoria para os serviços
-    do departamento de sinistros.
-    `,
-    language: "Português",
-  } /* 
+  /*
   {
     id: 9,
     coverImg:
@@ -298,5 +207,5 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     locale: "Luanda",
     description: `Este curso aborda a transformação digital e o impacto da inteligência artificial nas empresas. Você aprenderá como implementar tecnologias inovadoras para otimizar processos e criar um ambiente digital que favoreça a inovação e o crescimento sustentável.`,
     language: "Português",
-  }, */,
+  }, */
 ];

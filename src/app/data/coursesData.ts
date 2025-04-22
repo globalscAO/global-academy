@@ -11,9 +11,5 @@ export const coursesData: CoursesInterface[] = [
     name: "Higiene, Segurança e Saúde no Trabalho",
     type: "Formação Executiva",
   },
-  {
-    id: 3,
-    name: "Gestão de Sinistros - Acidentes de Trabalho",
-    type: "Formação Executiva",
-  },
+ 
 ];
