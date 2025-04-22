@@ -39,7 +39,7 @@ export default function ProductsCaroussel({
             slidesPerView: 2,
           },
           1136: {
-            slidesPerView: 3,
+            slidesPerView: 1,
           },
         }}
         modules={[Navigation, Autoplay]}>
