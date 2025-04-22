@@ -2,7 +2,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import Product from "./ProductCard";
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
@@ -20,11 +20,15 @@ export default function ProductsCaroussel({
         <IoIosArrowDropleftCircle className="text-4xl" />
       </button>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={15}
         navigation={{
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
         }}
         speed={1000}
         breakpoints={{
@@ -38,7 +42,7 @@ export default function ProductsCaroussel({
             slidesPerView: 3,
           },
         }}
-        modules={[Navigation]}>
+        modules={[Navigation, Autoplay]}>
         {productsData.map((product, index) => (
           <SwiperSlide
             key={index}

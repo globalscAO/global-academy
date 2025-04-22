@@ -33,12 +33,10 @@ export default function Page({
     );
   }
 
-  // Filtrar a iniciativa atual
   const outrasIniciativas = iniciativesData.filter(
     (item) => item.id !== parseInt(iniciativeId)
   );
 
-  // Escolher uma iniciativa aleatória
   const iniciativaAleatoria =
     outrasIniciativas.length > 0
       ? outrasIniciativas[Math.floor(Math.random() * outrasIniciativas.length)]
