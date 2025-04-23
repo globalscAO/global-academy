@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { LuSendHorizontal } from "react-icons/lu";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -33,6 +34,22 @@ export default function Footer() {
             </Link>
           </li>
 
+          <li className="flex flex-col gap-3.5 lg:py-11">
+            <h2 className="font-semibold">Mídias Sociais</h2>
+
+            <div className="flex gap-4 items-center">
+              <Link href={"tel:+244222731031"}>
+                <Facebook />
+              </Link>
+              <Link href={"https://www.instagram.com/globalacademy025"}>
+                <Instagram />
+              </Link>
+              <Link href={"https://www.linkedin.com/company/globalsc-academy/"}>
+                <Linkedin />
+              </Link>
+            </div>
+          </li>
+
           <li className="flex flex-col gap-3.5 lg:py-11 max-lg:w-full w-63.25">
             <h2 className="font-semibold">Newsletter</h2>
 
@@ -46,6 +63,7 @@ export default function Footer() {
                 className="w-full outline-none px-4 py-2 placeholder:text-gray-400 text-black"
                 placeholder="Insira o seu email"
               />
+
               <button
                 type="submit"
                 className="bg-primary text-white px-4 py-2 rounded-r-md">
@@ -53,6 +71,7 @@ export default function Footer() {
               </button>
             </form>
           </li>
+          
         </ul>
 
         <p className="text-sm max-lg:text-xs">
