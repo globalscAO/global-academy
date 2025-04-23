@@ -49,7 +49,7 @@ export default function Page({
 
   return (
     <section className="flex flex-col justify-center items-center">
-      <div className="w-full bg-black">
+      <div className="w-full bg-black h-125">
         <Swiper
           slidesPerView={1}
           navigation={{
@@ -74,8 +74,8 @@ export default function Page({
                   src={iniciative}
                   alt={iniciative}
                   width={1000}
-                  height={500}
-                  className="w-full object-cover h-100 object-top"
+                  height={540}
+                  className="w-full object-cover h-135 object-top"
                 />
               </SwiperSlide>
             ))}
