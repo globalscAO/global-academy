@@ -49,7 +49,7 @@ export default function Page({
 
   return (
     <section className="flex flex-col justify-center items-center">
-      <div className="w-full bg-black h-125">
+      <div className="w-full h-135 max-lg:h-80">
         <Swiper
           slidesPerView={1}
           navigation={{
@@ -63,7 +63,7 @@ export default function Page({
           speed={1000}
           loop
           modules={[Navigation, Autoplay]}
-          className="w-full max-w-5xl"
+          className="w-full h-full"
           >
           {iniciative.images &&
             iniciative.images.map((iniciative, index) => (
@@ -75,7 +75,7 @@ export default function Page({
                   alt={iniciative}
                   width={1000}
                   height={540}
-                  className="w-full object-cover h-135 object-top"
+                  className="w-full object-cover max-lg:object-left h-full object-top"
                 />
               </SwiperSlide>
             ))}
