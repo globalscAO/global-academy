@@ -74,7 +74,7 @@ export default function Page({
                   src={iniciative}
                   alt={iniciative}
                   width={1000}
-                  height={350}
+                  height={500}
                   className="w-full object-cover h-100 object-top"
                 />
               </SwiperSlide>
