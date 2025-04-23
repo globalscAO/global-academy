@@ -1,8 +1,13 @@
+"use client"
+
 import { iniciativesData } from "@/app/data/iniciativesData";
 import { Skeleton } from "@mui/material";
 import Image from "next/image";
 import { use } from "react";
 import IniciativeCard from "../components/IniciativeCard";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
+import "swiper/css";
 
 export default function Page({
   params,
@@ -44,14 +49,37 @@ export default function Page({
 
   return (
     <section className="flex flex-col justify-center items-center">
-      <div className="w-full">
-        <Image
-          src={iniciative?.coverImgUrl}
-          alt={iniciative.name}
-          width={1000}
-          height={350}
-          className="w-full object-cover  h-100 object-top"
-        />
+      <div className="w-full bg-black">
+        <Swiper
+          slidesPerView={1}
+          navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          speed={1000}
+          loop
+          modules={[Navigation, Autoplay]}
+          className="w-full max-w-5xl"
+          >
+          {iniciative.images &&
+            iniciative.images.map((iniciative, index) => (
+              <SwiperSlide
+                key={index}
+                className="">
+                <Image
+                  src={iniciative}
+                  alt={iniciative}
+                  width={1000}
+                  height={350}
+                  className="w-full object-cover h-100 object-top"
+                />
+              </SwiperSlide>
+            ))}
+        </Swiper>
       </div>
 
       <div className="max-w-6xl w-full flex flex-col py-8 max-lg:p-6 gap-4 max-lg:gap-2">

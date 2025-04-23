@@ -8,6 +8,17 @@ com os formadores Esmael Kanjaba e Edson Kachivela, contribuindo para um
 ambiente dinâmico e participativo.`,
     coverImgUrl:
       "https://global-services-corporation.github.io/images/academy/gestao-sinistros/1.jpeg",
+      images: [
+        "https://global-services-corporation.github.io/images/academy/gestao-sinistros/1.jpeg",
+        "https://global-services-corporation.github.io/images/academy/gestao-sinistros/2.jpeg",
+        "https://global-services-corporation.github.io/images/academy/gestao-sinistros/3.jpeg",
+        "https://global-services-corporation.github.io/images/academy/gestao-sinistros/4.jpeg",
+        "https://global-services-corporation.github.io/images/academy/gestao-sinistros/5.jpeg",
+        "https://global-services-corporation.github.io/images/academy/gestao-sinistros/6.jpeg",
+        "https://global-services-corporation.github.io/images/academy/gestao-sinistros/7.jpeg",
+        "https://global-services-corporation.github.io/images/academy/gestao-sinistros/8.jpeg",
+        "https://global-services-corporation.github.io/images/academy/gestao-sinistros/9.jpeg",
+        "https://global-services-corporation.github.io/images/academy/gestao-sinistros/10.jpeg",]
   },
   {
     id: 1,
