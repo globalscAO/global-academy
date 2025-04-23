@@ -2,6 +2,7 @@ export interface ProductsInterface {
   id: number;
   title: string;
   debate?: string;
+  images?: string[];
   understanding?: string;
   focus?: string;
   exhibition?: string;

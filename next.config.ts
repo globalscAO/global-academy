@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
       {
         hostname: "www.fpb.pt",
       },
+      {
+        hostname: "img.freepik.com"
+      }
     ],
   },
 };

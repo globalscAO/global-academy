@@ -46,7 +46,7 @@ export default function AboutCourseModal({
             alt={"Course Cover"}
             width={400}
             height={400}
-            className="w-1/2 max-lg:w-full max-lg:max-h-44 object-cover rounded-l-md object-top"
+            className="w-1/2 max-lg:w-full max-lg:max-h-44 object-cover rounded-l-md object-left-top"
           />
           <div className="p-4 flex flex-col gap-4">
             <DialogHeader>

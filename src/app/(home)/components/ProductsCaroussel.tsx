@@ -19,8 +19,9 @@ export default function ProductsCaroussel({
       <button className="swiper-button-prev">
         <IoIosArrowDropleftCircle className="text-4xl" />
       </button>
+
       <Swiper
-        slidesPerView={1}
+        slidesPerView={3}
         spaceBetween={15}
         navigation={{
           nextEl: ".swiper-button-next",
@@ -39,7 +40,7 @@ export default function ProductsCaroussel({
             slidesPerView: 2,
           },
           1136: {
-            slidesPerView: 1,
+            slidesPerView: 3,
           },
         }}
         modules={[Navigation, Autoplay]}>
@@ -51,6 +52,7 @@ export default function ProductsCaroussel({
           </SwiperSlide>
         ))}
       </Swiper>
+
       <button className="swiper-button-next">
         <IoIosArrowDroprightCircle className="text-4xl" />
       </button>

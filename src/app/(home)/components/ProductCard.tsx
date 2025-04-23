@@ -35,7 +35,7 @@ export default function Product({
         alt={"/"}
         width={300}
         height={190}
-        className="rounded-t-xl w-full object-cover h-50"
+        className="rounded-t-xl w-full object-cover object-left-top h-50"
       />
 
       <div className="bg-secondary px-6 py-4 flex flex-col gap-3 rounded-b-xl w-full text-left h-56 justify-between">
@@ -51,11 +51,6 @@ export default function Product({
           </p>
         </div>
 
-        {/*<button
-          onClick={onclick}
-          className="primary-btn py-2 px-4 rounded-md">
-          Saber mais
-        </button>*/}
         <AboutCourseModal
           id={id}
           title={title}

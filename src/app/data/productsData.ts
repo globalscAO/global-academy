@@ -4,9 +4,71 @@ export const productsData: ProductsInterface[] = [
   {
     id: 1,
     coverImg:
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/2.jpeg",
+    title: "GESTÃO DE SINISTRO (ACIDENTES DE TRABALHO)",
+    workload: "30h",
+    images: [
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/1.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/2.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/3.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/4.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/5.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/6.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/7.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/8.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/9.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/10.jpeg",
+    ],
+    debate: `Tomar conhecimento dos principais conceitos em acidentes de trabalho.
+Consolidar os conhecimentos técnicos essenciais à tramitação do processo de sinistro e acidentes de Trabalho.`,
+    exhibition: `Gestores de seguro, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.
+REVALUATION – revisão dos conceitos e modelos mais recentes em áreas chaves da gestão de seguros.`,
+    focus: `Capacitar os participantes com conhecimentos e habilidades essenciais para lidar com sinistros de acidentes de trabalho de maneira eficaz.`,
+    revaluation: `Reavaliação dos conceitos organizacionais de uma empresa.`,
+    time: `Sete dias de formação completos e intensivos em Luanda em academias de topo e num ambiente multicultural.`,
+    understanding: `Compreensão dos temas de Gestão de Sinistros e Acidentes de trabalho.`,
+    teaching: [
+      {
+        id: 1,
+        description:
+          "Com mais de 8 anos de experiência no setor segurador, Esmael Canjamba é mediador de seguros autorizado pela ASF (Autoridade de Supervisão de Seguros e Fundos de Pensões). ",
+        imgUrl: "/esmael.png",
+        name: "Esmael Canjamba",
+      },
+    ],
+    certificate: "INEFOP",
+    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
+Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
+    modality: "Presencial e online",
+    country: "Angola",
+    startDate: "21 de Abril de 2025",
+    locale: "Luanda",
+    description: `Este curso tem como objetivo fornecer aos participantes os conhecimentos essenciais para iniciar, gerenciar e agilizar os processos de acionamento de sinistros no âmbito dos seguros de Acidentes de Trabalho.
+Reconhecer a importância da Gestão de Sinistros na resolução de divergências entre segurados e Companhias de Seguros envolvidas, identificando suas principais características e objetivos. A resolução eficaz de um sinistro pode melhorar significativamente os custos e o tempo despendido, evitando o agravamento de prêmios ou custos adicionais para ambas as partes.
+No final deste curso, espera-se que os participantes sejam capazes de enumerar as características de um sinistro no âmbito de acidentes de trabalho, conhecer a legislação aplicável ao ramo de seguros de acidentes de trabalho, atribuir as funções pertinentes a cada um dos intervenientes num processo de sinistro, analisar e organizar os processos de sinistros, e elaborar propostas de melhoria para os serviços do departamento de sinistros.`,
+    language: "Português",
+    certificateImgUrls: "/inefop.png",
+    modules: [
+      "Introdução à Gestão de Sinistros.",
+      "Legislação de Acidentes de Trabalho.",
+      `Análise de Riscos.`,
+      `Prevenção de Acidentes.`,
+      "Investigação de Acidentes.",
+      `Apoio ao Trabalhador Acidentado.`,
+      `Gestão de Documentação e Relatórios.`,
+      `Estudo de Casos Práticos.`,
+    ],
+    recipients: `São Profissionais de Seguros, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.`,
+  },
+  {
+    id: 2,
+    coverImg:
       "https://global-services-corporation.github.io/images/academy/gestao-estrategica.jpg",
     title: "Gestão Estratégica de Organizações",
     workload: "30h",
+    images: [
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica.jpg",
+    ],
     debate: `Como desenvolver líderes empresariais com uma visão global e sistêmica das atividades empresariais.`,
     exhibition: `Representantes dos mais altos níveis da gestão, incluindo PCAs, PCEs e Administradores de empresas.`,
     focus: `Análise do Cenários Econômicos e Tendências múndias, do ponto de vista de Liderança e Gestão de Pessoas em Ambientes Competitivos.`,
@@ -29,6 +91,30 @@ export const productsData: ProductsInterface[] = [
           "É um político português e antigo governante do Partido Social Democrata. Foi deputado durante mais de 20 anos, desempenhou funções de Secretário de Estado da Administração Local durante o XV Governo. É licenciado em Ciência Política e Relações Internacionais pela Universidade Lusófona. ",
         imgUrl:
           "https://www.fpb.pt/wp-content/uploads/2012/02/29757543842742240568.jpg",
+      },
+      {
+        id: 3,
+        name: "PEDRO COELHO",
+        description: "",
+        imgUrl: "/pedro-coelho.jpeg",
+      },
+      {
+        id: 4,
+        name: "PEDRO SIZA",
+        description: "",
+        imgUrl: "/pedro-siza.jpeg",
+      },
+      {
+        id: 5,
+        name: "NJ AYUK",
+        description: "",
+        imgUrl: "/nj-ayuk.jpg",
+      },
+      {
+        id: 6,
+        name: "Anabela Chastre",
+        description: "",
+        imgUrl: "/anabela-chastre.jpeg",
       },
     ],
     certificate: "INEFOP",
@@ -55,66 +141,8 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     recipients: `O Programa Executivo Master foi criado para oferecer suporte aos Líderes Top 20 do Mercado Angolano, de modo que mantenham suas organizações competitivas em seus respectivos segmentos de negócios. Baseia-se na experiência dos seus promotores e oradores e foi desenhado como uma ferramenta de troca de experiências e intercâmbio, permitindo que os líderes compartilhem aprendizado entre si.
     São elegíveis para participar empresários, executivos, consultores, professores universitários e todos os interessados que atendam aos requisitos.`,
   },
-  /* 
-  {
-    id: 2,
-    coverImg:
-      "https://global-services-corporation.github.io/images/academy/financa-corporativa.jpg",
-    title: "Programa Executivo sobre Finança Corporativa",
-    workload: "30h",
-    certificate: "INEFOP",
-    modality: "Presencial",
-    country: "Angola",
-    startDate: "16 de Março de 2026",
-    locale: "Luanda",
-    description: `Este programa executivo oferece uma compreensão profunda da gestão financeira corporativa, abordando temas como análise de investimentos, avaliação de empresas e estrutura de capital. Destinado a líderes que buscam maximizar o valor da empresa através de práticas financeiras eficazes.`,
-    language: "Português",
-  }, 
   {
     id: 3,
-    coverImg:
-      "https://global-services-corporation.github.io/images/academy/lideranca-executiva.jpg",
-    title: "Liderança Executiva",
-    workload: "15h",
-    certificate: "INEFOP",
-    modality: "Presencial",
-    country: "Angola",
-    startDate: "16 de Março de 2026",
-    locale: "Luanda",
-    description: `O curso de Liderança Executiva proporciona as habilidades necessárias para liderar equipes de alta performance, com foco em comunicação eficaz, tomada de decisões e gestão de mudanças organizacionais. Ideal para líderes que querem melhorar sua capacidade de liderar em tempos de transformação.`,
-    language: "Português",
-  },
-  {
-    id: 4,
-    coverImg:
-      "https://global-services-corporation.github.io/images/academy/inteligencia-emocional-empatia.jpg",
-    title: "Inteligência Emocional e Empatia",
-    workload: "15h",
-    certificate: "INEFOP",
-    modality: "Presencial",
-    country: "Angola",
-    startDate: "16 de Março de 2026",
-    locale: "Luanda",
-    description: `Neste curso, você aprenderá a importância da inteligência emocional na gestão de equipes e relações profissionais. Desenvolver empatia e habilidades interpessoais é fundamental para criar um ambiente de trabalho harmonioso e produtivo.`,
-    language: "Português",
-  },
-  {
-    id: 5,
-    coverImg:
-      "https://global-services-corporation.github.io/images/academy/coaching-mentoria.jpg",
-    title: "Coaching e Mentoria",
-    workload: "10h",
-    certificate: "INEFOP",
-    modality: "Presencial",
-    country: "Angola",
-    startDate: "16 de Março de 2026",
-    locale: "Luanda",
-    description: `Este programa visa desenvolver competências de coaching e mentoria para apoiar o crescimento profissional de indivíduos e equipes. Você aprenderá como ajudar outros a alcançar seu pleno potencial e superar desafios no ambiente corporativo.`,
-    language: "Português",
-  },
-*/
-  {
-    id: 6,
     debate: `Como aprimorar as condições de higiene e segurança no trabalho para fomentar uma
     cultura de prevenção que promova a melhoria qualitativa das condições de trabalho em
     geral e o cumprimento da legislação nacional.`,
@@ -125,6 +153,9 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     melhores Academia de formação do pais.`,
     understanding: `Compreensão geral do Cenários de prevenção e de protecção contra riscos profissionais,
     no âmbito das acções consagradas na lei.`,
+    images: [
+      "https://global-services-corporation.github.io/images/academy/higiene-seguranca.jpg",
+    ],
     teaching: [
       {
         id: 1,
@@ -165,47 +196,50 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     recipients: `São gestores, técnicos de SHST e funcionários seniores que no âmbito geral o qual tenham desenvolvido as suas actividades simultaneamente nas zonas de operações da empresa. (Directores, Gestores, Supervisores, Técnicos, Mecânicos, Operadores de Máquinas), etc.
 `,
   },
-  /*
   {
-    id: 9,
+    id: 4,
     coverImg:
-      "https://global-services-corporation.github.io/images/academy/liderando-equipes-hibridas.jpg",
-    title: "Masterclass Avançada - Liderando Equipes Híbridas",
-    workload: "22h",
+      "https://img.freepik.com/free-photo/customer-service-representative_23-2151933130.jpg?t=st=1745418867~exp=1745422467~hmac=c05dc6725c683ec0d409ab22dc0f6cd47d6c7f88ba7a1eedefa7c09a9c7c170d&w=1380",
+    title: "PROGRAMA DE FORMAÇÃO DE ATENDIMENTO AO CLIENTE",
+    workload: "30h",
+    images: [
+      "https://img.freepik.com/free-photo/customer-service-representative_23-2151933130.jpg?t=st=1745418867~exp=1745422467~hmac=c05dc6725c683ec0d409ab22dc0f6cd47d6c7f88ba7a1eedefa7c09a9c7c170d&w=1380",
+    ],
+    debate: `Desenvolvimento de habilidades interpessoais, maior confiança e autonomia, valorização profissional, capacidade de fidelizar clientes.`,
+    exhibition: `Conteúdos teóricos e práticos com foco no desenvolvimento de competências essenciais para um atendimento de qualidade.`,
+    focus: `Desenvolver competências práticas e comportamentais que permitam ao profissional oferecer um atendimento de qualidade, promovendo a satisfação, fidelização e confiança do cliente.`,
+    revaluation: `Revisão geral dos conteúdos abordados.`,
+    time: `Sete dias de formação completos e intensivos em Luanda em academias de topo e num ambiente multicultural.`,
+    understanding: `Compreensão dos temas de Gestão de Sinistros e Acidentes de trabalho.`,
+    teaching: [
+      {
+        id: 1,
+        description:
+          "",
+        imgUrl: "",
+        name: "Débora Ringler",
+      },
+    ],
     certificate: "INEFOP",
-    modality: "Presencial",
+    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
+Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
+    modality: "Presencial e online",
     country: "Angola",
-    startDate: "16 de Março de 2026",
+    startDate: "21 de Abril de 2025",
     locale: "Luanda",
-    description: `Esta masterclass aborda os desafios e as melhores práticas para liderar equipes híbridas, combinando membros presenciais e remotos. Você aprenderá a adaptar sua liderança a diferentes contextos de trabalho, garantindo a produtividade e o engajamento de todos os membros.`,
+    description: `A formação de Atendimento ao cliente tem como missão capacitar os participantes com conhecimentos, técnicas e atitudes fundamentais para realizar um atendimento eficaz, humanizado e orientado à satisfação do cliente, contribuindo para a construção de relações duradouras, a reputação da empresa e o crescimento organizacional.
+Esta formação tem como objetivos específicos, desenvolver habilidades de comunicação verbal e não-verbal, ensinar técnicas para lidar com reclamações e conflitos, fortalecer a empatia e a escuta ativa, promover uma postura profissional e ética e estimular a cultura de excelência no atendimento.
+Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de atendimento ao cliente, recepção, vendas, call centers, SAC (Serviço de Atendimento ao Consumidor), e outros setores que exigem contato direto com o público.`,
     language: "Português",
+    certificateImgUrls: "/inefop.png",
+    modules: [
+      "A Importância do Atendimento ao Cliente.",
+      "Comunicação Eficaz.",
+      `Tipos de Atendimento.`,
+      `Prevenção de Acidentes.`,
+      "Gestão de Reclamações e Situações Difíceis.",
+      `Excelência e Fidelização.`,
+    ],
+    recipients: `São Profissionais de Seguros, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.`,
   },
-  {
-    id: 10,
-    coverImg:
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica.jpg",
-    title: "Masterclass Avançada- Gestão Estratégica de Marketing",
-    workload: "10h",
-    certificate: "INEFOP",
-    modality: "Presencial",
-    country: "Angola",
-    startDate: "16 de Março de 2026",
-    locale: "Luanda",
-    description: `Esta masterclass oferece uma visão aprofundada da gestão estratégica de marketing, abordando temas como segmentação de mercado, branding e estratégias digitais. Ideal para profissionais que buscam impulsionar a marca e alcançar resultados eficazes através do marketing.`,
-    language: "Português",
-  },
-  {
-    id: 11,
-    coverImg:
-      "https://global-services-corporation.github.io/images/academy/transformacao-digital.jpg",
-    title: "Liderar a Transformação Digital e IA",
-    workload: "12h",
-    certificate: "INEFOP",
-    modality: "Presencial",
-    country: "Angola",
-    startDate: "16 de Março de 2026",
-    locale: "Luanda",
-    description: `Este curso aborda a transformação digital e o impacto da inteligência artificial nas empresas. Você aprenderá como implementar tecnologias inovadoras para otimizar processos e criar um ambiente digital que favoreça a inovação e o crescimento sustentável.`,
-    language: "Português",
-  }, */
 ];

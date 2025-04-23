@@ -15,7 +15,7 @@ export default function CertifiedTraining() {
             oferece cursos exclusivos para capacitação de líderes e
             profissionais que buscam excelência no mercado.{" "}
           </p>
-          <h2 className="font-semibold">Somos certficados por:</h2>
+          <h2 className="font-semibold">Somos certificados por:</h2>
           <Image
             src={"/inefop.png"}
             alt={""}

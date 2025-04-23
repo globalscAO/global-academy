@@ -10,6 +10,7 @@ import { IoTimeOutline } from "react-icons/io5";
 import { MdClass, MdOutlinePlace } from "react-icons/md";
 import { TbCertificate } from "react-icons/tb";
 import Link from "next/link";
+import SwiperComponent from "@/app/(home)/components/Swiper";
 
 export default function AboutCourse({
   params,
@@ -27,11 +28,9 @@ export default function AboutCourse({
     <section className="flex flex-col justify-center items-center lg:py-8 pb-8">
       <div className="max-w-6xl flex flex-col w-full lg:gap-4">
         <div
-          style={{
-            backgroundImage: `url(${course?.coverImg})`,
-          }}
-          className={`w-full h-96 bg-cover max-lg:bg-center rounded-md`}>
-          <div className="w-1/2 max-lg:w-full h-full lg:rounded-r-[100px] lg:rounded-l-md bg-primary/50 backdrop-blur-xs flex flex-col p-12 gap-4 text-white justify-center">
+          className={`w-full relative h-120 bg-cover max-lg:bg-center rounded-md`}>
+          {course?.images && <SwiperComponent images={course.images} />}
+          <div className="w-1/2 z-30 absolute left-0 top-0 max-lg:w-full h-full lg:rounded-r-[100px] lg:rounded-l-md bg-primary/50 backdrop-blur-xs flex flex-col p-12 gap-4 text-white justify-center">
             <div>
               <p className="max-lg:text-sm">FORMAÇÃO EXECUTIVA</p>
               <h1 className="text-3xl max-lg:text-xl font-bold">
@@ -51,7 +50,6 @@ export default function AboutCourse({
             </div>
           </div>
         </div>
-
         <div className="w-full flex justify-between gap-12 max-lg:flex-col-reverse">
           <div className="lg:w-2/3 w-full flex flex-col gap-4 max-lg:px-8">
             <div className="flex flex-col w-full gap-2 max-lg:items-center max-lg:gap-4">
