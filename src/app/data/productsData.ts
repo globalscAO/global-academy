@@ -214,8 +214,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     teaching: [
       {
         id: 1,
-        description:
-          "",
+        description: "",
         imgUrl: "",
         name: "Débora Ringler",
       },
@@ -241,5 +240,105 @@ Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de aten
       `Excelência e Fidelização.`,
     ],
     recipients: `São Profissionais de Seguros, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.`,
+  },
+  {
+    id: 5,
+    coverImg:
+      "https://img.freepik.com/free-photo/black-businessman-using-computer-laptop_53876-14801.jpg?t=st=1745502850~exp=1745506450~hmac=d2fa9c0a5ec8af68c4449cb42886ce87a75f19646b237c8255da47729fb38e52&w=1380",
+    title: "PROGRAMA DE FORMAÇÃO DE GESTÃO FINANCEIRA",
+    workload: "30h",
+    images: [
+      "https://img.freepik.com/free-photo/black-businessman-using-computer-laptop_53876-14801.jpg?t=st=1745502850~exp=1745506450~hmac=d2fa9c0a5ec8af68c4449cb42886ce87a75f19646b237c8255da47729fb38e52&w=1380",
+    ],
+    debate: `Estratégicos e reflexivos
+sobre os principais desafios e decisões
+relacionadas à gestão financeira.`,
+    exhibition: `Conceitos
+Fundamentais, Planejamento Financeiro,
+Fluxo de Caixa, análise Financeira,
+custos e Precificação, capital de Giro,
+fontes de Financiamento, finanças
+Pessoais (opcional ou complementar.`,
+    focus: `Desenvolver competências
+práticas para planejar, organizar,
+controlar e analisar as finanças, tanto em
+ambientes empresariais quanto na vida
+pessoal, permitindo uma gestão
+eficiente, estratégica e sustentável dos
+recursos financeiros.
+`,
+    revaluation: `Revisados conceitos
+essenciais e conhecimentos práticos que
+servem como base para uma boa gestão
+financeira. `,
+    time: `Sete dias de formação completos e intensivos em Luanda em academias de topo e num ambiente multicultural.`,
+    understanding: `Os participantes
+irão compreender os fundamentos,
+ferramentas e práticas essenciais da
+gestão financeira, tanto no contexto
+empresarial quanto pessoal.`,
+    teaching: [
+      {
+        id: 1,
+        description: "",
+        imgUrl: "",
+        name: "Brevemente",
+      },
+    ],
+    certificate: "INEFOP",
+    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
+Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
+    modality: "Presencial e online",
+    country: "Angola",
+    startDate: "21 de Abril de 2025",
+    locale: "Academia BAI",
+    description: `Este curso tem como objetivo capacitar
+os participantes a planejar, organizar e
+controlar os recursos financeiros de
+forma estratégica e eficiente,
+promovendo uma gestão responsável e
+sustentável, tanto no âmbito empresarial
+quanto pessoal. A formação tem como objetivo
+especifico ensinar os princípios
+fundamentais da gestão financeira,
+capacitar os participantes para elaborar e
+acompanhar o planejamento financeiro
+de uma empresa ou da vida pessoal,
+desenvolver a habilidade de controlar o
+fluxo de caixa, interpretar
+demonstrativos financeiros básicos,
+aplicar estratégias de precificação e
+controle de custos, analisar diferentes
+fontes de financiamento, promover o uso
+consciente e eficiente dos recursos
+financeiros e estimular a
+responsabilidade financeira.
+
+`,
+    language: "Português",
+    certificateImgUrls: "/inefop.png",
+    modules: [
+      `Introdução à Gestão
+Financeira.`,
+      `Planejamento Financeiro.`,
+      `Controle de Caixa e Fluxo
+de Caixa.`,
+      `Demonstrativos
+Financeiros.`,
+      `Gestão de Custos e
+Precificação.`,
+      `Capital de Giro e Gestão de
+Recursos`,
+      `Fontes de Financiamento.`,
+      `Finanças Pessoais
+(Opcional/Complementar)`,
+    ],
+    recipients: `Esta direcionada a empreendedores e
+gestores de pequenas/médias empresas,
+profissionais da área administrativa e
+financeira, estudantes e formandos em
+contabilidade, gestão ou economia,
+Pessoas interessadas em educação
+financeira pessoal.`,
   },
 ];
