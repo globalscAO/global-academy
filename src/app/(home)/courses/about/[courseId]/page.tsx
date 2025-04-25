@@ -210,6 +210,10 @@ export default function AboutCourse({
                 <TbCertificate /> Certificação:
                 <span className="font-normal">{course?.certificate}</span>{" "}
               </li>
+              <li className="font-semibold flex items-center gap-2 py-2">
+                <FiMapPin /> Status:{" "}
+                <span className="font-normal">{course?.status}</span>{" "}
+              </li>
 
               <Link
                 href={"/registration"}

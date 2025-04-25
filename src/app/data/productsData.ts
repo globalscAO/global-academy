@@ -6,7 +6,8 @@ export const productsData: ProductsInterface[] = [
     coverImg:
       "https://global-services-corporation.github.io/images/academy/gestao-sinistros/2.jpeg",
     title: "GESTÃO DE SINISTRO (ACIDENTES DE TRABALHO)",
-    workload: "30h",
+    workload: "Em breve",
+    status: "Em breve",
     images: [
       "https://global-services-corporation.github.io/images/academy/gestao-sinistros/1.jpeg",
       "https://global-services-corporation.github.io/images/academy/gestao-sinistros/2.jpeg",
@@ -65,7 +66,8 @@ No final deste curso, espera-se que os participantes sejam capazes de enumerar a
     coverImg:
       "https://global-services-corporation.github.io/images/academy/gestao-estrategica.jpg",
     title: "Gestão Estratégica de Organizações",
-    workload: "30h",
+    workload: "Em breve",
+    status: "Em breve",
     images: [
       "https://global-services-corporation.github.io/images/academy/gestao-estrategica.jpg",
     ],
@@ -201,7 +203,8 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     coverImg:
       "https://img.freepik.com/free-photo/customer-service-representative_23-2151933130.jpg?t=st=1745418867~exp=1745422467~hmac=c05dc6725c683ec0d409ab22dc0f6cd47d6c7f88ba7a1eedefa7c09a9c7c170d&w=1380",
     title: "PROGRAMA DE FORMAÇÃO DE ATENDIMENTO AO CLIENTE",
-    workload: "30h",
+    workload: "Em breve",
+    status: "Em breve",  
     images: [
       "https://img.freepik.com/free-photo/customer-service-representative_23-2151933130.jpg?t=st=1745418867~exp=1745422467~hmac=c05dc6725c683ec0d409ab22dc0f6cd47d6c7f88ba7a1eedefa7c09a9c7c170d&w=1380",
     ],
@@ -246,7 +249,8 @@ Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de aten
     coverImg:
       "https://img.freepik.com/free-photo/black-businessman-using-computer-laptop_53876-14801.jpg?t=st=1745502850~exp=1745506450~hmac=d2fa9c0a5ec8af68c4449cb42886ce87a75f19646b237c8255da47729fb38e52&w=1380",
     title: "PROGRAMA DE FORMAÇÃO DE GESTÃO FINANCEIRA",
-    workload: "30h",
+    workload: "Em breve",
+    status: "Em breve",
     images: [
       "https://img.freepik.com/free-photo/black-businessman-using-computer-laptop_53876-14801.jpg?t=st=1745502850~exp=1745506450~hmac=d2fa9c0a5ec8af68c4449cb42886ce87a75f19646b237c8255da47729fb38e52&w=1380",
     ],
@@ -309,7 +313,8 @@ Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de aten
     coverImg:
       "https://img.freepik.com/free-photo/african-entrepreneur-start-up-company-reading-charts-documents-paperwork-diverse-team-business-people-analyzing-company-financial-reports-from-computer-successful-corporate-professional-ent_482257-9319.jpg?t=st=1745575556~exp=1745579156~hmac=2bc476570c67f1af2a4ed9468692a5c23948481cbde622b0ec024864ed490f4a&w=1380",
     title: "PROGRAMA DE FORMAÇÃO DE TÉCNICAS DE VENDA",
-    workload: "30h",
+    workload: "Em breve",
+    status: "Em breve",
     images: [
       "https://img.freepik.com/free-photo/african-entrepreneur-start-up-company-reading-charts-documents-paperwork-diverse-team-business-people-analyzing-company-financial-reports-from-computer-successful-corporate-professional-ent_482257-9319.jpg?t=st=1745575556~exp=1745579156~hmac=2bc476570c67f1af2a4ed9468692a5c23948481cbde622b0ec024864ed490f4a&w=1380",
     ],

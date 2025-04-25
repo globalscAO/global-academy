@@ -3,6 +3,7 @@ export interface ProductsInterface {
   title: string;
   debate?: string;
   images?: string[];
+  status?: string;
   understanding?: string;
   focus?: string;
   exhibition?: string;
