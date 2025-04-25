@@ -250,33 +250,21 @@ Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de aten
     images: [
       "https://img.freepik.com/free-photo/black-businessman-using-computer-laptop_53876-14801.jpg?t=st=1745502850~exp=1745506450~hmac=d2fa9c0a5ec8af68c4449cb42886ce87a75f19646b237c8255da47729fb38e52&w=1380",
     ],
-    debate: `Estratégicos e reflexivos
-sobre os principais desafios e decisões
-relacionadas à gestão financeira.`,
-    exhibition: `Conceitos
-Fundamentais, Planejamento Financeiro,
-Fluxo de Caixa, análise Financeira,
-custos e Precificação, capital de Giro,
-fontes de Financiamento, finanças
-Pessoais (opcional ou complementar.`,
-    focus: `Desenvolver competências
-práticas para planejar, organizar,
-controlar e analisar as finanças, tanto em
-ambientes empresariais quanto na vida
-pessoal, permitindo uma gestão
-eficiente, estratégica e sustentável dos
-recursos financeiros.
-`,
-    revaluation: `Revisados conceitos
-essenciais e conhecimentos práticos que
-servem como base para uma boa gestão
-financeira. `,
+    debate: `Estratégicos e reflexivos sobre os principais desafios e decisões
+    relacionadas à gestão financeira.`,
+    exhibition: `Conceitos Fundamentais, Planejamento Financeiro,
+    fluxo de Caixa, análise financeira, custos e precificação, capital de giro,
+    fontes de Financiamento, finanças pessoais (opcional ou complementar).`,
+    focus: `Desenvolver competências práticas para planejar, organizar,
+    controlar e analisar as finanças, tanto em ambientes empresariais quanto na vida
+    pessoal, permitindo uma gestão eficiente, estratégica e sustentável dos
+    recursos financeiros.`,
+    revaluation: `Revisados conceitos essenciais e conhecimentos
+    práticos que servem como base para uma boa gestão
+    financeira.`,
     time: `Sete dias de formação completos e intensivos em Luanda em academias de topo e num ambiente multicultural.`,
-    understanding: `Os participantes
-irão compreender os fundamentos,
-ferramentas e práticas essenciais da
-gestão financeira, tanto no contexto
-empresarial quanto pessoal.`,
+    understanding: `Os participantes irão compreender os fundamentos, ferramentas e práticas essenciais da
+    gestão financeira, tanto no contexto empresarial quanto pessoal.`,
     teaching: [
       {
         id: 1,
@@ -286,59 +274,140 @@ empresarial quanto pessoal.`,
       },
     ],
     certificate: "INEFOP",
-    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
-Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
+    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização.
+    Estamos presentes em todo o território nacional. Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também,
+    se necessário, a formação adicional legalmente requerida.`,
     modality: "Presencial e online",
     country: "Angola",
     startDate: "21 de Abril de 2025",
     locale: "Academia BAI",
-    description: `Este curso tem como objetivo capacitar
-os participantes a planejar, organizar e
-controlar os recursos financeiros de
-forma estratégica e eficiente,
-promovendo uma gestão responsável e
-sustentável, tanto no âmbito empresarial
-quanto pessoal. A formação tem como objetivo
-especifico ensinar os princípios
-fundamentais da gestão financeira,
-capacitar os participantes para elaborar e
-acompanhar o planejamento financeiro
-de uma empresa ou da vida pessoal,
-desenvolver a habilidade de controlar o
-fluxo de caixa, interpretar
-demonstrativos financeiros básicos,
-aplicar estratégias de precificação e
-controle de custos, analisar diferentes
-fontes de financiamento, promover o uso
-consciente e eficiente dos recursos
-financeiros e estimular a
-responsabilidade financeira.
-
+    description: `Este curso tem como objetivo capacitar os participantes a planejar, organizar e controlar os recursos financeiros de
+    forma estratégica e eficiente, promovendo uma gestão responsável e sustentável, tanto no âmbito empresarial
+    quanto pessoal. A formação tem como objetivo especifico ensinar os princípios fundamentais da gestão financeira,
+    capacitar os participantes para elaborar e acompanhar o planejamento financeiro de uma empresa ou da vida pessoal, desenvolver a habilidade de controlar o
+    fluxo de caixa, interpretar demonstrativos financeiros básicos, aplicar estratégias de precificação e
+    controle de custos, analisar diferentes fontes de financiamento, promover o uso consciente e eficiente dos recursos
+    financeiros e estimular a responsabilidade financeira.`,
+    language: "Português",
+    certificateImgUrls: "/inefop.png",
+    modules: [
+      `Introdução à Gestão Financeira.`,
+      `Planejamento Financeiro.`,
+      `Controle de Caixa e Fluxo de Caixa.`,
+      `Demonstrativos Financeiros.`,
+      `Gestão de Custos e Precificação.`,
+      `Capital de Giro e Gestão de Recursos`,
+      `Fontes de Financiamento.`,
+      `Finanças Pessoais (Opcional/Complementar)`,
+    ],
+    recipients: `Está direcionada a empreendedores e gestores de pequenas/médias empresas,
+    profissionais da área administrativa e financeira, estudantes e formandos em
+    contabilidade, gestão ou economia, pessoas interessadas em educação financeira pessoal.`,
+  },
+  {
+    id: 6,
+    coverImg:
+      "https://img.freepik.com/free-photo/african-entrepreneur-start-up-company-reading-charts-documents-paperwork-diverse-team-business-people-analyzing-company-financial-reports-from-computer-successful-corporate-professional-ent_482257-9319.jpg?t=st=1745575556~exp=1745579156~hmac=2bc476570c67f1af2a4ed9468692a5c23948481cbde622b0ec024864ed490f4a&w=1380",
+    title: "PROGRAMA DE FORMAÇÃO DE TÉCNICAS DE VENDA",
+    workload: "30h",
+    images: [
+      "https://img.freepik.com/free-photo/african-entrepreneur-start-up-company-reading-charts-documents-paperwork-diverse-team-business-people-analyzing-company-financial-reports-from-computer-successful-corporate-professional-ent_482257-9319.jpg?t=st=1745575556~exp=1745579156~hmac=2bc476570c67f1af2a4ed9468692a5c23948481cbde622b0ec024864ed490f4a&w=1380",
+    ],
+    debate: `Serão debatidos temas
+como: a mudança do comportamento do
+consumidor, ética nas vendas,
+dificuldades reais enfrentadas no dia a
+dia dos vendedores, estratégias práticas
+que funcionam no mercado atual, casos
+reais de sucesso e fracasso em vendas e
+como se adaptar a diferentes perfis de
+cliente.`,
+    exhibition: `Serão abordados
+fundamentos da venda moderna, perfil
+do vendedor de sucesso, técnicas de
+abordagem ao cliente, comunicação
+eficaz e escuta ativa, argumentação e
+persuasão em vendas, negociação e
+fechamento de vendas, gestão de
+objeções e pós-venda e fidelização de
+clientes.`,
+    focus: `Capacitar o participante para
+vender com técnica, empatia e resultado,
+adaptando-se ao perfil do cliente,
+utilizando ferramentas práticas e
+aumentando a performance comercial.`,
+    revaluation: `Serão reforçadas as
+Principais técnicas de abordagem e
+fechamento, o passo a passo de uma
+venda bem estruturada, como contornar
+objeções, a importância do pós-venda.
+`,
+    time: `Sete dias de formação completos e intensivos em Luanda em academias de topo e num ambiente multicultural.`,
+    understanding: `O formando
+compreenderá como conduzir uma
+venda de forma eficaz, desde a
+abordagem inicial até o pós-venda,
+utilizando técnicas modernas de
+comunicação, argumentação,
+negociação e fidelização.
+Vai entender o comportamento do
+consumidor e como se posicionar de
+maneira confiante, ética e estratégica no
+processo de vendas.`,
+    teaching: [
+      {
+        id: 1,
+        description: "",
+        imgUrl: "",
+        name: "Brevemente",
+      },
+    ],
+    certificate: "INEFOP",
+    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização.
+    Estamos presentes em todo o território nacional. Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também,
+    se necessário, a formação adicional legalmente requerida.`,
+    modality: "Presencial e online",
+    country: "Angola",
+    startDate: "21 de Abril de 2025",
+    locale: "Academia BAI",
+    description: `A formação de técnicas de vendas tem
+como missão capacitar os participantes
+com conhecimentos práticos e
+estratégias modernas de vendas,
+desenvolvendo competências em
+comunicação, negociação e atendimento,
+com foco na excelência no
+relacionamento com o cliente e no
+aumento dos resultados comerciais de
+forma ética e sustentável.
+Esta formação tem como objetivos
+específicos, compreender o processo de
+vendas de forma estratégica, desenvolver
+habilidades de comunicação eficaz
+aplicar técnicas de negociação e
+fechamento de vendas identificar o perfil
+e as necessidades do cliente, contornar
+objeções e dificuldades no processo de
+venda fidelizar clientes por meio de um
+atendimento de excelência e pós-venda
+estruturado e estimular a autoconfiança,
+a motivação e o foco em resultados. 
 `,
     language: "Português",
     certificateImgUrls: "/inefop.png",
     modules: [
-      `Introdução à Gestão
-Financeira.`,
-      `Planejamento Financeiro.`,
-      `Controle de Caixa e Fluxo
-de Caixa.`,
-      `Demonstrativos
-Financeiros.`,
-      `Gestão de Custos e
-Precificação.`,
-      `Capital de Giro e Gestão de
-Recursos`,
-      `Fontes de Financiamento.`,
-      `Finanças Pessoais
-(Opcional/Complementar)`,
+      `Fundamentos da Venda.`,
+      `Conhecendo o Produto e o Cliente.`,
+      `Técnicas de Abordagem e Comunicação`,
+      `Técnicas de Apresentação e Argumentação.`,
+      `Negociação e Fechamento de Vendas`,
+      `Pós-Venda e Fidelização`,
     ],
-    recipients: `Esta direcionada a empreendedores e
-gestores de pequenas/médias empresas,
-profissionais da área administrativa e
-financeira, estudantes e formandos em
-contabilidade, gestão ou economia,
-Pessoas interessadas em educação
-financeira pessoal.`,
+    recipients: `Está direcionada a vendedores iniciantes
+ou experientes, comerciantes e
+empreendedores, profissionais de
+atendimento ou telemarketing,
+estudantes interessados em atuar na área
+comercial.`,
   },
 ];
