@@ -47,9 +47,8 @@ Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de 
       "https://global-services-corporation.github.io/images/mr-nov-2023/37.jpg",
       "https://global-services-corporation.github.io/images/mr-nov-2023/38.jpg",
       "https://global-services-corporation.github.io/images/mr-nov-2023/39.jpg",
-      "https://global-services-corporation.github.io/images/mr-nov-2023/40.jpg",
-      "https://global-services-corporation.github.io/images/mr-nov-2023/41.jpg",
-      "https://global-services-corporation.github.io/images/mr-nov-2023/42.jpg",
+      "https://global-services-corporation.github.io/images/mr-nov-2023/33.jpg",
+      "https://global-services-corporation.github.io/images/mr-nov-2023/32.jpg",
     ]
   },
   {
