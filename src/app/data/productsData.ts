@@ -42,7 +42,7 @@ REVALUATION – revisão dos conceitos e modelos mais recentes em áreas chaves 
 Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
     modality: "Presencial e online",
     country: "Angola",
-    startDate: "21 de Abril de 2025",
+    startDate: "Em breve",
     locale: "Luanda",
     description: `Este curso tem como objetivo fornecer aos participantes os conhecimentos essenciais para iniciar, gerenciar e agilizar os processos de acionamento de sinistros no âmbito dos seguros de Acidentes de Trabalho.
 Reconhecer a importância da Gestão de Sinistros na resolução de divergências entre segurados e Companhias de Seguros envolvidas, identificando suas principais características e objetivos. A resolução eficaz de um sinistro pode melhorar significativamente os custos e o tempo despendido, evitando o agravamento de prêmios ou custos adicionais para ambas as partes.
@@ -124,7 +124,7 @@ No final deste curso, espera-se que os participantes sejam capazes de enumerar a
 Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
     modality: "Presencial",
     country: "Angola",
-    startDate: "16 de Março de 2026",
+    startDate: "Em breve",
     locale: "Luanda",
     description: `A Gestão Estratégica é o processo de gerir todos os recursos de uma organização para alcançar objetivos e metas. Representa a forma de envolver todas as funções organizacionais de uma empresa com foco em ações estratégicas que percorrem toda a estrutura funcional, de modo a alcançar a maior racionalidade e eficácia possível, maximizar os resultados e tornar a empresa mais competitiva.
     Este programa é oferecido pela Global Academy. Foi concebido com um ciclo de sessões sobre temas da atualidade e de relevância para líderes de organizações governamentais e empresariais.
@@ -191,7 +191,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     certificate: "INEFOP",
     modality: "Presencial e Online",
     country: "Angola",
-    startDate: "16 de Março de 2026",
+    startDate: "Em breve",
     locale: "Luanda",
     description: `Higiene e segurança no trabalho referem-se às práticas e condições destinadas a assegurar a saúde e a integridade física dos trabalhadores no ambiente de trabalho. Essas práticas são divididas em duas categorias: Higiene no trabalho e Segurança no trabalho. Este curso tem como objetivo transmitir conhecimentos teóricos e práticos relacionados à SHST, permitindo aos participantes aprimorar suas habilidades como técnicos de SHST e melhorar as condições gerais de trabalho na empresa. Dessa forma, contribui para o desenvolvimento de uma cultura de prevenção que promove a melhoria qualitativa das condições de trabalho em geral e o cumprimento da legislação nacional. E tem como objetivo geral adquirir competências básicas na área de HST que permitam o desempenho de funções de prevenção e de protecção contra riscos profissionais, enquadramento jurídico da shst e conceitos fundamentais no âmbito das acções consagradas na lei. Nessa perspectiva serão valorizadas essencialmente as práticas preventivas e de autocuidado. Veremos diversos temas como acidente do trabalho, causas, inspeção, riscos ambientais, físicos, químicos, biológicos, ergonômicos e de acidente, doenças profissionais, Equipamentos de Proteção Individual – EPI, Comissão Interna de Prevenção de Acidentes – CIPA, técnicas de análise e avaliação de riscos, entre outros assuntos importantes no âmbito da segurança do trabalho. `,
     language: "Português",
@@ -227,7 +227,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
 Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
     modality: "Presencial e online",
     country: "Angola",
-    startDate: "21 de Abril de 2025",
+    startDate: "Em breve",
     locale: "Luanda",
     description: `A formação de Atendimento ao cliente tem como missão capacitar os participantes com conhecimentos, técnicas e atitudes fundamentais para realizar um atendimento eficaz, humanizado e orientado à satisfação do cliente, contribuindo para a construção de relações duradouras, a reputação da empresa e o crescimento organizacional.
 Esta formação tem como objetivos específicos, desenvolver habilidades de comunicação verbal e não-verbal, ensinar técnicas para lidar com reclamações e conflitos, fortalecer a empatia e a escuta ativa, promover uma postura profissional e ética e estimular a cultura de excelência no atendimento.
@@ -283,7 +283,7 @@ Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de aten
     se necessário, a formação adicional legalmente requerida.`,
     modality: "Presencial e online",
     country: "Angola",
-    startDate: "21 de Abril de 2025",
+    startDate: "Em breve",
     locale: "Academia BAI",
     description: `Este curso tem como objetivo capacitar os participantes a planejar, organizar e controlar os recursos financeiros de
     forma estratégica e eficiente, promovendo uma gestão responsável e sustentável, tanto no âmbito empresarial
@@ -373,7 +373,7 @@ processo de vendas.`,
     se necessário, a formação adicional legalmente requerida.`,
     modality: "Presencial e online",
     country: "Angola",
-    startDate: "21 de Abril de 2025",
+    startDate: "Em breve",
     locale: "Academia BAI",
     description: `A formação de técnicas de vendas tem
 como missão capacitar os participantes
