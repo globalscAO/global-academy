@@ -114,7 +114,7 @@ No final deste curso, espera-se que os participantes sejam capazes de enumerar a
       },
       {
         id: 6,
-        name: "Anabela Chastre",
+        name: "ANABELA CHASTRE",
         description: "",
         imgUrl: "/anabela-chastre.jpeg",
       },
@@ -204,7 +204,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
       "https://img.freepik.com/free-photo/customer-service-representative_23-2151933130.jpg?t=st=1745418867~exp=1745422467~hmac=c05dc6725c683ec0d409ab22dc0f6cd47d6c7f88ba7a1eedefa7c09a9c7c170d&w=1380",
     title: "PROGRAMA DE FORMAÇÃO DE ATENDIMENTO AO CLIENTE",
     workload: "Em breve",
-    status: "Em breve",  
+    status: "Em breve",
     images: [
       "https://img.freepik.com/free-photo/customer-service-representative_23-2151933130.jpg?t=st=1745418867~exp=1745422467~hmac=c05dc6725c683ec0d409ab22dc0f6cd47d6c7f88ba7a1eedefa7c09a9c7c170d&w=1380",
     ],
@@ -246,14 +246,11 @@ Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de aten
   },
   {
     id: 5,
-    coverImg:
-      "https://img.freepik.com/free-photo/black-businessman-using-computer-laptop_53876-14801.jpg?t=st=1745502850~exp=1745506450~hmac=d2fa9c0a5ec8af68c4449cb42886ce87a75f19646b237c8255da47729fb38e52&w=1380",
+    coverImg: "/gestao-financeira.jpg",
     title: "PROGRAMA DE FORMAÇÃO DE GESTÃO FINANCEIRA",
     workload: "Em breve",
     status: "Em breve",
-    images: [
-      "https://img.freepik.com/free-photo/black-businessman-using-computer-laptop_53876-14801.jpg?t=st=1745502850~exp=1745506450~hmac=d2fa9c0a5ec8af68c4449cb42886ce87a75f19646b237c8255da47729fb38e52&w=1380",
-    ],
+    images: ["/gestao-financeira.jpg"],
     debate: `Estratégicos e reflexivos sobre os principais desafios e decisões
     relacionadas à gestão financeira.`,
     exhibition: `Conceitos Fundamentais, Planejamento Financeiro,
@@ -310,14 +307,11 @@ Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de aten
   },
   {
     id: 6,
-    coverImg:
-      "https://img.freepik.com/free-photo/african-entrepreneur-start-up-company-reading-charts-documents-paperwork-diverse-team-business-people-analyzing-company-financial-reports-from-computer-successful-corporate-professional-ent_482257-9319.jpg?t=st=1745575556~exp=1745579156~hmac=2bc476570c67f1af2a4ed9468692a5c23948481cbde622b0ec024864ed490f4a&w=1380",
+    coverImg: "/tecnica-vendas.jpg",
     title: "PROGRAMA DE FORMAÇÃO DE TÉCNICAS DE VENDA",
     workload: "Em breve",
     status: "Em breve",
-    images: [
-      "https://img.freepik.com/free-photo/african-entrepreneur-start-up-company-reading-charts-documents-paperwork-diverse-team-business-people-analyzing-company-financial-reports-from-computer-successful-corporate-professional-ent_482257-9319.jpg?t=st=1745575556~exp=1745579156~hmac=2bc476570c67f1af2a4ed9468692a5c23948481cbde622b0ec024864ed490f4a&w=1380",
-    ],
+    images: ["/tecnica-vendas.jpg"],
     debate: `Serão debatidos temas
 como: a mudança do comportamento do
 consumidor, ética nas vendas,
