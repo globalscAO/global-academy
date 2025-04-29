@@ -38,13 +38,13 @@ export default function Footer() {
             <h2 className="font-semibold">Mídias Sociais</h2>
 
             <div className="flex gap-4 items-center">
-              <Link href={"https://www.facebook.com/people/GlobalscAcademy/61575204794896/"}>
+              <Link target="_blank" href={"https://www.facebook.com/people/GlobalscAcademy/61575204794896/"}>
                 <Facebook />
               </Link>
-              <Link href={"https://www.instagram.com/globalacademy025"}>
+              <Link target="_blank" href={"https://www.instagram.com/globalacademy025"}>
                 <Instagram />
               </Link>
-              <Link href={"https://www.linkedin.com/company/globalsc-academy/"}>
+              <Link  target="_blank"href={"https://www.linkedin.com/company/globalsc-academy/"}>
                 <Linkedin />
               </Link>
             </div>
