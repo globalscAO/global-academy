@@ -38,7 +38,7 @@ export default function Footer() {
             <h2 className="font-semibold">Mídias Sociais</h2>
 
             <div className="flex gap-4 items-center">
-              <Link href={"tel:+244222731031"}>
+              <Link href={"https://www.facebook.com/people/GlobalscAcademy/61575204794896/"}>
                 <Facebook />
               </Link>
               <Link href={"https://www.instagram.com/globalacademy025"}>

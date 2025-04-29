@@ -43,7 +43,6 @@ Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de 
     coverImgUrl:
       "https://global-services-corporation.github.io/images/mr-nov-2023/38.jpg",
     images: [
-
       "https://global-services-corporation.github.io/images/mr-nov-2023/37.jpg",
       "https://global-services-corporation.github.io/images/mr-nov-2023/38.jpg",
       "https://global-services-corporation.github.io/images/mr-nov-2023/39.jpg",
