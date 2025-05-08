@@ -113,10 +113,10 @@ export default function AboutCourse({
               <h2 className="text-primary text-lg font-bold">MAGISTÉRIO</h2>
 
               <ul className="flex flex-col gap-2 max-lg:gap-4">
-                {course?.teaching?.map((teacher) => (
+                {course?.teaching?.map((teacher, index) => (
                   <li
                     className="flex gap-4 max-lg:gap-2 items-center lg:h-33 w-full max-lg:flex-col"
-                    key={teacher.id}>
+                    key={index}>
                     {teacher.imgUrl ? (
                       <Image
                         src={teacher.imgUrl}
@@ -169,18 +169,20 @@ export default function AboutCourse({
               </div>
             </>
 
-            <div className="flex max-lg:items-center flex-col gap-4">
-              <h2 className="text-primary text-lg font-bold">CERTIFICAÇÃO</h2>
+            <div className="flex max-lg:items-center w-full flex-col gap-4">
+              <h2 className="text-primary text-lg font-bold">CERTIFICAÇÃO e PARCEIROS</h2>
 
-              <div className="flex w-full gap-2 items-center max-lg:justify-center">
-                {course?.certificateImgUrls && (
-                  <Image
-                    src={course.certificateImgUrls}
-                    alt={"Certificação"}
-                    width={150}
-                    height={150}
-                  />
-                )}
+              <div className="flex flex-wrap w-full gap-2 items-center max-lg:justify-center">
+                {course?.certificateImgUrls &&
+                  course.certificateImgUrls.map((item, index) => (
+                    <Image
+                      key={index}
+                      src={item}
+                      alt={"Certificação"}
+                      width={150}
+                      height={150}
+                    />
+                  ))}
               </div>
             </div>
           </div>

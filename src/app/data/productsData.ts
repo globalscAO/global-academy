@@ -48,7 +48,14 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
 Reconhecer a importância da Gestão de Sinistros na resolução de divergências entre segurados e Companhias de Seguros envolvidas, identificando suas principais características e objetivos. A resolução eficaz de um sinistro pode melhorar significativamente os custos e o tempo despendido, evitando o agravamento de prêmios ou custos adicionais para ambas as partes.
 No final deste curso, espera-se que os participantes sejam capazes de enumerar as características de um sinistro no âmbito de acidentes de trabalho, conhecer a legislação aplicável ao ramo de seguros de acidentes de trabalho, atribuir as funções pertinentes a cada um dos intervenientes num processo de sinistro, analisar e organizar os processos de sinistros, e elaborar propostas de melhoria para os serviços do departamento de sinistros.`,
     language: "Português",
-    certificateImgUrls: "/inefop.png",
+     certificateImgUrls: [
+      "/inefop.png",
+      "/isptec.png",
+      "/universidade-coimbra.png",
+      "/unitel.png",
+      "/deloitte.png",
+      "/academia-bai.png",
+    ],
     modules: [
       "Introdução à Gestão de Sinistros.",
       "Legislação de Acidentes de Trabalho.",
@@ -131,7 +138,14 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     O programa proporciona aos gestores de topo uma experiência única, que visa desenvolver nos líderes habilidades, visão global e sistêmica, além de uma cultura empresarial competitiva.
     Este programa oferece competências a 360 graus, combinando teoria e prática na gestão das organizações, com foco na análise do ambiente interno e externo, na competitividade organizacional, na avaliação de estratégias, bem como na implantação e no acompanhamento dos processos.`,
     language: "Português",
-    certificateImgUrls: "/inefop.png",
+     certificateImgUrls: [
+      "/inefop.png",
+      "/isptec.png",
+      "/universidade-coimbra.png",
+      "/unitel.png",
+      "/deloitte.png",
+      "/academia-bai.png",
+    ],
     modules: [
       "ECONOMIC SCENARIO AND WORLD TRENDS",
       "STRATEGIC BUSINESS MANAGEMENT",
@@ -187,7 +201,14 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
       "https://global-services-corporation.github.io/images/academy/higiene-seguranca.jpg",
     title: "Higiene, Segurança e Saúde no Trabalho",
     workload: "30h",
-    certificateImgUrls: "/inefop.png",
+     certificateImgUrls: [
+      "/inefop.png",
+      "/isptec.png",
+      "/universidade-coimbra.png",
+      "/unitel.png",
+      "/deloitte.png",
+      "/academia-bai.png",
+    ],
     certificate: "INEFOP",
     modality: "Presencial e Online",
     country: "Angola",
@@ -200,14 +221,11 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
   },
   {
     id: 4,
-    coverImg:
-      "https://img.freepik.com/free-photo/customer-service-representative_23-2151933130.jpg?t=st=1745418867~exp=1745422467~hmac=c05dc6725c683ec0d409ab22dc0f6cd47d6c7f88ba7a1eedefa7c09a9c7c170d&w=1380",
+    coverImg: "/atendimento-client.jpg",
     title: "PROGRAMA DE FORMAÇÃO DE ATENDIMENTO AO CLIENTE",
     workload: "Em breve",
     status: "Em breve",
-    images: [
-      "https://img.freepik.com/free-photo/customer-service-representative_23-2151933130.jpg?t=st=1745418867~exp=1745422467~hmac=c05dc6725c683ec0d409ab22dc0f6cd47d6c7f88ba7a1eedefa7c09a9c7c170d&w=1380",
-    ],
+    images: ["/atendimento-client.jpg"],
     debate: `Desenvolvimento de habilidades interpessoais, maior confiança e autonomia, valorização profissional, capacidade de fidelizar clientes.`,
     exhibition: `Conteúdos teóricos e práticos com foco no desenvolvimento de competências essenciais para um atendimento de qualidade.`,
     focus: `Desenvolver competências práticas e comportamentais que permitam ao profissional oferecer um atendimento de qualidade, promovendo a satisfação, fidelização e confiança do cliente.`,
@@ -233,7 +251,14 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
 Esta formação tem como objetivos específicos, desenvolver habilidades de comunicação verbal e não-verbal, ensinar técnicas para lidar com reclamações e conflitos, fortalecer a empatia e a escuta ativa, promover uma postura profissional e ética e estimular a cultura de excelência no atendimento.
 Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de atendimento ao cliente, recepção, vendas, call centers, SAC (Serviço de Atendimento ao Consumidor), e outros setores que exigem contato direto com o público.`,
     language: "Português",
-    certificateImgUrls: "/inefop.png",
+     certificateImgUrls: [
+      "/inefop.png",
+      "/isptec.png",
+      "/universidade-coimbra.png",
+      "/unitel.png",
+      "/deloitte.png",
+      "/academia-bai.png",
+    ],
     modules: [
       "A Importância do Atendimento ao Cliente.",
       "Comunicação Eficaz.",
@@ -290,7 +315,14 @@ Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de aten
     controle de custos, analisar diferentes fontes de financiamento, promover o uso consciente e eficiente dos recursos
     financeiros e estimular a responsabilidade financeira.`,
     language: "Português",
-    certificateImgUrls: "/inefop.png",
+     certificateImgUrls: [
+      "/inefop.png",
+      "/isptec.png",
+      "/universidade-coimbra.png",
+      "/unitel.png",
+      "/deloitte.png",
+      "/academia-bai.png",
+    ],
     modules: [
       `Introdução à Gestão Financeira.`,
       `Planejamento Financeiro.`,
@@ -312,47 +344,13 @@ Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de aten
     workload: "Em breve",
     status: "Em breve",
     images: ["/tecnica-vendas.jpg"],
-    debate: `Serão debatidos temas
-como: a mudança do comportamento do
-consumidor, ética nas vendas,
-dificuldades reais enfrentadas no dia a
-dia dos vendedores, estratégias práticas
-que funcionam no mercado atual, casos
-reais de sucesso e fracasso em vendas e
-como se adaptar a diferentes perfis de
-cliente.`,
-    exhibition: `Serão abordados
-fundamentos da venda moderna, perfil
-do vendedor de sucesso, técnicas de
-abordagem ao cliente, comunicação
-eficaz e escuta ativa, argumentação e
-persuasão em vendas, negociação e
-fechamento de vendas, gestão de
-objeções e pós-venda e fidelização de
-clientes.`,
-    focus: `Capacitar o participante para
-vender com técnica, empatia e resultado,
-adaptando-se ao perfil do cliente,
-utilizando ferramentas práticas e
-aumentando a performance comercial.`,
-    revaluation: `Serão reforçadas as
-Principais técnicas de abordagem e
-fechamento, o passo a passo de uma
-venda bem estruturada, como contornar
-objeções, a importância do pós-venda.
-`,
+    debate: `Serão debatidos temas como: a mudança do comportamento do consumidor, ética nas vendas, dificuldades reais enfrentadas no dia a dia dos vendedores, estratégias práticas que funcionam no mercado atual, casos reais de sucesso e fracasso em vendas e como se adaptar a diferentes perfis de cliente  .`,
+    exhibition: `Serão abordados fundamentos da venda moderna, perfil do vendedor de sucesso, técnicas de abordagem ao cliente, comunicação eficaz e escuta ativa, argumentação e persuasão em vendas, negociação e fechamento de vendas, gestão de objeções e pós-venda e fidelização de clientes.`,
+    focus: `Capacitar o participante para vender com técnica, empatia e resultado, adaptando-se ao perfil do cliente, utilizando ferramentas práticas e aumentando a performance comercial.`,
+    revaluation: `Serão reforçadas as Principais técnicas de abordagem e fechamento, o passo a passo de uma venda bem estruturada, como contornar objeções, a importância do pós-venda.`,
     time: `Sete dias de formação completos e intensivos em Luanda em academias de topo e num ambiente multicultural.`,
-    understanding: `O formando
-compreenderá como conduzir uma
-venda de forma eficaz, desde a
-abordagem inicial até o pós-venda,
-utilizando técnicas modernas de
-comunicação, argumentação,
-negociação e fidelização.
-Vai entender o comportamento do
-consumidor e como se posicionar de
-maneira confiante, ética e estratégica no
-processo de vendas.`,
+    understanding: `O formando compreenderá como conduzir uma venda de forma eficaz, desde a abordagem inicial até o pós-venda, utilizando técnicas modernas de comunicação, argumentação, negociação e fidelização.
+Vai entender o comportamento do consumidor e como se posicionar de maneira confiante, ética e estratégica no processo de vendas.`,
     teaching: [
       {
         id: 1,
@@ -369,38 +367,31 @@ processo de vendas.`,
     country: "Angola",
     startDate: "Em breve",
     locale: "Academia BAI",
-    description: `A formação de técnicas de vendas tem
-como missão capacitar os participantes
-com conhecimentos práticos e
-estratégias modernas de vendas,
-desenvolvendo competências em
-comunicação, negociação e atendimento,
-com foco na excelência no
-relacionamento com o cliente e no
-aumento dos resultados comerciais de
-forma ética e sustentável.
-Esta formação tem como objetivos
-específicos, compreender o processo de
-vendas de forma estratégica, desenvolver
-habilidades de comunicação eficaz
-aplicar técnicas de negociação e
-fechamento de vendas identificar o perfil
-e as necessidades do cliente, contornar
-objeções e dificuldades no processo de
-venda fidelizar clientes por meio de um
-atendimento de excelência e pós-venda
-estruturado e estimular a autoconfiança,
-a motivação e o foco em resultados. 
+    description: `A formação de técnicas de vendas tem como missão capacitar os participantes com conhecimentos práticos e
+    estratégias modernas de vendas, desenvolvendo competências em comunicação, negociação e atendimento,
+    com foco na excelência no relacionamento com o cliente e no aumento dos resultados comerciais de
+    forma ética e sustentável. Esta formação tem como objetivos específicos, compreender o processo de
+    vendas de forma estratégica, desenvolver habilidades de comunicação eficaz
+    aplicar técnicas de negociação e fechamento de vendas identificar o perfil e as necessidades do cliente, contornar
+    objeções e dificuldades no processo de venda fidelizar clientes por meio de um atendimento de excelência e pós-venda
+    estruturado e estimular a autoconfiança, a motivação e o foco em resultados. 
 `,
     language: "Português",
-    certificateImgUrls: "/inefop.png",
+    certificateImgUrls: [
+      "/inefop.png",
+      "/isptec.png",
+      "/universidade-coimbra.png",
+      "/unitel.png",
+      "/deloitte.png",
+      "/academia-bai.png",
+    ],
     modules: [
       `Fundamentos da Venda.`,
       `Conhecendo o Produto e o Cliente.`,
-      `Técnicas de Abordagem e Comunicação`,
+      `Técnicas de Abordagem e Comunicação.`,
       `Técnicas de Apresentação e Argumentação.`,
-      `Negociação e Fechamento de Vendas`,
-      `Pós-Venda e Fidelização`,
+      `Negociação e Fechamento de Vendas.`,
+      `Pós-Venda e Fidelização.`
     ],
     recipients: `Está direcionada a vendedores iniciantes
 ou experientes, comerciantes e
@@ -408,5 +399,164 @@ empreendedores, profissionais de
 atendimento ou telemarketing,
 estudantes interessados em atuar na área
 comercial.`,
+  },
+  {
+    id: 7,
+    coverImg: "/seguro-automovel.jpg",
+    title: "GESTÃO DE SINISTRO (SEGURO AUTOMÓVEL)",
+    workload: "Em breve",
+    status: "Em breve",
+    images: ["/seguro-automovel.jpg"],
+    debate: `Tomar conhecimento dos principais conceitos em acidentes de trabalho.
+Consolidar os conhecimentos técnicos essenciais à tramitação do processo de sinistro e acidentes de Trabalho.`,
+    exhibition: `Gestores de seguro, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.
+REVALUATION – revisão dos conceitos e modelos mais recentes em áreas chaves da gestão de seguros.`,
+    focus: `Capacitar os participantes com conhecimentos e habilidades essenciais para lidar com sinistros de acidentes de trabalho de maneira eficaz.`,
+    revaluation: `Reavaliação dos conceitos organizacionais de uma empresa.`,
+    time: `Sete dias de formação completos e intensivos em Luanda em academias de topo e num ambiente multicultural.`,
+    understanding: `Compreensão dos temas de Gestão de Sinistros e Acidentes de trabalho.`,
+    teaching: [
+      {
+        id: 1,
+        description:
+          "Com mais de 8 anos de experiência no setor segurador, Esmael Canjamba é mediador de seguros autorizado pela ASF (Autoridade de Supervisão de Seguros e Fundos de Pensões). ",
+        imgUrl: "/esmael.png",
+        name: "Esmael Canjamba",
+      },
+    ],
+    certificate: "INEFOP",
+    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
+Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
+    modality: "Presencial e online",
+    country: "Angola",
+    startDate: "Em breve",
+    locale: "Luanda",
+    description: `Este curso tem como objetivo fornecer aos participantes os conhecimentos essenciais para iniciar, gerenciar e agilizar os processos de acionamento de sinistros no âmbito dos seguros de Acidentes de Trabalho.
+Reconhecer a importância da Gestão de Sinistros na resolução de divergências entre segurados e Companhias de Seguros envolvidas, identificando suas principais características e objetivos. A resolução eficaz de um sinistro pode melhorar significativamente os custos e o tempo despendido, evitando o agravamento de prêmios ou custos adicionais para ambas as partes.
+No final deste curso, espera-se que os participantes sejam capazes de enumerar as características de um sinistro no âmbito de acidentes de trabalho, conhecer a legislação aplicável ao ramo de seguros de acidentes de trabalho, atribuir as funções pertinentes a cada um dos intervenientes num processo de sinistro, analisar e organizar os processos de sinistros, e elaborar propostas de melhoria para os serviços do departamento de sinistros.`,
+    language: "Português",
+     certificateImgUrls: [
+      "/inefop.png",
+      "/isptec.png",
+      "/universidade-coimbra.png",
+      "/unitel.png",
+      "/deloitte.png",
+      "/academia-bai.png",
+    ],
+    modules: [
+      "Introdução à Gestão de Sinistros.",
+      "Legislação de Acidentes de Trabalho.",
+      `Análise de Riscos.`,
+      `Prevenção de Acidentes.`,
+      "Investigação de Acidentes.",
+      `Apoio ao Trabalhador Acidentado.`,
+      `Gestão de Documentação e Relatórios.`,
+      `Estudo de Casos Práticos.`,
+    ],
+    recipients: `São Profissionais de Seguros, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.`,
+  },
+  {
+    id: 8,
+    coverImg: "/empreendedorismo.jpg",
+    title: "FORMAÇÃO DE EMPREENDEDORISMO",
+    workload: "Em breve",
+    status: "Em breve",
+    images: ["/empreendedorismo.jpg"],
+    debate: `Desenvolvimento de Mentalidade Empreendedora, Capacitação para Criar e Gerir um Negócio, Maior Confiança e Autonomia, Identificação de Oportunidades de Mercado, Ampliação de Rede de Contatos (Networking), Acesso a Ferramentas Práticas, Estímulo à Inovação..`,
+    exhibition: `conteúdos teóricos e práticos que permitirão aos participantes desenvolverem uma visão empreendedora sólida e aplicável à realidade do mercado.`,
+    focus: `Desenvolver nos participantes a capacidade de identificar oportunidades, transformar ideias em negócios sustentáveis e atuar com visão estratégica, criatividade e autonomia no mercado.`,
+    revaluation: `Geral para reforçar os principais conhecimentos adquiridos, esclarecer dúvidas e consolidar os aprendizados mais importantes.`,
+    time: `Sete dias de formação completos e intensivos em Luanda em academias de topo e num ambiente multicultural.`,
+    understanding: `Como pensar, agir e decidir como um verdadeiro empreendedor, preparado para os desafios do mercado e para criar negócios com impacto positivo.
+Ter conhecimentos teóricos e práticos essenciais para iniciar, gerir e desenvolver um negócio de forma estratégica, inovadora e sustentável.
+.`,
+    teaching: [
+      {
+        id: 1,
+        description:
+          "Com mais de 8 anos de experiência no setor segurador, Esmael Canjamba é mediador de seguros autorizado pela ASF (Autoridade de Supervisão de Seguros e Fundos de Pensões). ",
+        imgUrl: "/esmael.png",
+        name: "Esmael Canjamba",
+      },
+    ],
+    certificate: "INEFOP",
+    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
+Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
+    modality: "Presencial e online",
+    country: "Angola",
+    startDate: "Em breve",
+    locale: "Hotel Epic Sana",
+    description: `A formação de Empreendedorismo tem como missão capacitar os participantes com conhecimentos, ferramentas e atitudes empreendedoras que lhes permitam identificar oportunidades, desenvolver ideias de negócio viáveis e atuar com autonomia, inovação e responsabilidade, promovendo o desenvolvimento pessoal, social e econômico.
+Esta formação tem como objetivos específicos, propiciar o desenvolvimento de actividades e atitudes empreendedoras, Gerar iniciativas, em ambiente de criatividade e oportunidades para as pequenas e medias empresas, possibilitando a aplicação do aprendizado nas parcerias já criadas (incubadora) para desenvolvimento de projectos e planos de negócios, planejar estratégias para inserir o produto no mercado e elaboração de projetos de negócios baseado em mentorias.
+Esta direcionada a profissionais que desejam abrir seu próprio negócio, Jovens em fase de descoberta profissional, Profissionais que desejam empreender dentro ou fora da empresa, (intraempreendedorismo) e Pequenos empresários que buscam aprimorar a gestão de seus negócios.`,
+    language: "Português",
+    certificateImgUrls: [
+      "/inefop.png",
+      "/isptec.png",
+      "/universidade-coimbra.png",
+      "/unitel.png",
+      "/deloitte.png",
+      "/academia-bai.png",
+    ],
+    modules: [
+      "Introdução ao Empreendedorismo.",
+      "Da Ideia à Oportunidade.",
+      `Planejamento e Modelo de Negócio.`,
+      `Marketing e Posicionamento.`,
+      "Gestão Financeira para Empreendedores.",
+      `Liderança, Equipa e Inovação.`,
+      `Pitch e Apresentação de Projetos.`,
+    ],
+    recipients: `São Profissionais de Seguros, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.`,
+  },
+  {
+    id: 9,
+    coverImg: "/etica-empresarial.jpg",
+    title: "PROGRAMA DE FORMAÇÃO DE ÉTICA EMPRESARIAL",
+    workload: "Em breve",
+    status: "Em breve",
+    images: ["/etica-empresarial.jpg"],
+    debate: `Casos práticos de comportamentos antiéticos no mercado de trabalho, corrupção corporativa: causas e consequências, como criar um ambiente de trabalho mais ético e inclusivo.`,
+    exhibition: `Conteúdos teóricos e práticos com foco no desenvolvimento de competências essenciais para um atendimento de qualidade.`,
+    focus: `Formar profissionais conscientes e responsáveis, capazes de tomar decisões éticas e promover uma cultura organizacional baseada em integridade, respeito e justiça.`,
+    revaluation: `Valores e princípios fundamentais de convivência social e profissional, situações reais de dilemas éticos, boas práticas em conformidade com os códigos de ética empresarial.`,
+    time: `Sete dias de formação completos e intensivos em Luanda em academias de topo e num ambiente multicultural.`,
+    understanding: `A importância da ética na construção da reputação empresarial, como a ética influencia o clima organizacional e os resultados do negócio, formas práticas de aplicar princípios éticos nas rotinas profissionais.`,
+    teaching: [
+      {
+        id: 1,
+        description:
+          "Com mais de 8 anos de experiência no setor segurador, Esmael Canjamba é mediador de seguros autorizado pela ASF (Autoridade de Supervisão de Seguros e Fundos de Pensões). ",
+        imgUrl: "/esmael.png",
+        name: "Esmael Canjamba",
+      },
+    ],
+    certificate: "INEFOP",
+    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
+Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
+    modality: "Presencial e online",
+    country: "Angola",
+    startDate: "Em breve",
+    locale: "Hotel Epic Sana",
+    description: `A formação de Ética Empresarial, promover o entendimento e a aplicação da ética no ambiente empresarial, fortalecendo a integridade, a responsabilidade e a confiança nas relações profissionais e institucionais.
+Esta formação tem como objetivos específicos compreender os conceitos fundamentais de ética e moral no contexto empresarial, identificar comportamentos éticos e antiéticos nas organizações, estimular a tomada de decisões baseadas em valores e responsabilidade social, aplicar princípios éticos na comunicação, liderança e nas relações de trabalho, contribuir para a construção de uma cultura empresarial ética e sustentável.
+Esta direcionada a colaboradores de empresas públicas e privadas de todos os setores que desejam aprimorar seu comportamento profissional com base em valores éticos, gestores, líderes e supervisores que buscam promover um ambiente de trabalho mais íntegro, respeitoso e justo, empreendedores e empresários que desejam consolidar uma cultura organizacional ética e transparente, estudantes e recém-formados das áreas de Administração, Recursos Humanos, Direito, contabilidade, entre outras, que estão se preparando para o mercado de trabalho, profissionais de Recursos Humanos e compliance, responsáveis pela construção e disseminação de políticas éticas nas organizações.`,
+    language: "Português",
+    certificateImgUrls: [
+      "/inefop.png",
+      "/isptec.png",
+      "/universidade-coimbra.png",
+      "/unitel.png",
+      "/deloitte.png",
+      "/academia-bai.png",
+    ],
+    modules: [
+      "Fundamentos da Ética.",
+      "Ética nas Organizações.",
+      `Tomada de Decisões Éticas.`,
+      `Relações Éticas no Ambiente de Trabalho.`,
+      `Responsabilidade Social e Sustentabilidade.`,
+    ],
+    recipients: `São Profissionais de Seguros, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.`,
   },
 ];

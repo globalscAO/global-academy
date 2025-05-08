@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation"; // Importa o hook de navegação
+import { useRouter } from "next/navigation";
 import { CiSearch } from "react-icons/ci";
 import { MdArrowOutward } from "react-icons/md";
 import { useState } from "react";
@@ -24,7 +24,9 @@ export default function Header() {
   return (
     <header className="bg-primary sticky top-0 z-50 flex text-white justify-center max-lg:justify-between items-center w-full py-2 px-8 max-lg:px-8">
       <div className="justify-between flex items-center w-full lg:max-w-6xl relative ">
-        <Link href={"/"} className="p-2 rounded-md">
+        <Link
+          href={"/"}
+          className="p-2 rounded-md">
           <Image
             src={"/logo-black.png"}
             alt={"Logotipo Global Services Corporation"}
@@ -37,13 +39,17 @@ export default function Header() {
         <div className="flex items-center">
           <button
             onClick={() => setMenuOpen(true)}
-            className={`lg:hidden text-2xl text-white cursor-pointer ${isMenuOpen && "hidden"}`}>
+            className={`lg:hidden text-2xl text-white cursor-pointer ${
+              isMenuOpen && "hidden"
+            }`}>
             <FiMenu />
           </button>
 
           <button
             onClick={() => setMenuOpen(false)}
-            className={`lg:hidden text-2xl text-white cursor-pointer ${!isMenuOpen && "hidden"}`}>
+            className={`lg:hidden text-2xl text-white cursor-pointer ${
+              !isMenuOpen && "hidden"
+            }`}>
             <IoMdClose />
           </button>
 
@@ -53,10 +59,12 @@ export default function Header() {
                 ? "max-lg:translate-y-0 max-lg:opacity-100 max-lg:visible"
                 : "max-lg:-translate-y-5 max-lg:opacity-0 max-lg:invisible"
             }`}>
-            
-            {/* Campo de pesquisa */}
+           
             <div className="max-lg:hidden flex gap-2 items-center w-full bg-white max-w-72 text-gray-400 px-4 py-2 rounded-md">
-              <CiSearch className="text-2xl cursor-pointer" onClick={handleSearch} />
+              <CiSearch
+                className="text-2xl cursor-pointer"
+                onClick={handleSearch}
+              />
 
               <input
                 type="text"

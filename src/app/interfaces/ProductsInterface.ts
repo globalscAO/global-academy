@@ -28,5 +28,5 @@ export interface ProductsInterface {
   recipients?: string;
   candidacy?: string;
   modules?: string[];
-  certificateImgUrls?: string;
+  certificateImgUrls?: string[];
 }

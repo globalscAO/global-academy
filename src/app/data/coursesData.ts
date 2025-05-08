@@ -21,4 +21,19 @@ export const coursesData: CoursesInterface[] = [
     name: "Programa de Formação de Atendimento ao Cliente",
     type: "Formação Executiva",
   },
+  {
+    id: 5,
+    name: "Gestão de Sinistros (Seguro Automóvel)",
+    type: "Formação Executiva",
+  },
+  {
+    id: 6,
+    name: "Empreendedorismo",
+    type: "Formação Executiva",
+  },
+  {
+    id: 6,
+    name: "Técnicas de Venda",
+    type: "Formação Executiva",
+  },
 ];

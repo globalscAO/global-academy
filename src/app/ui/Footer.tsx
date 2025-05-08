@@ -44,7 +44,7 @@ export default function Footer() {
               <Link target="_blank" href={"https://www.instagram.com/globalacademy025"}>
                 <Instagram />
               </Link>
-              <Link  target="_blank"href={"https://www.linkedin.com/company/globalsc-academy/"}>
+              <Link  target="_blank" href={"https://www.linkedin.com/company/globalsc-academy/"}>
                 <Linkedin />
               </Link>
             </div>
