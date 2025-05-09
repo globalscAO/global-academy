@@ -33,6 +33,8 @@ export default function HowToSignUp() {
       description: `Depois de enviar o formulário, entraremos em contacto.`,
     },
   ];
+
+  
   return (
     <div className="lg:py-18 lg:px-24 max-lg:px-8 max-lg:py-12 bg-primary w-full flex justify-center">
       <div className="text-center text-white items-center flex flex-col gap-14 max-lg:gap-8 w-full max-w-6xl">

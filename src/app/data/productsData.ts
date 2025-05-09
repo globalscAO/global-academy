@@ -48,7 +48,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
 Reconhecer a importância da Gestão de Sinistros na resolução de divergências entre segurados e Companhias de Seguros envolvidas, identificando suas principais características e objetivos. A resolução eficaz de um sinistro pode melhorar significativamente os custos e o tempo despendido, evitando o agravamento de prêmios ou custos adicionais para ambas as partes.
 No final deste curso, espera-se que os participantes sejam capazes de enumerar as características de um sinistro no âmbito de acidentes de trabalho, conhecer a legislação aplicável ao ramo de seguros de acidentes de trabalho, atribuir as funções pertinentes a cada um dos intervenientes num processo de sinistro, analisar e organizar os processos de sinistros, e elaborar propostas de melhoria para os serviços do departamento de sinistros.`,
     language: "Português",
-     certificateImgUrls: [
+    certificateImgUrls: [
       "/inefop.png",
       "/isptec.png",
       "/universidade-coimbra.png",
@@ -138,7 +138,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     O programa proporciona aos gestores de topo uma experiência única, que visa desenvolver nos líderes habilidades, visão global e sistêmica, além de uma cultura empresarial competitiva.
     Este programa oferece competências a 360 graus, combinando teoria e prática na gestão das organizações, com foco na análise do ambiente interno e externo, na competitividade organizacional, na avaliação de estratégias, bem como na implantação e no acompanhamento dos processos.`,
     language: "Português",
-     certificateImgUrls: [
+    certificateImgUrls: [
       "/inefop.png",
       "/isptec.png",
       "/universidade-coimbra.png",
@@ -201,7 +201,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
       "https://global-services-corporation.github.io/images/academy/higiene-seguranca.jpg",
     title: "Higiene, Segurança e Saúde no Trabalho",
     workload: "30h",
-     certificateImgUrls: [
+    certificateImgUrls: [
       "/inefop.png",
       "/isptec.png",
       "/universidade-coimbra.png",
@@ -251,7 +251,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
 Esta formação tem como objetivos específicos, desenvolver habilidades de comunicação verbal e não-verbal, ensinar técnicas para lidar com reclamações e conflitos, fortalecer a empatia e a escuta ativa, promover uma postura profissional e ética e estimular a cultura de excelência no atendimento.
 Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de atendimento ao cliente, recepção, vendas, call centers, SAC (Serviço de Atendimento ao Consumidor), e outros setores que exigem contato direto com o público.`,
     language: "Português",
-     certificateImgUrls: [
+    certificateImgUrls: [
       "/inefop.png",
       "/isptec.png",
       "/universidade-coimbra.png",
@@ -315,7 +315,7 @@ Esta direcionada a profissionais que atuam ou pretendem atuar nas áreas de aten
     controle de custos, analisar diferentes fontes de financiamento, promover o uso consciente e eficiente dos recursos
     financeiros e estimular a responsabilidade financeira.`,
     language: "Português",
-     certificateImgUrls: [
+    certificateImgUrls: [
       "/inefop.png",
       "/isptec.png",
       "/universidade-coimbra.png",
@@ -391,7 +391,7 @@ Vai entender o comportamento do consumidor e como se posicionar de maneira confi
       `Técnicas de Abordagem e Comunicação.`,
       `Técnicas de Apresentação e Argumentação.`,
       `Negociação e Fechamento de Vendas.`,
-      `Pós-Venda e Fidelização.`
+      `Pós-Venda e Fidelização.`,
     ],
     recipients: `Está direcionada a vendedores iniciantes
 ou experientes, comerciantes e
@@ -435,7 +435,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
 Reconhecer a importância da Gestão de Sinistros na resolução de divergências entre segurados e Companhias de Seguros envolvidas, identificando suas principais características e objetivos. A resolução eficaz de um sinistro pode melhorar significativamente os custos e o tempo despendido, evitando o agravamento de prêmios ou custos adicionais para ambas as partes.
 No final deste curso, espera-se que os participantes sejam capazes de enumerar as características de um sinistro no âmbito de acidentes de trabalho, conhecer a legislação aplicável ao ramo de seguros de acidentes de trabalho, atribuir as funções pertinentes a cada um dos intervenientes num processo de sinistro, analisar e organizar os processos de sinistros, e elaborar propostas de melhoria para os serviços do departamento de sinistros.`,
     language: "Português",
-     certificateImgUrls: [
+    certificateImgUrls: [
       "/inefop.png",
       "/isptec.png",
       "/universidade-coimbra.png",
@@ -558,5 +558,57 @@ Esta direcionada a colaboradores de empresas públicas e privadas de todos os se
       `Responsabilidade Social e Sustentabilidade.`,
     ],
     recipients: `São Profissionais de Seguros, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.`,
+  },
+  {
+    id: 10,
+    coverImg: "/admin-governacao.jpg",
+    title: "PROGRAMA DE FORMAÇÃO GOVERNAÇÃO E ADMINISTRAÇÃO PÚBLICA",
+    workload: "Em breve",
+    status: "Em breve",
+    images: ["/admin-governacao.jpg"],
+    debate: `A descentralização administrativa em Angola, transparência e prestação de contas, participação cidadã e governação inclusiva, gestão de recursos financeiros e humanos nas administrações locais, planeamento estratégico no contexto local, transformação digital e modernização da administração pública, liderança pública ética e orientada para resultados.`,
+    exhibition: `Conteúdos teóricos, práticos e casos aplicados, com o objetivo de dotar os participantes de conhecimento atual e útil para a melhoria da gestão pública territorial.`,
+    focus: `Fortalecer as capacidades técnicas, estratégicas e éticas dos quadros públicos, especialmente no contexto da gestão descentralizada e da governação local, promovendo uma administração mais eficiente, transparente e centrada nas necessidades do cidadão.`,
+    revaluation: `Valores e princípios fundamentais de convivência social e profissional, situações reais de dilemas éticos, boas práticas em conformidade com os códigos de ética empresarial.`,
+    time: `Sete dias de formação completos e intensivos em Luanda em academias de topo e num ambiente multicultural.`,
+    understanding: `A importância da ética na construção da reputação empresarial, como a ética influencia o clima organizacional e os resultados do negócio, formas práticas de aplicar princípios éticos nas rotinas profissionais.`,
+    teaching: [
+      {
+        id: 1,
+        description:
+          "Deputado durante mais de 20 anos, desempenhou funções de secretaria de estado da administração local durante o XV Governo. E licenciado em ciência Política e Relações Internacionais pela Universidade Lusófona e autor do the best Seller O outro lado da governação. ",
+        imgUrl: "/pedro-siza.jpeg",
+        name: "Pedro Siza",
+      },
+    ],
+    certificate: "INEFOP",
+    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
+Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
+    modality: "Presencial e online",
+    country: "Angola",
+    startDate: "Em breve",
+    locale: "Hotel Epic Sana",
+    description: `Este curso tem como objetivo fortalecer as capacidades dos quadros da administração pública territorial para uma governação mais eficiente, ética e centrada no cidadão, em alinhamento com os princípios da descentralização, boa governação e desenvolvimento local.
+Objetivos específicos compreender o papel da administração do território no contexto da descentralização, desenvolver competências em planeamento, gestão e avaliação de políticas públicas, promover práticas de liderança ética e gestão eficiente de recursos, reforçar a comunicação institucional e a prestação de contas à população, integrar ferramentas tecnológicas na modernização da administração pública local.`,
+    language: "Português",
+    certificateImgUrls: [
+      "/inefop.png",
+      "/isptec.png",
+      "/universidade-coimbra.png",
+      "/unitel.png",
+      "/deloitte.png",
+      "/academia-bai.png",
+    ],
+    modules: [
+      `Fundamentos da Governação Pública.`,
+      `Planeamento e Gestão de Políticas Públicas.`,
+      `Gestão de Recursos e Finanças Públicas.`,
+      `Liderança Pública e Gestão de Equipas.`,
+      `Inovação, Transparência e Relacionamento com o Cidadão.`,
+    ],
+    recipients: `Governadores
+Vice-governadores
+Directores Provinciais
+Administradores municipais.`,
   },
 ];

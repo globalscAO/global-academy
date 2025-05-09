@@ -32,8 +32,13 @@ export const coursesData: CoursesInterface[] = [
     type: "Formação Executiva",
   },
   {
-    id: 6,
+    id: 7,
     name: "Técnicas de Venda",
+    type: "Formação Executiva",
+  },
+  {
+    id: 8,
+    name: "Governação e Administração Pública",
     type: "Formação Executiva",
   },
 ];
