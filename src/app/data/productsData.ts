@@ -71,12 +71,12 @@ No final deste curso, espera-se que os participantes sejam capazes de enumerar a
   {
     id: 2,
     coverImg:
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica.jpg",
+      "/gestao-estrategica.jpeg",
     title: "Gestão Estratégica de Organizações",
     workload: "Em breve",
     status: "Em breve",
     images: [
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica.jpg",
+      "/gestao-estrategica.jpeg",
     ],
     debate: `Como desenvolver líderes empresariais com uma visão global e sistêmica das atividades empresariais.`,
     exhibition: `Representantes dos mais altos níveis da gestão, incluindo PCAs, PCEs e Administradores de empresas.`,
