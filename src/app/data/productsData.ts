@@ -131,7 +131,7 @@ No final deste curso, espera-se que os participantes sejam capazes de enumerar a
 Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
     modality: "Presencial",
     country: "Angola",
-    startDate: "Em breve",
+    startDate: "10 de Junho de 2025",
     locale: "Luanda",
     description: `A Gestão Estratégica é o processo de gerir todos os recursos de uma organização para alcançar objetivos e metas. Representa a forma de envolver todas as funções organizacionais de uma empresa com foco em ações estratégicas que percorrem toda a estrutura funcional, de modo a alcançar a maior racionalidade e eficácia possível, maximizar os resultados e tornar a empresa mais competitiva.
     Este programa é oferecido pela Global Academy. Foi concebido com um ciclo de sessões sobre temas da atualidade e de relevância para líderes de organizações governamentais e empresariais.

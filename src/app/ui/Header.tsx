@@ -72,7 +72,7 @@ export default function Header() {
                 className="w-full outline-none bg-transparent"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                onKeyDown={(e) => e.key === "Enter" && handleSearch()} // Redireciona ao pressionar Enter
+                onKeyDown={(e) => e.key === "Enter" && handleSearch()}
               />
             </div>
 

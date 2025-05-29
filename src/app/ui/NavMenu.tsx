@@ -36,6 +36,12 @@ export default function NavMenu() {
         </MenubarMenu>
       ))}
 
+      <Link
+        href="/iniciatives"
+        className="hover:bg-white/10 max-lg:w-full rounded-md cursor-pointer p-2 flex items-center gap-2">
+        Actividades
+      </Link>
+
       <button
         onClick={() => scrollToSection("footer")}
         className="hover:bg-white/10 max-lg:w-full rounded-md cursor-pointer p-2 flex items-center gap-2">
