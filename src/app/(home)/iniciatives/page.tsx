@@ -89,7 +89,7 @@ desenvolver nos líderes habilidades, visão global e sistêmica de cultura empr
           imgUrl={
             "https://global-services-corporation.github.io/images/mr-nov-2023/30.jpg"
           }
-          link={`/iniciative/exclusive`}
+          link={`/iniciatives/exclusive`}
           isActive
         />
 

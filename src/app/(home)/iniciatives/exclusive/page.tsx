@@ -4,6 +4,7 @@ export default function ExclusivePage() {
   return (
     <div>
       <Hero />
+      
     </div>
   );
 }
