@@ -36,8 +36,8 @@ const TimerLeft: React.FC = () => {
 		<div className="flex gap-5 max-lg:gap-3 w-full justify-between max-lg:w-full max-lg:justify-around max-lg:px-3">
 			{["Dias", "Horas", "Minutos", "Segundos"].map((label, i) => (
 				<div key={label} className="flex flex-col items-center font-bold">
-					<span className="text-4xl">{Object.values(timeLeft)[i]}</span>
-					<span className="text-xl">{label.toUpperCase()}</span>
+					<span className="text-4xl max-lg:text-xl">{Object.values(timeLeft)[i]}</span>
+					<span className="text-xl max-lg:text-base">{label.toUpperCase()}</span>
 				</div>
 			))}
 		</div>

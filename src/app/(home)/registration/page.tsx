@@ -7,6 +7,7 @@ import { SubmitHandler, useForm } from "react-hook-form";
 import { api } from "@/api/config";
 import { ToastContainer, toast } from "react-toastify";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 type InputValues = {
   fullname: string;
@@ -43,6 +44,8 @@ export default function Registration() {
     formState: { errors },
   } = useForm<InputValues>();
 
+  const router = useRouter()
+
   const onSubmit: SubmitHandler<InputValues> = async (data) => {
     try {
       setLoading(true);
@@ -60,7 +63,8 @@ export default function Registration() {
       });
 
       if (response.status === 200) {
-        toast.success("Pré-inscrição feita com sucesso, entraremos contacto o mais breve possível!");
+        toast.success("Pré-inscrição feita com sucesso, reencaminharemos você para o nosso WhatsApp.");
+        router.push("https://wa.me/+244941064919")
       }
     } catch (error: any) {
       toast.error(error.message);
@@ -269,6 +273,7 @@ export default function Registration() {
 
           <button
             type="submit"
+            disabled={loading}
             className="primary-btn rounded-md py-2 px-4">
             {loading ? "Enviando..." : "Enviar"}
           </button>
