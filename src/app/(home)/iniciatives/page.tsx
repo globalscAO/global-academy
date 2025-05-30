@@ -87,7 +87,7 @@ sobre temas da actualidade e de relevância para líderes das organizações gov
 e empresarias. O programa brinda aos gestores de topo uma experiência única, que visa
 desenvolver nos líderes habilidades, visão global e sistêmica de cultura empresarial competitiva.`}
           imgUrl={
-            "https://global-services-corporation.github.io/images/mr-nov-2023/30.jpg"
+            "/gestao-estrategica.jpeg"
           }
           link={`/iniciatives/exclusive`}
           isActive

@@ -60,7 +60,7 @@ export default function Registration() {
       });
 
       if (response.status === 200) {
-        toast.success("Pré-inscrição feita com sucesso!");
+        toast.success("Pré-inscrição feita com sucesso, entraremos contacto o mais breve possível!");
       }
     } catch (error: any) {
       toast.error(error.message);
