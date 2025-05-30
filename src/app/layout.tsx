@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Script from "next/script";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -97,6 +98,21 @@ export default function RootLayout({
         <script
           defer
           src="https://static.getbutton.io/widget/bundle.js?id=mTwUE"></script>
+        {/* Google Tag Manager */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16634298799"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16634298799');
+        `}
+        </Script>
       </body>
     </html>
   );
