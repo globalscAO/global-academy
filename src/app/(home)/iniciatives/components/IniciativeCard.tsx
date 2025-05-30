@@ -22,7 +22,7 @@ export default function IniciativeCard({
         alt={"Iniciativa"}
         width={313}
         height={241}
-        className="object-cover rounded-lg max-lg:w-full max-lg:h-44 object-top"
+        className="object-cover rounded-lg w-full h-53 max-w-xs max-lg:w-full max-lg:h-44 object-center"
       />
 
       <div className="flex flex-col gap-6 max-lg:p-2">
