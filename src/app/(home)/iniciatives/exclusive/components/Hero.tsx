@@ -23,7 +23,7 @@ export default function Hero() {
 
           <Link
             href={"/registration"}
-            className="px-12 py-4 text-xl font-semibold rounded-md hover:bg-transparent bg-white border border-white transition-colors duration-300 hover:text-white text-primary  cursor-pointer">
+            className="px-12 py-4 text-2xl font-bold rounded-md bg-transparent hover:bg-orange-500 border border-white transition-colors duration-300 text-white cursor-pointer">
             Participar
           </Link>
           <TimerLeft />

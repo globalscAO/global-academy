@@ -76,7 +76,7 @@ export default function Registration() {
       <HeroTitle
         title={"Formulário de Inscrição"}
         description={
-          "Nossos cursos são projetados para formar líderes, impulsionar carreiras e transformar negócios. Com conteúdos exclusivos e instrutores de referência, conectamos você às melhores práticas globais."
+          "Nossos cursos são projetados para formar líderes, impulsionar carreiras e transformar negócios."
         }
       />
 
