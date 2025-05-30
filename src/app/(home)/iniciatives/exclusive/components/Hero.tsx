@@ -22,7 +22,7 @@ export default function Hero() {
           </h1>
 
           <Link
-            href={"#"}
+            href={"/registration"}
             className="px-12 py-4 text-xl font-semibold rounded-md hover:bg-transparent bg-white border border-white transition-colors duration-300 hover:text-white text-primary  cursor-pointer">
             Participar
           </Link>
