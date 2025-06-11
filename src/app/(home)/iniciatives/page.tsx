@@ -80,7 +80,7 @@ export default function Iniciatives() {
       <div
         className="max-w-6xl flex flex-col justify-center gap-8 pb-8 max-lg:px-8"
         id="activities">
-        <IniciativeCard
+        {/* <IniciativeCard
           title={"Programa Executivo em Gestão Estratégica de Organizações"}
           description={`Este programa é oferecido pela Global Academy, foi concebido com um ciclo de sessões
 sobre temas da actualidade e de relevância para líderes das organizações governamentais
@@ -91,7 +91,7 @@ desenvolver nos líderes habilidades, visão global e sistêmica de cultura empr
           }
           link={`/iniciatives/exclusive`}
           isActive
-        />
+        /> */}
 
         {iniciativesData.map((item, index) => (
           <IniciativeCard

@@ -1,5 +1,21 @@
 export const iniciativesData = [
   {
+    id: 5,
+    name: "Programa Executivo em Gestão Estratégica de Organizações",
+    description: `Este programa é oferecido pela Global Academy, foi concebido com um ciclo de sessões
+  sobre temas da actualidade e de relevância para líderes das organizações governamentais
+  e empresarias. O grande marco foi a visita do Dr. Miguel Relvas O programa brinda aos gestores de topo uma experiência única, que visa
+  desenvolver nos líderes habilidades, visão global e sistêmica de cultura empresarial competitiva.`,
+    coverImgUrl: "/gestao-estrategica.jpeg",
+    images: [
+      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/7.jpg",
+      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/8.jpg",
+      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/9.jpg",
+      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/10.jpg",
+      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/11.jpg",
+    ],
+  },
+  {
     id: 1,
     name: "Business After Work",
     description: `O Business After Work é um encontro exclusivo de networking promovido pela Global Services Corporation, projetado para conectar líderes, executivos e empreendedores em um ambiente sofisticado e descontraído.
@@ -11,7 +27,9 @@ Com um público altamente qualificado, composto por executivos de alto escalão,
 Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de networking diferenciada, inscreva-se no próximo Business After Work e descubra como conexões estratégicas podem impulsionar seu sucesso.`,
     coverImgUrl:
       "https://global-services-corporation.github.io/images/baw-jul-2024/3.jpg",
-      images: ["https://global-services-corporation.github.io/images/baw-jul-2024/3.jpg",]
+    images: [
+      "https://global-services-corporation.github.io/images/baw-jul-2024/3.jpg",
+    ],
   },
   {
     id: 2,
@@ -28,7 +46,7 @@ Esse momento inicial é fundamental para alinhar expectativas, fortalecer conex�
       "https://global-services-corporation.github.io/images/baw-fev-2024/12.jpg",
       "https://global-services-corporation.github.io/images/baw-fev-2024/13.jpg",
       "https://global-services-corporation.github.io/images/baw-fev-2024/14.jpg",
-    ]
+    ],
   },
   {
     id: 3,
@@ -48,7 +66,7 @@ Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de 
       "https://global-services-corporation.github.io/images/mr-nov-2023/39.jpg",
       "https://global-services-corporation.github.io/images/mr-nov-2023/33.jpg",
       "https://global-services-corporation.github.io/images/mr-nov-2023/32.jpg",
-    ]
+    ],
   },
   {
     id: 4,
@@ -57,12 +75,12 @@ Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de 
 Durante a ação, promovemos palestras informativas, distribuímos materiais educativos e incentivamos práticas de prevenção para ajudar a reduzir a incidência da doença na região. Agradecemos a todos os envolvidos por tornarem essa iniciativa possível e reafirmamos nosso compromisso com causas que fazem a diferença.`,
     coverImgUrl:
       "https://global-services-corporation.github.io/images/responsabilidade-social-viana/7.jpg",
-      images: [
-        "https://global-services-corporation.github.io/images/responsabilidade-social-viana/7.jpg",
-        "https://global-services-corporation.github.io/images/responsabilidade-social-viana/8.jpg",
-        "https://global-services-corporation.github.io/images/responsabilidade-social-viana/9.jpg",
-        "https://global-services-corporation.github.io/images/responsabilidade-social-viana/10.jpg",
-        "https://global-services-corporation.github.io/images/responsabilidade-social-viana/11.jpg",
-      ]
+    images: [
+      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/7.jpg",
+      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/8.jpg",
+      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/9.jpg",
+      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/10.jpg",
+      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/11.jpg",
+    ],
   },
 ];
