@@ -6,13 +6,26 @@ export const iniciativesData = [
   sobre temas da actualidade e de relevância para líderes das organizações governamentais
   e empresarias. O grande marco foi a visita do Dr. Miguel Relvas O programa brinda aos gestores de topo uma experiência única, que visa
   desenvolver nos líderes habilidades, visão global e sistêmica de cultura empresarial competitiva.`,
-    coverImgUrl: "/gestao-estrategica.jpeg",
+    coverImgUrl:
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/10.png",
     images: [
-      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/7.jpg",
-      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/8.jpg",
-      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/9.jpg",
-      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/10.jpg",
-      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/11.jpg",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/1.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/2.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/3.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/4.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/5.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/6.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/7.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/8.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/10.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/12.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/13.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/14.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/15.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/16.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/17.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/18.png",
+      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/20.png",
     ],
   },
   {
