@@ -174,7 +174,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     recipients: `O Programa Executivo Master foi criado para oferecer suporte aos Líderes Top 20 do Mercado Angolano, de modo que mantenham suas organizações competitivas em seus respectivos segmentos de negócios. Baseia-se na experiência dos seus promotores e oradores e foi desenhado como uma ferramenta de troca de experiências e intercâmbio, permitindo que os líderes compartilhem aprendizado entre si.
     São elegíveis para participar empresários, executivos, consultores, professores universitários e todos os interessados que atendam aos requisitos.`,
   },
-  {
+/*   {
     id: 3,
     debate: `Como aprimorar as condições de higiene e segurança no trabalho para fomentar uma
     cultura de prevenção que promova a melhoria qualitativa das condições de trabalho em
@@ -417,61 +417,7 @@ atendimento ou telemarketing,
 estudantes interessados em atuar na área
 comercial.`,
   },
-  {
-    id: 7,
-    coverImg: "/seguro-automovel.jpg",
-    title: "GESTÃO DE SINISTRO (SEGURO AUTOMÓVEL)",
-    workload: "Em breve",
-    status: "Em breve",
-    images: ["/seguro-automovel.jpg"],
-    debate: `Tomar conhecimento dos principais conceitos em acidentes de trabalho.
-Consolidar os conhecimentos técnicos essenciais à tramitação do processo de sinistro e acidentes de Trabalho.`,
-    exhibition: `Gestores de seguro, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.
-REVALUATION – revisão dos conceitos e modelos mais recentes em áreas chaves da gestão de seguros.`,
-    focus: `Capacitar os participantes com conhecimentos e habilidades essenciais para lidar com sinistros de acidentes de trabalho de maneira eficaz.`,
-    revaluation: `Reavaliação dos conceitos organizacionais de uma empresa.`,
-    time: `Sete dias de formação completos e intensivos em Luanda em academias de topo e num ambiente multicultural.`,
-    understanding: `Compreensão dos temas de Gestão de Sinistros e Acidentes de trabalho.`,
-    teaching: [
-      {
-        id: 1,
-        description:
-          "Com mais de 8 anos de experiência no setor segurador, Esmael Canjamba é mediador de seguros autorizado pela ASF (Autoridade de Supervisão de Seguros e Fundos de Pensões). ",
-        imgUrl: "/esmael.png",
-        name: "Esmael Canjamba",
-      },
-    ],
-    certificate: "INEFOP",
-    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
-Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
-    modality: "Presencial e online",
-    country: "Angola",
-    startDate: "Em breve",
-    locale: "Luanda",
-    description: `Este curso tem como objetivo fornecer aos participantes os conhecimentos essenciais para iniciar, gerenciar e agilizar os processos de acionamento de sinistros no âmbito dos seguros de Acidentes de Trabalho.
-Reconhecer a importância da Gestão de Sinistros na resolução de divergências entre segurados e Companhias de Seguros envolvidas, identificando suas principais características e objetivos. A resolução eficaz de um sinistro pode melhorar significativamente os custos e o tempo despendido, evitando o agravamento de prêmios ou custos adicionais para ambas as partes.
-No final deste curso, espera-se que os participantes sejam capazes de enumerar as características de um sinistro no âmbito de acidentes de trabalho, conhecer a legislação aplicável ao ramo de seguros de acidentes de trabalho, atribuir as funções pertinentes a cada um dos intervenientes num processo de sinistro, analisar e organizar os processos de sinistros, e elaborar propostas de melhoria para os serviços do departamento de sinistros.`,
-    language: "Português",
-    certificateImgUrls: [
-      "/inefop.png",
-      "/isptec.png",
-      "/universidade-coimbra.png",
-      "/unitel.png",
-      "/deloitte.png",
-      "/academia-bai.png",
-    ],
-    modules: [
-      "Introdução à Gestão de Sinistros.",
-      "Legislação de Acidentes de Trabalho.",
-      `Análise de Riscos.`,
-      `Prevenção de Acidentes.`,
-      "Investigação de Acidentes.",
-      `Apoio ao Trabalhador Acidentado.`,
-      `Gestão de Documentação e Relatórios.`,
-      `Estudo de Casos Práticos.`,
-    ],
-    recipients: `São Profissionais de Seguros, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.`,
-  },
+
   {
     id: 8,
     coverImg: "/empreendedorismo.jpg",
@@ -627,5 +573,68 @@ Objetivos específicos compreender o papel da administração do território no 
 Vice-governadores
 Directores Provinciais
 Administradores municipais.`,
+  }, */
+  {
+    id: 7,
+    coverImg:
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/2.jpeg",
+    title: "PROGRAMA DE FORMAÇÃO DE GESTÃO DE SINISTRO AUTOMÓVEL",
+    workload: "Em breve",
+    status: "Em breve",
+    images: [
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/1.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/2.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/3.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/4.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/5.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/6.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/7.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/8.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/9.jpeg",
+      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/10.jpeg",
+    ],
+    debate: `Fundamentos do Seguro Automóvel, o processo de Gestão de Sinistros, regulação e avaliação de Danos, Aspectos Jurídicos e Legais, Fraudes em Seguros, atendimento ao Cliente em Situação de Sinistro, uso de Tecnologias na Gestão de Sinistros.`,
+    exhibition: `Conceitos Fundamentais de Seguro Automóvel, etapas do Processo de Sinistro, documentação e Análise Técnica, avaliação de Danos e Cálculo de Indenizações, legislação e Regulamentação Aplicável, prevenção de Fraudes em Sinistros, atendimento ao Cliente em Situação de Sinistro, uso de Sistemas e Ferramentas Digitais.`,
+    focus: `Capacitar os participantes para atuarem de forma técnica, eficiente e ética na análise, regulação e resolução de sinistros de seguros automóveis.`,
+    revaluation: `Princípios e fundamentos do seguro automóvel, etapas do processo de sinistro, documentação e procedimentos operacionais, critérios de regulação e liquidação de sinistros, normas legais e regulatórias, gestão de fraudes, boas práticas de atendimento ao cliente, utilização de sistemas e plataformas digitais. `,
+    time: `Quatro horas de formação completa e intensiva na academia Bai em um ambiente multicultural.`,
+    understanding: `os participantes deverão ter compreendido e assimilado como funciona o seguro automóvel, todo o ciclo de vida de um sinistro, como avaliar danos e interpretar relatórios técnicos, aspectos legais e regulatórios do processo, como lidar com clientes em momentos críticos, importância das ferramentas digitais.`,
+    teaching: [
+      {
+        id: 1,
+        description:
+          "Com mais de 8 anos de experiência no setor segurador, Esmael Canjamba é mediador de seguros autorizado pela ASF (Autoridade de Supervisão de Seguros e Fundos de Pensões). ",
+        imgUrl: "/esmael.png",
+        name: "Esmael Canjamba",
+      },
+    ],
+    certificate: "INEFOP",
+    candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
+Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
+    modality: "Presencial e online",
+    country: "Angola",
+    startDate: "Em breve",
+    locale: "Luanda",
+    description: `Este curso tem como objetivo capacitar os participantes para atuarem com eficiência na gestão e regulação de sinistros de seguros automóveis, compreendendo os processos técnicos, legais e operacionais.
+Esta formação tem como objetivos específicos compreender o funcionamento do seguro automóvel, conhecer e aplicar o ciclo completo de gestão de sinistros, analisar documentos e relatórios técnicos com segurança, avaliar tecnicamente os danos de um sinistro, aplicar corretamente os normativos legais e contratuais, prevenir e identificar indícios de fraudes em sinistros, melhorar a comunicação com clientes e parceiros envolvidos, utilizar ferramentas digitais na gestão de sinistros. 
+Esta direcionada a colaboradores de seguradoras, profissionais de corretoras de seguros, peritos e avaliadores de danos automóveis, estudantes e recém-formados, profissionais em reconversão de carreira, gestores de frotas e empresas com veículos segurados.`,
+    language: "Português",
+    certificateImgUrls: [
+      "/inefop.png",
+      "/isptec.png",
+      "/universidade-coimbra.png",
+      "/unitel.png",
+      "/deloitte.png",
+      "/academia-bai.png",
+    ],
+    modules: [
+      "Introdução ao Seguro Automóvel.",
+      "O Processo de Sinistro.",
+      `Regulação e Avaliação de Danos.`,
+      `Aspetos Legais e Contratuais.`,
+      "Tecnologias e Ferramentas na Gestão de Sinistros.",
+      `Ética, Qualidade e Atendimento ao Cliente.`,
+    ],
+    recipients: `São Profissionais de Seguros, Gestores de Recursos Humanos, Advogados, Consultores de Segurança no Trabalho, Empresários e Gestores.`,
   },
 ];

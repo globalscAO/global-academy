@@ -8,37 +8,12 @@ export const coursesData: CoursesInterface[] = [
   },
   {
     id: 2,
-    name: "Higiene, Segurança e Saúde no Trabalho",
-    type: "Formação Executiva",
-  },
-  {
-    id: 3,
     name: "Gestão de Sinistros (Acidentes de Trabalho)",
     type: "Formação Executiva",
   },
   {
-    id: 4,
-    name: "Programa de Formação de Atendimento ao Cliente",
-    type: "Formação Executiva",
-  },
-  {
-    id: 5,
+    id: 3,
     name: "Gestão de Sinistros (Seguro Automóvel)",
-    type: "Formação Executiva",
-  },
-  {
-    id: 6,
-    name: "Empreendedorismo",
-    type: "Formação Executiva",
-  },
-  {
-    id: 7,
-    name: "Técnicas de Venda",
-    type: "Formação Executiva",
-  },
-  {
-    id: 8,
-    name: "Governação e Administração Pública",
     type: "Formação Executiva",
   },
 ];
