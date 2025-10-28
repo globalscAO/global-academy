@@ -174,7 +174,7 @@ Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua 
     recipients: `O Programa Executivo Master foi criado para oferecer suporte aos Líderes Top 20 do Mercado Angolano, de modo que mantenham suas organizações competitivas em seus respectivos segmentos de negócios. Baseia-se na experiência dos seus promotores e oradores e foi desenhado como uma ferramenta de troca de experiências e intercâmbio, permitindo que os líderes compartilhem aprendizado entre si.
     São elegíveis para participar empresários, executivos, consultores, professores universitários e todos os interessados que atendam aos requisitos.`,
   },
-/*   {
+  /*   {
     id: 3,
     debate: `Como aprimorar as condições de higiene e segurança no trabalho para fomentar uma
     cultura de prevenção que promova a melhoria qualitativa das condições de trabalho em
@@ -577,10 +577,10 @@ Administradores municipais.`,
   {
     id: 7,
     coverImg:
-      "https://global-services-corporation.github.io/images/academy/gestao-sinistros/2.jpeg",
-    title: "PROGRAMA DE FORMAÇÃO DE GESTÃO DE SINISTRO AUTOMÓVEL",
-    workload: "Em breve",
-    status: "Em breve",
+      "https://ik.imagekit.io/globalsc/gestao-sinistros-auto/gestao_sinistro_capa.jpeg",
+    title: "Gestão de Sinistros (Seguro Automóvel)",
+    workload: "4 horas",
+    status: "Disponível",
     images: [
       "https://global-services-corporation.github.io/images/academy/gestao-sinistros/1.jpeg",
       "https://global-services-corporation.github.io/images/academy/gestao-sinistros/2.jpeg",
@@ -604,17 +604,17 @@ Administradores municipais.`,
         id: 1,
         description:
           "Com mais de 8 anos de experiência no setor segurador, Esmael Canjamba é mediador de seguros autorizado pela ASF (Autoridade de Supervisão de Seguros e Fundos de Pensões). ",
-        imgUrl: "/esmael.png",
-        name: "Esmael Canjamba",
+        imgUrl: "",
+        name: "Fernando Palma",
       },
     ],
     certificate: "INEFOP",
     candidacy: `Com uma taxa de aprovação de 100% nas candidaturas, asseguramos que seus objetivos sejam plenamente alcançados, independentemente da sua localização. Estamos presentes em todo o território nacional.
 Analisamos o cumprimento dos requisitos prévios, elaboramos e submetemos a sua candidatura, disponibilizando também, se necessário, a formação adicional legalmente requerida.`,
-    modality: "Presencial e online",
+    modality: "Presencial",
     country: "Angola",
-    startDate: "Em breve",
-    locale: "Luanda",
+    startDate: "18/11/2025",
+    locale: "SONILS, Luanda, Angola",
     description: `Este curso tem como objetivo capacitar os participantes para atuarem com eficiência na gestão e regulação de sinistros de seguros automóveis, compreendendo os processos técnicos, legais e operacionais.
 Esta formação tem como objetivos específicos compreender o funcionamento do seguro automóvel, conhecer e aplicar o ciclo completo de gestão de sinistros, analisar documentos e relatórios técnicos com segurança, avaliar tecnicamente os danos de um sinistro, aplicar corretamente os normativos legais e contratuais, prevenir e identificar indícios de fraudes em sinistros, melhorar a comunicação com clientes e parceiros envolvidos, utilizar ferramentas digitais na gestão de sinistros. 
 Esta direcionada a colaboradores de seguradoras, profissionais de corretoras de seguros, peritos e avaliadores de danos automóveis, estudantes e recém-formados, profissionais em reconversão de carreira, gestores de frotas e empresas com veículos segurados.`,
