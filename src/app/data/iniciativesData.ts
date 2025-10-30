@@ -7,25 +7,25 @@ export const iniciativesData = [
   e empresarias. O grande marco foi a visita do Dr. Miguel Relvas O programa brinda aos gestores de topo uma experiência única, que visa
   desenvolver nos líderes habilidades, visão global e sistêmica de cultura empresarial competitiva.`,
     coverImgUrl:
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/10.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/10.png",
     images: [
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/1.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/2.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/3.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/4.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/5.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/6.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/7.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/8.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/10.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/12.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/13.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/14.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/15.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/16.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/17.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/18.png",
-      "https://global-services-corporation.github.io/images/academy/gestao-estrategica/20.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/1.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/2.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/3.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/4.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/5.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/6.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/7.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/8.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/10.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/12.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/13.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/14.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/15.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/16.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/17.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/18.png",
+      "https://ik.imagekit.io/globalsc/academy/gestao-estrategica/20.png",
     ],
   },
   {
@@ -39,9 +39,9 @@ Com um público altamente qualificado, composto por executivos de alto escalão,
 
 Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de networking diferenciada, inscreva-se no próximo Business After Work e descubra como conexões estratégicas podem impulsionar seu sucesso.`,
     coverImgUrl:
-      "https://global-services-corporation.github.io/images/baw-jul-2024/3.jpg",
+      "https://ik.imagekit.io/globalsc/baw-jul-2024/3.jpg",
     images: [
-      "https://global-services-corporation.github.io/images/baw-jul-2024/3.jpg",
+      "https://ik.imagekit.io/globalsc/baw-jul-2024/3.jpg",
     ],
   },
   {
@@ -51,14 +51,14 @@ Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de 
 
 Esse momento inicial é fundamental para alinhar expectativas, fortalecer conexões e definir as direções que guiarão as discussões ao longo da iniciativa. Estamos comprometidos em fomentar um ecossistema empresarial cada vez mais forte e colaborativo.`,
     coverImgUrl:
-      "https://global-services-corporation.github.io/images/baw-fev-2024/9.jpg",
+      "https://ik.imagekit.io/globalsc/baw-fev-2024/9.jpg",
     images: [
-      "https://global-services-corporation.github.io/images/baw-fev-2024/9.jpg",
-      "https://global-services-corporation.github.io/images/baw-fev-2024/10.jpg",
-      "https://global-services-corporation.github.io/images/baw-fev-2024/11.jpg",
-      "https://global-services-corporation.github.io/images/baw-fev-2024/12.jpg",
-      "https://global-services-corporation.github.io/images/baw-fev-2024/13.jpg",
-      "https://global-services-corporation.github.io/images/baw-fev-2024/14.jpg",
+      "https://ik.imagekit.io/globalsc/baw-fev-2024/9.jpg",
+      "https://ik.imagekit.io/globalsc/baw-fev-2024/10.jpg",
+      "https://ik.imagekit.io/globalsc/baw-fev-2024/11.jpg",
+      "https://ik.imagekit.io/globalsc/baw-fev-2024/12.jpg",
+      "https://ik.imagekit.io/globalsc/baw-fev-2024/13.jpg",
+      "https://ik.imagekit.io/globalsc/baw-fev-2024/14.jpg",
     ],
   },
   {
@@ -72,13 +72,13 @@ Com um público altamente qualificado, composto por executivos de alto escalão,
 
 Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de networking diferenciada, inscreva-se no próximo Business After Work e descubra como conexões estratégicas podem impulsionar seu sucesso.`,
     coverImgUrl:
-      "https://global-services-corporation.github.io/images/mr-nov-2023/38.jpg",
+      "https://ik.imagekit.io/globalsc/mr-nov-2023/38.jpg",
     images: [
-      "https://global-services-corporation.github.io/images/mr-nov-2023/37.jpg",
-      "https://global-services-corporation.github.io/images/mr-nov-2023/38.jpg",
-      "https://global-services-corporation.github.io/images/mr-nov-2023/39.jpg",
-      "https://global-services-corporation.github.io/images/mr-nov-2023/33.jpg",
-      "https://global-services-corporation.github.io/images/mr-nov-2023/32.jpg",
+      "https://ik.imagekit.io/globalsc/mr-nov-2023/37.jpg",
+      "https://ik.imagekit.io/globalsc/mr-nov-2023/38.jpg",
+      "https://ik.imagekit.io/globalsc/mr-nov-2023/39.jpg",
+      "https://ik.imagekit.io/globalsc/mr-nov-2023/33.jpg",
+      "https://ik.imagekit.io/globalsc/mr-nov-2023/32.jpg",
     ],
   },
   {
@@ -87,13 +87,13 @@ Se você deseja fazer parte desse seleto grupo e aproveitar uma experiência de 
     description: `A Global Academy, iniciativa da Global Services Corporation, realizou com sucesso mais uma ação de impacto social: VIANA COM MALÁRIA. O evento foi um marco na conscientização e combate à malária, reforçando nosso compromisso com a saúde e o bem-estar da comunidade.
 Durante a ação, promovemos palestras informativas, distribuímos materiais educativos e incentivamos práticas de prevenção para ajudar a reduzir a incidência da doença na região. Agradecemos a todos os envolvidos por tornarem essa iniciativa possível e reafirmamos nosso compromisso com causas que fazem a diferença.`,
     coverImgUrl:
-      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/7.jpg",
+      "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/7.jpg",
     images: [
-      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/7.jpg",
-      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/8.jpg",
-      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/9.jpg",
-      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/10.jpg",
-      "https://global-services-corporation.github.io/images/responsabilidade-social-viana/11.jpg",
+      "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/7.jpg",
+      "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/8.jpg",
+      "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/9.jpg",
+      "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/10.jpg",
+      "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/11.jpg",
     ],
   },
 ];
