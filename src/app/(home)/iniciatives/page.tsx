@@ -12,18 +12,18 @@ import { scrollToSection } from "@/app/utils/scrollTo";
 
 export default function Iniciatives() {
   const eventsImages = [
-    "https://global-services-corporation.github.io/images/baw-fev-2024/9.jpg",
-    "https://global-services-corporation.github.io/images/baw-fev-2024/10.jpg",
-    "https://global-services-corporation.github.io/images/baw-fev-2024/11.jpg",
-    "https://global-services-corporation.github.io/images/baw-fev-2024/12.jpg",
-    "https://global-services-corporation.github.io/images/baw-fev-2024/13.jpg",
-    "https://global-services-corporation.github.io/images/baw-fev-2024/14.jpg",
-    "https://global-services-corporation.github.io/images/baw-jul-2024/3.jpg",
-    "https://global-services-corporation.github.io/images/mr-nov-2023/37.jpg",
-    "https://global-services-corporation.github.io/images/mr-nov-2023/38.jpg",
-    "https://global-services-corporation.github.io/images/mr-nov-2023/39.jpg",
-    "https://global-services-corporation.github.io/images/mr-nov-2023/33.jpg",
-    "https://global-services-corporation.github.io/images/mr-nov-2023/32.jpg",
+    "https://ik.imagekit.io/globalsc/baw-fev-2024/9.jpg",
+    "https://ik.imagekit.io/globalsc/baw-fev-2024/10.jpg",
+    "https://ik.imagekit.io/globalsc/baw-fev-2024/11.jpg",
+    "https://ik.imagekit.io/globalsc/baw-fev-2024/12.jpg",
+    "https://ik.imagekit.io/globalsc/baw-fev-2024/13.jpg",
+    "https://ik.imagekit.io/globalsc/baw-fev-2024/14.jpg",
+    "https://ik.imagekit.io/globalsc/baw-jul-2024/3.jpg",
+    "https://ik.imagekit.io/globalsc/mr-nov-2023/37.jpg",
+    "https://ik.imagekit.io/globalsc/mr-nov-2023/38.jpg",
+    "https://ik.imagekit.io/globalsc/mr-nov-2023/39.jpg",
+    "https://ik.imagekit.io/globalsc/mr-nov-2023/33.jpg",
+    "https://ik.imagekit.io/globalsc/mr-nov-2023/32.jpg",
   ];
 
   return (
