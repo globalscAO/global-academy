@@ -605,7 +605,7 @@ Administradores municipais.`,
         description:
           "Com mais de 8 anos de experiência no setor segurador, Esmael Canjamba é mediador de seguros autorizado pela ASF (Autoridade de Supervisão de Seguros e Fundos de Pensões). ",
         imgUrl: "",
-        name: "Fernando Palma",
+        name: "Alexandre Chiato",
       },
     ],
     certificate: "INEFOP",
